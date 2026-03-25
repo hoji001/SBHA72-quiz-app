@@ -5,20 +5,17 @@ let batches = [];
 let currentBatch = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let isAnswered = false;
 
 // DOM elementlari
 const homeScreen = document.getElementById('home-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultScreen = document.getElementById('result-screen');
 const batchesContainer = document.getElementById('batches-container');
-const questionText = document.getElementById('question-text');
-const optionsContainer = document.getElementById('options-container');
+const feedContainer = document.getElementById('feed-container');
 const questionProgress = document.getElementById('question-progress');
 const scoreDisplay = document.getElementById('score-display');
 const finalScore = document.getElementById('final-score');
 
-// 1. Ma'lumotlarni qismlarga bo'lish (Chunking)
 function prepareBatches() {
     const tests = quizData.testlar;
     for (let i = 0; i < tests.length; i += BATCH_SIZE) {
@@ -27,7 +24,6 @@ function prepareBatches() {
     renderBatchButtons();
 }
 
-// 2. Bosh sahifada bo'lim tugmalarini chiqarish
 function renderBatchButtons() {
     batchesContainer.innerHTML = '';
     batches.forEach((batch, index) => {
@@ -42,7 +38,6 @@ function renderBatchButtons() {
     });
 }
 
-// 3. Array ni aralashtirish funksiyasi (Fisher-Yates)
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -51,30 +46,53 @@ function shuffle(array) {
     return array;
 }
 
-// 4. Testni boshlash
 function startQuiz(batchIndex) {
     currentBatch = batches[batchIndex];
     currentQuestionIndex = 0;
     score = 0;
 
-    homeScreen.classList.add('hidden');
+    // Ekranni tozalash
+    feedContainer.innerHTML = '';
     resultScreen.classList.add('hidden');
+
+    // Ekranlarni almashtirish
+    homeScreen.classList.add('hidden');
     quizScreen.classList.remove('hidden');
 
-    loadQuestion();
+    updateHeaderStats();
+
+    // Birinchi savolni yaratish
+    appendQuestionTicket(currentQuestionIndex);
 }
 
-// 5. Savolni ekranga chiqarish
-function loadQuestion() {
-    isAnswered = false;
-    const currentQuestion = currentBatch[currentQuestionIndex];
-
-    // Progressni yangilash
-    questionProgress.innerText = `${currentQuestionIndex + 1}/${currentBatch.length}`;
+function updateHeaderStats() {
+    questionProgress.innerText = `${currentQuestionIndex}/${currentBatch.length}`;
     scoreDisplay.innerText = `To'g'ri: ${score}`;
-    questionText.innerText = currentQuestion.savol;
+}
 
-    // Javoblarni massivga yig'ib aralashtiramiz
+// Yangi savol chiptasini (ticket) yaratish
+function appendQuestionTicket(index) {
+    if (index >= currentBatch.length) {
+        // Test tugadi, natijani ko'rsatamiz
+        showResult();
+        return;
+    }
+
+    const currentQuestion = currentBatch[index];
+
+    // Asosiy Ticket qutisi
+    const ticketDiv = document.createElement('div');
+    // Boshida ticket ko'rinmas va biroz pastroqda turadi (animatsiya uchun)
+    ticketDiv.className = "bg-white rounded-2xl shadow-md p-6 opacity-0 transform translate-y-8 transition-all duration-500 ease-out";
+    ticketDiv.id = `ticket-${index}`;
+
+    // Savol matni
+    const questionEl = document.createElement('h2');
+    questionEl.className = "text-lg font-bold mb-4 text-gray-800 leading-snug";
+    questionEl.innerText = `${index + 1}. ${currentQuestion.savol}`;
+    ticketDiv.appendChild(questionEl);
+
+    // Variantlarni tayyorlash va aralashtirish
     let options = [
         { text: currentQuestion.togri_javob, correct: true },
         { text: currentQuestion.javob_2, correct: false },
@@ -83,59 +101,77 @@ function loadQuestion() {
     ];
     options = shuffle(options);
 
-    optionsContainer.innerHTML = '';
+    // Variantlar qutisi
+    const optionsDiv = document.createElement('div');
+    optionsDiv.className = "flex flex-col space-y-3";
+
+    // Tugmalarni ushlab turish uchun array (keyin hammasini disable qilish uchun kerak)
+    const buttonElements = [];
+
     options.forEach(option => {
         const btn = document.createElement('button');
         btn.className = "btn-option w-full text-left bg-gray-50 border-2 border-gray-200 hover:bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-xl focus:outline-none";
         btn.innerText = option.text;
-        btn.onclick = (e) => checkAnswer(option.correct, e.target, optionsContainer.children);
-        optionsContainer.appendChild(btn);
+
+        btn.onclick = () => {
+            // Javob belgilanganda ishlaydigan mantiq
+            handleAnswerSelect(option.correct, btn, buttonElements, currentQuestion.togri_javob);
+        };
+
+        optionsDiv.appendChild(btn);
+        buttonElements.push(btn);
     });
+
+    ticketDiv.appendChild(optionsDiv);
+    feedContainer.appendChild(ticketDiv);
+
+    // Domga qo'shilgandan keyin animatsiyani ishga tushiramiz (paydo bo'lish)
+    setTimeout(() => {
+        ticketDiv.classList.remove('opacity-0', 'translate-y-8');
+        // Ekranni yangi ticketga silliq tushiramiz
+        ticketDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 100);
 }
 
-// 6. Javobni tekshirish (Telegram style animatsiya bilan)
-function checkAnswer(isCorrect, selectedBtn, allBtns) {
-    if (isAnswered) return; // Ikki marta bosmaslik uchun
-    isAnswered = true;
+// Foydalanuvchi javob tanlaganda
+function handleAnswerSelect(isCorrect, selectedBtn, allBtns, correctAnswerText) {
+    // 1. Qaytadan bosmaslik uchun barcha tugmalarni muzlatamiz (disable)
+    allBtns.forEach(btn => {
+        btn.disabled = true;
+        // Agar xato javob belgilangan bo'lsa, to'g'risini ham yashil qilib ko'rsatamiz
+        if (btn.innerText === correctAnswerText) {
+            btn.classList.add('correct');
+        }
+    });
 
+    // 2. Tanlangan tugmani qizil yoki yashil qilamiz
     if (isCorrect) {
         selectedBtn.classList.add('correct');
         score++;
     } else {
         selectedBtn.classList.add('wrong');
-        // Noto'g'ri topsa, to'g'ri javobni ham ko'rsatib qo'yamiz
-        Array.from(allBtns).forEach(btn => {
-            const currentQ = currentBatch[currentQuestionIndex];
-            if (btn.innerText === currentQ.togri_javob) {
-                btn.classList.add('correct');
-            }
-        });
     }
 
-    scoreDisplay.innerText = `To'g'ri: ${score}`;
+    currentQuestionIndex++;
+    updateHeaderStats();
 
-    // 1.5 soniyadan so'ng keyingi savolga o'tish
+    // 3. Qisqa pauzadan keyin (user xatosini ko'rib olishi uchun) pastdan yangi ticket chiqaramiz
     setTimeout(() => {
-        currentQuestionIndex++;
-        if (currentQuestionIndex < currentBatch.length) {
-            loadQuestion();
-        } else {
-            showResult();
-        }
-    }, 1500);
+        appendQuestionTicket(currentQuestionIndex);
+    }, 600); // 0.6 soniyadan keyin chiqadi, bu vaqtni o'zgartirishingiz mumkin
 }
 
-// 7. Natijani ko'rsatish
 function showResult() {
-    quizScreen.classList.add('hidden');
     resultScreen.classList.remove('hidden');
     finalScore.innerText = `${score}/${currentBatch.length}`;
+    // Ekranni natijaga silliq siljitamiz
+    resultScreen.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
-// 8. Bosh sahifaga qaytish
 function goHome() {
-    resultScreen.classList.add('hidden');
+    quizScreen.classList.add('hidden');
     homeScreen.classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Ilovani ishga tushirish

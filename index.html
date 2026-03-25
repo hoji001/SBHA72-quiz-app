@@ -6,10 +6,11 @@
     <title>Moliya Bozori Viktorinasi</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Telegram kabi bosilganda knopkalar reaksiyasi uchun */
         .btn-option { transition: all 0.2s ease-in-out; }
         .correct { background-color: #10B981 !important; color: white !important; border-color: #10B981 !important; }
         .wrong { background-color: #EF4444 !important; color: white !important; border-color: #EF4444 !important; animation: shake 0.4s; }
+        /* Disable qilingan tugmalar hover ta'sirini yo'qotishi uchun */
+        .btn-option:disabled { cursor: default; }
 
         @keyframes shake {
             0% { transform: translateX(0); }
@@ -18,41 +19,52 @@
             75% { transform: translateX(-5px); }
             100% { transform: translateX(0); }
         }
+
+        /* Yuqoridagi hisoblagichni qotirib qo'yish (Sticky) */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(243, 244, 246, 0.9);
+            backdrop-filter: blur(5px);
+        }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans antialiased min-h-screen flex items-center justify-center p-4">
+<body class="bg-gray-100 text-gray-800 font-sans antialiased min-h-screen p-4 flex flex-col items-center">
 
-    <div class="w-full max-w-md bg-white rounded-2xl shadow-xl overflow-hidden p-6 relative min-h-[400px]">
+<div id="home-screen" class="w-full max-w-md bg-white rounded-2xl shadow-xl overflow-hidden p-6 mt-10">
+    <h1 class="text-2xl font-bold text-center text-blue-600 mb-6">Moliya Bozori Viktorinasi</h1>
+    <p class="text-gray-500 text-center mb-6">Testni boshlash uchun bo'limni tanlang:</p>
+    <div id="batches-container" class="grid grid-cols-2 gap-4"></div>
+</div>
 
-        <div id="home-screen" class="block">
-            <h1 class="text-2xl font-bold text-center text-blue-600 mb-6">Moliya Bozori Viktorinasi</h1>
-            <p class="text-gray-500 text-center mb-6">Testni boshlash uchun bo'limni tanlang:</p>
-            <div id="batches-container" class="grid grid-cols-2 gap-4">
-                </div>
-        </div>
+<div id="quiz-screen" class="hidden w-full max-w-md">
 
-        <div id="quiz-screen" class="hidden">
-            <div class="flex justify-between items-center mb-4 text-sm font-semibold text-gray-500">
-                <span id="question-progress">1/30</span>
-                <span id="score-display" class="text-blue-500">To'g'ri: 0</span>
-            </div>
-            <h2 id="question-text" class="text-lg font-bold mb-6 text-gray-800">Savol matni shu yerda bo'ladi?</h2>
-            <div id="options-container" class="flex flex-col space-y-3">
-                </div>
-        </div>
-
-        <div id="result-screen" class="hidden text-center mt-10">
-            <h2 class="text-3xl font-bold text-gray-800 mb-2">Test yakunlandi!</h2>
-            <p class="text-gray-500 mb-6">Sizning natijangiz:</p>
-            <div class="text-5xl font-extrabold text-blue-600 mb-8" id="final-score">0/30</div>
-            <button onclick="goHome()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition duration-200">
-                Bosh sahifaga qaytish
-            </button>
-        </div>
-
+    <div class="sticky-header rounded-xl p-4 mb-4 flex justify-between items-center shadow-sm border border-gray-200">
+        <span id="question-progress" class="text-sm font-bold text-gray-600">0/30</span>
+        <span id="score-display" class="text-sm font-bold text-blue-600">To'g'ri: 0</span>
+        <button onclick="goHome()"
+                class="text-xs bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded text-gray-700 transition">Chiqish
+        </button>
     </div>
 
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    <div id="feed-container" class="flex flex-col space-y-6 pb-20">
+    </div>
+
+    <div id="result-screen"
+         class="hidden bg-white rounded-2xl shadow-xl p-8 text-center mt-6 mb-10 border-t-4 border-blue-500">
+        <h2 class="text-3xl font-bold text-gray-800 mb-2">Test yakunlandi!</h2>
+        <p class="text-gray-500 mb-6">Sizning yakuniy natijangiz:</p>
+        <div class="text-5xl font-extrabold text-blue-600 mb-8" id="final-score">0/30</div>
+        <button onclick="goHome()"
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition duration-200">
+            Boshqa bo'limni tanlash
+        </button>
+    </div>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
