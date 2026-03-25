@@ -1,5 +1,5 @@
 const quizData = {
-  "fan": "Moliya bozori",
+  "fan": "Moliyaviy bozorlar va institutlar",
   "testlar": [
     {
       "id": 1,

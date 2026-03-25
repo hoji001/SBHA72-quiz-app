@@ -9,7 +9,6 @@
         .btn-option { transition: all 0.2s ease-in-out; }
         .correct { background-color: #10B981 !important; color: white !important; border-color: #10B981 !important; }
         .wrong { background-color: #EF4444 !important; color: white !important; border-color: #EF4444 !important; animation: shake 0.4s; }
-        /* Disable qilingan tugmalar hover ta'sirini yo'qotishi uchun */
         .btn-option:disabled { cursor: default; }
 
         @keyframes shake {
@@ -20,12 +19,11 @@
             100% { transform: translateX(0); }
         }
 
-        /* Yuqoridagi hisoblagichni qotirib qo'yish (Sticky) */
         .sticky-header {
             position: sticky;
             top: 0;
             z-index: 10;
-            background: rgba(243, 244, 246, 0.9);
+            background: rgba(243, 244, 246, 0.95);
             backdrop-filter: blur(5px);
         }
     </style>
@@ -33,19 +31,36 @@
 <body class="bg-gray-100 text-gray-800 font-sans antialiased min-h-screen p-4 flex flex-col items-center">
 
 <div id="home-screen" class="w-full max-w-md bg-white rounded-2xl shadow-xl overflow-hidden p-6 mt-10">
-    <h1 class="text-2xl font-bold text-center text-blue-600 mb-6">Moliya Bozori Viktorinasi</h1>
+    <h1 class="text-2xl font-bold text-center text-blue-600 mb-6">Moliyaviy bozorlar va institutlar fanidan Viktorina</h1>
     <p class="text-gray-500 text-center mb-6">Testni boshlash uchun bo'limni tanlang:</p>
+
+    <button onclick="startQuiz('all')"
+            class="w-full bg-blue-50 border-2 border-blue-500 text-blue-700 hover:bg-blue-100 font-bold py-3 px-4 rounded-xl transition duration-200 shadow-sm mb-6">
+        📚 Barcha savollar (To'liq to'plam)
+    </button>
+
     <div id="batches-container" class="grid grid-cols-2 gap-4"></div>
 </div>
 
 <div id="quiz-screen" class="hidden w-full max-w-md">
 
-    <div class="sticky-header rounded-xl p-4 mb-4 flex justify-between items-center shadow-sm border border-gray-200">
-        <span id="question-progress" class="text-sm font-bold text-gray-600">0/30</span>
-        <span id="score-display" class="text-sm font-bold text-blue-600">To'g'ri: 0</span>
-        <button onclick="goHome()"
-                class="text-xs bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded text-gray-700 transition">Chiqish
-        </button>
+    <div class="sticky-header rounded-xl p-4 mb-4 flex flex-col gap-3 shadow-sm border border-gray-200">
+        <div class="flex justify-between items-center w-full">
+            <span id="question-progress" class="text-sm font-bold text-gray-600">0/30</span>
+            <span id="score-display" class="text-sm font-bold text-blue-600">To'g'ri: 0</span>
+            <button onclick="goHome()"
+                    class="text-xs bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded text-gray-700 transition">Chiqish
+            </button>
+        </div>
+
+        <div id="search-container" class="hidden relative w-full">
+            <input type="text" id="search-input" placeholder="Savol matnidan qidiring..."
+                   class="w-full bg-white border border-gray-300 rounded-lg py-2 px-3 pr-10 text-sm focus:outline-none focus:border-blue-500 transition">
+            <button id="search-clear-btn"
+                    class="hidden absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 font-bold">
+                ✕
+            </button>
+        </div>
     </div>
 
     <div id="feed-container" class="flex flex-col space-y-6 pb-20">

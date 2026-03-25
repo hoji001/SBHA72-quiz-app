@@ -16,6 +16,11 @@ const questionProgress = document.getElementById('question-progress');
 const scoreDisplay = document.getElementById('score-display');
 const finalScore = document.getElementById('final-score');
 
+// YANGI: Qidiruv elementlari
+const searchContainer = document.getElementById('search-container');
+const searchInput = document.getElementById('search-input');
+const searchClearBtn = document.getElementById('search-clear-btn');
+
 function prepareBatches() {
     const tests = quizData.testlar;
     for (let i = 0; i < tests.length; i += BATCH_SIZE) {
@@ -47,21 +52,27 @@ function shuffle(array) {
 }
 
 function startQuiz(batchIndex) {
-    currentBatch = batches[batchIndex];
+    // YANGI: Agar "Barcha savollar" tanlangan bo'lsa
+    if (batchIndex === 'all') {
+        currentBatch = quizData.testlar;
+        searchContainer.classList.remove('hidden'); // Qidiruvni yoqish
+    } else {
+        currentBatch = batches[batchIndex];
+        searchContainer.classList.add('hidden'); // Qidiruvni o'chirish
+    }
+
+    searchInput.value = ''; // Qidiruvni tozalash
+    searchClearBtn.classList.add('hidden');
+
     currentQuestionIndex = 0;
     score = 0;
 
-    // Ekranni tozalash
     feedContainer.innerHTML = '';
     resultScreen.classList.add('hidden');
-
-    // Ekranlarni almashtirish
     homeScreen.classList.add('hidden');
     quizScreen.classList.remove('hidden');
 
     updateHeaderStats();
-
-    // Birinchi savolni yaratish
     appendQuestionTicket(currentQuestionIndex);
 }
 
@@ -70,42 +81,72 @@ function updateHeaderStats() {
     scoreDisplay.innerText = `To'g'ri: ${score}`;
 }
 
-// Yangi savol chiptasini (ticket) yaratish
-function appendQuestionTicket(index) {
-    if (index >= currentBatch.length) {
-        // Test tugadi, natijani ko'rsatamiz
-        showResult();
+// ==========================================
+// QIDIRUV MANTIG'I
+// ==========================================
+
+searchInput.addEventListener('input', (e) => {
+    const term = e.target.value.toLowerCase().trim();
+    if (term.length > 0) {
+        searchClearBtn.classList.remove('hidden');
+        renderSearchResults(term);
+    } else {
+        searchClearBtn.classList.add('hidden');
+        clearSearchAndResume();
+    }
+});
+
+searchClearBtn.addEventListener('click', () => {
+    searchInput.value = '';
+    searchClearBtn.classList.add('hidden');
+    clearSearchAndResume();
+});
+
+function renderSearchResults(term) {
+    feedContainer.innerHTML = ''; // Lentani tozalaymiz
+    const matches = currentBatch.filter(q => q.savol.toLowerCase().includes(term));
+
+    if (matches.length === 0) {
+        feedContainer.innerHTML = '<p class="text-center text-gray-500 mt-8 font-medium">Hech narsa topilmadi 😕</p>';
         return;
     }
 
-    const currentQuestion = currentBatch[index];
+    // Topilgan har bir savol uchun mustaqil ticket yaratish
+    matches.forEach(q => {
+        appendStandaloneTicket(q);
+    });
+}
 
-    // Asosiy Ticket qutisi
+function clearSearchAndResume() {
+    feedContainer.innerHTML = '';
+    // Qidiruvdan chiqgach, oldin to'xtagan savoldan davom ettiramiz
+    if (currentQuestionIndex < currentBatch.length) {
+        appendQuestionTicket(currentQuestionIndex);
+    } else {
+        showResult();
+    }
+}
+
+// Qidiruv orqali topilgan testlar uchun mustaqil ticket (Natijaga ta'sir qilmaydi)
+function appendStandaloneTicket(question) {
     const ticketDiv = document.createElement('div');
-    // Boshida ticket ko'rinmas va biroz pastroqda turadi (animatsiya uchun)
-    ticketDiv.className = "bg-white rounded-2xl shadow-md p-6 opacity-0 transform translate-y-8 transition-all duration-500 ease-out";
-    ticketDiv.id = `ticket-${index}`;
+    ticketDiv.className = "bg-white rounded-2xl shadow border border-blue-100 p-6";
 
-    // Savol matni
     const questionEl = document.createElement('h2');
     questionEl.className = "text-lg font-bold mb-4 text-gray-800 leading-snug";
-    questionEl.innerText = `${index + 1}. ${currentQuestion.savol}`;
+    questionEl.innerHTML = `<span class="text-blue-500">#${question.id}.</span> ${question.savol}`;
     ticketDiv.appendChild(questionEl);
 
-    // Variantlarni tayyorlash va aralashtirish
     let options = [
-        { text: currentQuestion.togri_javob, correct: true },
-        { text: currentQuestion.javob_2, correct: false },
-        { text: currentQuestion.javob_3, correct: false },
-        { text: currentQuestion.javob_4, correct: false }
+        { text: question.togri_javob, correct: true },
+        { text: question.javob_2, correct: false },
+        { text: question.javob_3, correct: false },
+        { text: question.javob_4, correct: false }
     ];
     options = shuffle(options);
 
-    // Variantlar qutisi
     const optionsDiv = document.createElement('div');
     optionsDiv.className = "flex flex-col space-y-3";
-
-    // Tugmalarni ushlab turish uchun array (keyin hammasini disable qilish uchun kerak)
     const buttonElements = [];
 
     options.forEach(option => {
@@ -114,8 +155,12 @@ function appendQuestionTicket(index) {
         btn.innerText = option.text;
 
         btn.onclick = () => {
-            // Javob belgilanganda ishlaydigan mantiq
-            handleAnswerSelect(option.correct, btn, buttonElements, currentQuestion.togri_javob);
+            buttonElements.forEach(b => {
+                b.disabled = true;
+                if (b.innerText === question.togri_javob) b.classList.add('correct');
+            });
+            if (option.correct) btn.classList.add('correct');
+            else btn.classList.add('wrong');
         };
 
         optionsDiv.appendChild(btn);
@@ -124,27 +169,69 @@ function appendQuestionTicket(index) {
 
     ticketDiv.appendChild(optionsDiv);
     feedContainer.appendChild(ticketDiv);
+}
 
-    // Domga qo'shilgandan keyin animatsiyani ishga tushiramiz (paydo bo'lish)
+// ==========================================
+// ASOSIY TEST MANTIG'I
+// ==========================================
+
+function appendQuestionTicket(index) {
+    if (index >= currentBatch.length) {
+        showResult();
+        return;
+    }
+
+    const currentQuestion = currentBatch[index];
+
+    const ticketDiv = document.createElement('div');
+    ticketDiv.className = "bg-white rounded-2xl shadow-md p-6 opacity-0 transform translate-y-8 transition-all duration-500 ease-out";
+    ticketDiv.id = `ticket-${index}`;
+
+    const questionEl = document.createElement('h2');
+    questionEl.className = "text-lg font-bold mb-4 text-gray-800 leading-snug";
+    questionEl.innerText = `${index + 1}. ${currentQuestion.savol}`;
+    ticketDiv.appendChild(questionEl);
+
+    let options = [
+        { text: currentQuestion.togri_javob, correct: true },
+        { text: currentQuestion.javob_2, correct: false },
+        { text: currentQuestion.javob_3, correct: false },
+        { text: currentQuestion.javob_4, correct: false }
+    ];
+    options = shuffle(options);
+
+    const optionsDiv = document.createElement('div');
+    optionsDiv.className = "flex flex-col space-y-3";
+    const buttonElements = [];
+
+    options.forEach(option => {
+        const btn = document.createElement('button');
+        btn.className = "btn-option w-full text-left bg-gray-50 border-2 border-gray-200 hover:bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-xl focus:outline-none";
+        btn.innerText = option.text;
+
+        btn.onclick = () => handleAnswerSelect(option.correct, btn, buttonElements, currentQuestion.togri_javob);
+
+        optionsDiv.appendChild(btn);
+        buttonElements.push(btn);
+    });
+
+    ticketDiv.appendChild(optionsDiv);
+    feedContainer.appendChild(ticketDiv);
+
     setTimeout(() => {
         ticketDiv.classList.remove('opacity-0', 'translate-y-8');
-        // Ekranni yangi ticketga silliq tushiramiz
         ticketDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 100);
 }
 
-// Foydalanuvchi javob tanlaganda
 function handleAnswerSelect(isCorrect, selectedBtn, allBtns, correctAnswerText) {
-    // 1. Qaytadan bosmaslik uchun barcha tugmalarni muzlatamiz (disable)
     allBtns.forEach(btn => {
         btn.disabled = true;
-        // Agar xato javob belgilangan bo'lsa, to'g'risini ham yashil qilib ko'rsatamiz
         if (btn.innerText === correctAnswerText) {
             btn.classList.add('correct');
         }
     });
 
-    // 2. Tanlangan tugmani qizil yoki yashil qilamiz
     if (isCorrect) {
         selectedBtn.classList.add('correct');
         score++;
@@ -155,16 +242,17 @@ function handleAnswerSelect(isCorrect, selectedBtn, allBtns, correctAnswerText) 
     currentQuestionIndex++;
     updateHeaderStats();
 
-    // 3. Qisqa pauzadan keyin (user xatosini ko'rib olishi uchun) pastdan yangi ticket chiqaramiz
     setTimeout(() => {
-        appendQuestionTicket(currentQuestionIndex);
-    }, 600); // 0.6 soniyadan keyin chiqadi, bu vaqtni o'zgartirishingiz mumkin
+        // Agar qidiruv rejimida bo'lmasakgina navbatdagisini chiqaramiz
+        if (searchContainer.classList.contains('hidden') || searchInput.value.trim() === '') {
+            appendQuestionTicket(currentQuestionIndex);
+        }
+    }, 600);
 }
 
 function showResult() {
     resultScreen.classList.remove('hidden');
     finalScore.innerText = `${score}/${currentBatch.length}`;
-    // Ekranni natijaga silliq siljitamiz
     resultScreen.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
@@ -174,5 +262,4 @@ function goHome() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Ilovani ishga tushirish
 prepareBatches();
