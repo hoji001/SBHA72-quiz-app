@@ -248,7 +248,7 @@ function handleAnswerSelect(isCorrect, selectedBtn, allBtns, correctAnswerText) 
         confetti({
             particleCount: 150,
             spread: 80,
-            origin: { y: 0.6 },
+            origin: { y: 0.8 },
             zIndex: 100
         });
 
