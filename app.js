@@ -232,9 +232,19 @@ function handleAnswerSelect(isCorrect, selectedBtn, allBtns, correctAnswerText) 
         }
     });
 
+    // To'g'ri/Noto'g'ri javob tekshiruvi
     if (isCorrect) {
         selectedBtn.classList.add('correct');
         score++;
+
+        // YANGI: Konfetti animatsiyasini chaqirish
+        confetti({
+            particleCount: 150, // Qog'ozchalar soni
+            spread: 80,         // Qanchalik keng sochilib ketishi
+            origin: { y: 0.6 }, // Ekranning qayeridan otilishi (0.6 - biroz pastroqdan markazga qarab)
+            zIndex: 100         // Barcha narsaning ustida turishi uchun
+        });
+
     } else {
         selectedBtn.classList.add('wrong');
     }
