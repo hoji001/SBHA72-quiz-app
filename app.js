@@ -232,28 +232,49 @@ function handleAnswerSelect(isCorrect, selectedBtn, allBtns, correctAnswerText) 
         }
     });
 
-    // To'g'ri/Noto'g'ri javob tekshiruvi
+    // Ayni paytdagi ticket (savol bloki) elementini topish
+    const currentTicket = document.getElementById(`ticket-${currentQuestionIndex}`);
+
     if (isCorrect) {
         selectedBtn.classList.add('correct');
         score++;
 
-        // YANGI: Konfetti animatsiyasini chaqirish
+        // 1. To'g'ri javob uchun qisqa vibratsiya (agar qurilma qo'llab-quvvatlasa)
+        if (navigator.vibrate) {
+            navigator.vibrate(100);
+        }
+
+        // 2. Konfetti animatsiyasi
         confetti({
-            particleCount: 150, // Qog'ozchalar soni
-            spread: 80,         // Qanchalik keng sochilib ketishi
-            origin: { y: 0.6 }, // Ekranning qayeridan otilishi (0.6 - biroz pastroqdan markazga qarab)
-            zIndex: 100         // Barcha narsaning ustida turishi uchun
+            particleCount: 150,
+            spread: 80,
+            origin: { y: 0.6 },
+            zIndex: 100
         });
 
     } else {
         selectedBtn.classList.add('wrong');
+
+        // 1. Xato javob uchun Telegram kabi ikkita ketma-ket vibratsiya
+        // (50ms ishlaydi, 100ms to'xtaydi, yana 50ms ishlaydi)
+        if (navigator.vibrate) {
+            navigator.vibrate([50, 100, 50]);
+        }
+
+        // 2. Butun boshli ticketni qimirlatish
+        if (currentTicket) {
+            currentTicket.classList.add('shake-ticket');
+            // Animatsiya tugagandan so'ng klassni olib tashlaymiz
+            setTimeout(() => {
+                currentTicket.classList.remove('shake-ticket');
+            }, 400);
+        }
     }
 
     currentQuestionIndex++;
     updateHeaderStats();
 
     setTimeout(() => {
-        // Agar qidiruv rejimida bo'lmasakgina navbatdagisini chiqaramiz
         if (searchContainer.classList.contains('hidden') || searchInput.value.trim() === '') {
             appendQuestionTicket(currentQuestionIndex);
         }
