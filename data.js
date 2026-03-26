@@ -1,1605 +1,2405 @@
 const quizData = {
-  "fan": "Moliyaviy bozorlar va institutlar",
+  "fan": "Banklarda buxgalteriya hisobi",
   "testlar": [
     {
       "id": 1,
-      "savol": "Moliya bozori fani qaysi fanlar bilan uzviy bog'langan?",
-      "togri_javob": "moliya, investitsiya, birja ishi",
-      "javob_2": "bank ishi, moliya, logistika",
-      "javob_3": "investitsiya, bojxona ishi, moliya",
-      "javob_4": "baholash ishi, falsafa, birja ishi"
+      "savol": "Banklarning hisobvaraqlar rejasi necha bo‘limdan iborat?",
+      "togri_javob": "6 bo‘lim",
+      "javob_2": "5 bo‘lim",
+      "javob_3": "7 bo‘lim",
+      "javob_4": "8 bo‘lim"
     },
     {
       "id": 2,
-      "savol": "Moliya bozorining oʻziga xos xususiyati toʻgʻri keltirilgan javobni aniqlang.",
-      "togri_javob": "bu bozor pul mablagʻlari oqimini jamgʻaruvchidan qarz oluvchiga tomon yoʻnaltiruvchi bozor institutlari jamlanmasidir",
-      "javob_2": "bu bozorda savdo qilinadigan qimmatli qogʻozlar asosan qisqa muddatli hamda likvidlilik darajasi yuqori boʻlgan instrumentlar hisoblanadi",
-      "javob_3": "bu bozorda qimmatli qogʻozlarni qoʻshimcha joylashtirish faqat yopiq xarakterga egadir",
-      "javob_4": "bozorda operatsiyalar asosan monitar siyosat, davlatlar va xalqaro moliya tashkilotlari darajasida amalga oshiriladi"
+      "savol": "Hisobvaraqlar rejasida passiv hisobvaraqlar qanday joylashtirilgan?",
+      "togri_javob": "Majburiyatlarning talab qilib olinishi darajasi bo‘yicha",
+      "javob_2": "Alifbo tartibida",
+      "javob_3": "Tasodifiy tartibda",
+      "javob_4": "Aktivlar tartibida"
     },
     {
       "id": 3,
-      "savol": "Moliya bozorining funksiyalari notoʻgʻri keltirilgan javobni aniqlang.",
-      "togri_javob": "kapitalni jamlashda qatnashmasligi",
-      "javob_2": "kapitalni vaqt, tarmoqlararo va mamlakatlararo qayta taqsim­lash",
-      "javob_3": "risklarni boshqarish",
-      "javob_4": "axborotlar assimmetriyasi bilan bogʻliq muammolarni oldini olish"
+      "savol": "Daromad va xarajatlar faqat kassaga kelib tushganda tan olinishi qaysi usulga xos?",
+      "togri_javob": "Kassali usul",
+      "javob_2": "Hisoblash usuli",
+      "javob_3": "Balans usuli",
+      "javob_4": "Analitik usul"
     },
     {
       "id": 4,
-      "savol": "Instrumentlari muomalada boʻlish muddatiga koʻra moliya bozori qanday turdagi bozorlarga ajratiladi?",
-      "togri_javob": "pul bozori va kapital bozori",
-      "javob_2": "birlamchi va ikkilamchi bozor",
-      "javob_3": "birjaviy va nobirjaviy bozor",
-      "javob_4": "milliy va halqaro bozorlar"
+      "savol": "Quyidagilardan qaysi biri passiv hisobvaraqqa kiradi?",
+      "togri_javob": "Depozit hisobvaraqlari",
+      "javob_2": "Asosiy vositalar",
+      "javob_3": "Kreditlar",
+      "javob_4": "Kassadagi naqd pullar"
     },
     {
       "id": 5,
-      "savol": "Qonunchilikda belgilangan tartibda moliyaviy instrumentlarni investitsiyalar (moliyaviy resurslar) jalb qilish maqsadida moliya bozoriga chiqaruvchi tashkilotlar nima deyiladi?",
-      "togri_javob": "emitentlar",
-      "javob_2": "depozitariylar",
-      "javob_3": "transfert agent",
-      "javob_4": "investor"
+      "savol": "Tovar hujjatlarini regress huquqi bilan sotib olish operatsiyasi qanday ataladi?",
+      "togri_javob": "Faktoring",
+      "javob_2": "Lizing",
+      "javob_3": "Kreditlash",
+      "javob_4": "Investitsiya"
     },
     {
       "id": 6,
-      "savol": "Qonunchilikda belgilangan tartibda moliyaviy resurslarni investitsiyalar tarzida emitentlarning moliyaviy instrumentlariga yo’naltirish maqsadida moliya bozoriga chiqaruvchi shaxs va organlarga nima deyiladi?",
-      "togri_javob": "investorlar",
-      "javob_2": "emitentlar",
-      "javob_3": "depozitariylar",
-      "javob_4": "transfert agent"
+      "savol": "Aktiv hisobvaraqlarda ko‘payish qaysi tomonda aks ettiriladi?",
+      "togri_javob": "Debet",
+      "javob_2": "Kredit",
+      "javob_3": "Balans",
+      "javob_4": "Analitik"
     },
     {
       "id": 7,
-      "savol": "Qarz majburiyati yoki ulush munosabtini yuzaga keltiruvchi moliyaviy aktiv nima deb ataladi?",
-      "togri_javob": "moliyaviy instrument",
-      "javob_2": "moliyaviy qarz",
-      "javob_3": "obligatsiya",
-      "javob_4": "aksiya"
+      "savol": "Bank kreditlari bo‘yicha vositachilik daromadlari qaysi guruhga kiradi?",
+      "togri_javob": "Foizli daromadlar",
+      "javob_2": "Komission daromadlar",
+      "javob_3": "Investitsion daromadlar",
+      "javob_4": "Operatsion daromadlar"
     },
     {
       "id": 8,
-      "savol": "Iqtisodiyotni moliyalashtirishning turli usullari va turli vositachilar rolining ahamiyatga bog'liq holda bozorni tashkil etish tipi bu-…?",
-      "togri_javob": "moliya bozori modeli",
-      "javob_2": "moliya bozori instrumenti",
-      "javob_3": "moliya bozori infrastrukturasi",
-      "javob_4": "moliya bozori investorlari"
+      "savol": "Reklama va e’lon xarajatlari qaysi guruhga kiradi?",
+      "togri_javob": "Operatsion xarajatlar",
+      "javob_2": "Kapital xarajatlar",
+      "javob_3": "Foiz xarajatlari",
+      "javob_4": "Investitsiya xarajatlari"
     },
     {
       "id": 9,
-      "savol": "Moliya bozorida tijorat banklari va maxsus jamg'arma muassasalari qanday tipdagi vositchalar toifasiga kiradi?",
-      "togri_javob": "depozit",
-      "javob_2": "investitsiya",
-      "javob_3": "shartnoma-jamg'arma",
-      "javob_4": "fond"
+      "savol": "Ichki nazorat nima?",
+      "togri_javob": "Bank operatsiyalarining qonunchilikka muvofiqligini tekshirish tizimi",
+      "javob_2": "Soliq nazorati",
+      "javob_3": "Davlat nazorati",
+      "javob_4": "Audit kompaniyasi"
     },
     {
       "id": 10,
-      "savol": "Moliyaviy instrumentlardan foydalanish asosida moliyaviy vositachilar orqali vaqtincha bo'sh pul mablag'larini qayta taqsimlash yuz beradigan bozor qanday nomlanadi?",
-      "togri_javob": "moliya bozori modeli",
-      "javob_2": "sug'urta va pensiya bozori",
-      "javob_3": "qimmatli qog'ozlar bozori",
-      "javob_4": "qimmatbaho metallar bozori"
+      "savol": "Birlamchi operatsiyalar bo‘yicha batafsil ma’lumot beruvchi hisob:",
+      "togri_javob": "Yordamchi kitob",
+      "javob_2": "Bosh kitob",
+      "javob_3": "Balans",
+      "javob_4": "Kassa kitobi"
     },
     {
       "id": 11,
-      "savol": "Qaysi mamlakatlar iqtisodiyotini moliyalashtirishda asosan qimmatli qogʻozlar bozori orqali moliyalashtirish usulidan foydalaniladi?",
-      "togri_javob": "Amerika Qoʻshma Shtatlari, Buyuk Britaniya",
-      "javob_2": "Germaniya, Nirderlandiya",
-      "javob_3": "Yaponiya, Shveytsariya",
-      "javob_4": "Shvetsiya, Fransiya"
+      "savol": "Bosh kitob nima?",
+      "togri_javob": "Sintetik hisob registri",
+      "javob_2": "Analitik hisob",
+      "javob_3": "Soliq hisoboti",
+      "javob_4": "Kassa hujjati"
     },
     {
       "id": 12,
-      "savol": "Moliya bozorining Kontinental modelida bozordagi moliyaviy vositachi funksiyalari kim tomonidan bajariladi?",
-      "togri_javob": "tijorat banklari",
-      "javob_2": "nobank moliya institutlari",
-      "javob_3": "qimmatli qogʻozlar boʻyicha kompaniyalar",
-      "javob_4": "broker hamda dilerlar orqali"
+      "savol": "Yordamchi kitoblarda nima aks ettiriladi?",
+      "togri_javob": "Analitik ma’lumotlar",
+      "javob_2": "Balans",
+      "javob_3": "Kredit shartnomasi",
+      "javob_4": "Audit xulosasi"
     },
     {
       "id": 13,
-      "savol": "Moliya bozorining Islom modelini shakllanish sababi toʻgʻri keltirilgan javobni aniqlang.",
-      "togri_javob": "neft eksportidan yuqori daromad kelishi sababli",
-      "javob_2": "obligatsiyalar bozorining mavjud emasligi sababli",
-      "javob_3": "foiz olishga qoʻyilgan taʼqiq sababli",
-      "javob_4": "biznesga investitsiya kiritishdagi turli cheklovlar sababli"
+      "savol": "10101 hisobvaraq nimani bildiradi?",
+      "togri_javob": "Aylanma kassadagi naqd pullar",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Valyuta"
     },
     {
       "id": 14,
-      "savol": "Iqtisodiyotni qimmatli qog'ozlar orqali moliyalashtirish modeli - bu?",
-      "togri_javob": "Anglo-sakson (Autsayderlik) modeli",
-      "javob_2": "Nemis modeli (Insayderlik)",
-      "javob_3": "Islom modeli",
-      "javob_4": "Yapon modeli"
+      "savol": "Hisoblangan, lekin to‘lanmagan xarajatlar qayerda hisobga olinadi?",
+      "togri_javob": "Hisoblangan xarajatlar hisobvaraqlarida",
+      "javob_2": "Kassada",
+      "javob_3": "Depozitlarda",
+      "javob_4": "Kreditlarda"
     },
     {
       "id": 15,
-      "savol": "Moddiy manfaat, iqtisodiy foydadan oldin axloq qadriyatlariga asoslangan moliya bozori modeli qanday nomlanadi?",
-      "togri_javob": "Islom modeli",
-      "javob_2": "Anglo-sakson (Autsayderlik) modeli",
-      "javob_3": "Nemis modeli (Insayderlik)",
-      "javob_4": "Yapon modeli"
+      "savol": "Doimiy hisobvaraqlar nima?",
+      "togri_javob": "Hisobot davrida yopilmaydigan hisobvaraqlar",
+      "javob_2": "Har kuni yopiladigan hisobvaraqlar",
+      "javob_3": "Vaqtinchalik hisobvaraqlar",
+      "javob_4": "Balansdan tashqari hisobvaraqlar"
     },
     {
       "id": 16,
-      "savol": "Ushbu keltirilgan davlatlarning qaysi birida moliya bozori asosan Islom modeliga xos hisoblanadi?",
-      "togri_javob": "Malayziya",
-      "javob_2": "Hindiston",
-      "javob_3": "Yaponiya",
-      "javob_4": "Fransiya"
+      "savol": "Kontr hisobvaraqlar nima uchun xizmat qiladi?",
+      "togri_javob": "Aktiv yoki passiv qiymatini kamaytirish uchun",
+      "javob_2": "Kredit berish uchun",
+      "javob_3": "Valyuta operatsiyalari uchun",
+      "javob_4": "Depozit uchun"
     },
     {
       "id": 17,
-      "savol": "Ushbu keltirilgan davlatlarning qaysi birining moliya bozori modeli Anglo-sakson modeliga xos?",
-      "togri_javob": "Buyuk Britaniya",
-      "javob_2": "Fransiya",
-      "javob_3": "Pokiston",
-      "javob_4": "Bruney"
+      "savol": "Bank daromadlari qaysi bo‘lim hisobvaraqlarida yuritiladi?",
+      "togri_javob": "4-bo‘lim",
+      "javob_2": "2-bo‘lim",
+      "javob_3": "1-bo‘lim",
+      "javob_4": "5-bo‘lim"
     },
     {
       "id": 18,
-      "savol": "Ushbu keltirilgan davlatlarning qaysi birining moliya bozori modeli Nemis modeliga xos?",
-      "togri_javob": "Fransiya",
-      "javob_2": "Bruney",
-      "javob_3": "Eron",
-      "javob_4": "AQSh"
+      "savol": "Inkasso topshiriqnomasi nima?",
+      "togri_javob": "Mablag‘ni majburiy undirib olish hujjati",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Chek",
+      "javob_4": "Valyuta operatsiyasi"
     },
     {
       "id": 19,
-      "savol": "Axborot shaffofligiga kuchli talab qo'yadigan model qaysi hisoblanadi?",
-      "togri_javob": "Anglo-sakson (Autsayderlik) modeli",
-      "javob_2": "Nemis modeli (Insayderlik)",
-      "javob_3": "Yapon modeli",
-      "javob_4": "Islom modeli"
+      "savol": "Kartoteka 1 nima?",
+      "togri_javob": "To‘lov muddatini kutayotgan hujjatlar hisobvarag‘i",
+      "javob_2": "Kredit hisobvaraqlari",
+      "javob_3": "Depozit hisobvaraqlari",
+      "javob_4": "Aktiv hisobvaraqlari"
     },
     {
       "id": 20,
-      "savol": "Glass-Stigoll qonuniga ko'ra banklar qanday faoliayatni amalga oshirish taqiqlangan?",
-      "togri_javob": "qimmatli qog'ozlar bozorida investitsiya faoliyatini amalga oshirish",
-      "javob_2": "depozitlar olish",
-      "javob_3": "mikro-moliya xizmatlarini taqdim etish",
-      "javob_4": "kredit berish"
+      "savol": "Kredit liniyasi nima?",
+      "togri_javob": "Belgilangan limit doirasida kredit berish majburiyati",
+      "javob_2": "Depozit turi",
+      "javob_3": "Valyuta operatsiyasi",
+      "javob_4": "Investitsiya"
     },
     {
       "id": 21,
-      "savol": "Obligatsiya – bu…?",
-      "togri_javob": "o’z qiymatiga nisbatan qat’iy belgilangan foiz shaklida daromad kelitruvchi qimmatli qog’ozdir",
-      "javob_2": "emitentning qisqa muddatli qarz munosabatlaridir",
-      "javob_3": "o’z egasiga dividend olish huquqini beruvchi qimmatli qog’ozlardir",
-      "javob_4": "nomi yozilgan qimmatli qog’ozlarga egalik qilish huquqini boshqa birovga berishdir"
+      "savol": "Muomalaga chiqarilgan aktsiyalar blankalari qayerda hisobga olinadi?",
+      "togri_javob": "Balansdan tashqari hisobvaraqlarda",
+      "javob_2": "Aktiv hisobvaraqlarda",
+      "javob_3": "Kassada",
+      "javob_4": "Kredit hisobvaraqlarida"
     },
     {
       "id": 22,
-      "savol": "Obligatsiya emitentlari kimlar bo'lishi mumkin?",
-      "togri_javob": "davlat, aksiyadorlik jamiyatlari, MChJ",
-      "javob_2": "individual tadbirkorlar va yakka tartibdagi tadbirkorlar",
-      "javob_3": "hokimiyatlar va nodavlat - notijorat tashkilotlar",
-      "javob_4": "korporativ tuzilmalar va individual tadbirkorlar"
+      "savol": "Plastik kartalar aloqadorligi bo‘yicha qanday turlarga bo‘linadi?",
+      "togri_javob": "Shaxsiy, oilaviy va korporativ",
+      "javob_2": "Kredit va depozit",
+      "javob_3": "Aktiv va passiv",
+      "javob_4": "Milliy va xalqaro"
     },
     {
       "id": 23,
-      "savol": "Obligatsiyaga tegishli xususiyat qaysi javobda to'g'ri keltirilgan…?",
-      "togri_javob": "uni sotib olgan investor emitentning kreditoriga aylanadi va foiz ko'rinishida daromad oladi",
-      "javob_2": "aksiyadorlik jamiyati umumiy yig’ilishida ovoz berish xuququini beradi",
-      "javob_3": "aksiyadorlik jamiyati foyda olmay qolgan xolda, uning egasi dividend olmay qolishi mumkin",
-      "javob_4": "o’z egasiga mazkur AJga tasischi bo’lib kirish xuququini beradi"
+      "savol": "Balansning aktiv qismiga qaysi element kiradi?",
+      "togri_javob": "Naqd pullar",
+      "javob_2": "Ustav kapitali",
+      "javob_3": "Depozitlar",
+      "javob_4": "Kredit majburiyatlari"
     },
     {
       "id": 24,
-      "savol": "Korporativ obligatsiyalar deganda nima tushuniladi?",
-      "togri_javob": "kompaniya va firmalar tomonidan emissiya qilinadigan obligatsiyalar tushuniladi",
-      "javob_2": "mahalliy hokimiyatlar emissiya qilinadigan obligatsiyalar tushuniladi",
-      "javob_3": "davlat tomonidan emissiya qilinadigan obligatsiyalar tushuniladi",
-      "javob_4": "vazirliklar tomonidan emissiya qilinadigan obligatsiyalar tushuniladi"
+      "savol": "Pul oqimlari hisobotida nimalar aks ettiriladi?",
+      "togri_javob": "Operatsion, investitsion va moliyaviy oqimlar",
+      "javob_2": "Faqat aktivlar",
+      "javob_3": "Faqat passivlar",
+      "javob_4": "Faqat depozitlar"
     },
     {
       "id": 25,
-      "savol": "Obligatsiya xususiyatlari notog'ri ko'rsatilgan qatorni belgilang.",
-      "togri_javob": "obligatsiya qarz instrumenti boʻlganligi sababli emitent- kompaniya boshqaruvida qatnashish huquqini beradi.",
-      "javob_2": "obligatsiya sotib olgan investor emitent- kompaniyaning kreditoriga aylanadi.",
-      "javob_3": "obligatsiyaning muomalada boʻlish muddati qatʼiy belgilangan va muddati kelganda soʻndiriladi.",
-      "javob_4": "emitent-kompaniya  tugatilishi jarayonida mulkni taqsimlashda aksiyadorlar kompaniyaning barcha majburiyatlari shu jumladan, obligatsiyalar boʻyicha qarz majburiyatlarini soʻndirgandan keyin qolgan mulkdan ulush olishlari mumkin"
+      "savol": "Aktiv-passiv hisobvaraq nima?",
+      "togri_javob": "Debet ham kredit qoldig‘i bo‘lishi mumkin bo‘lgan hisobvaraq",
+      "javob_2": "Faqat debet qoldiq bo‘lgan hisobvaraq",
+      "javob_3": "Faqat kredit qoldiq bo‘lgan hisobvaraq",
+      "javob_4": "Balansdan tashqari hisobvaraq"
     },
     {
       "id": 26,
-      "savol": "Obligatsiyalar boʻyicha daromad qanday koʻrinishda ifodalanadi?",
-      "togri_javob": "foiz yoki diskont koʻrinishida",
-      "javob_2": "dividend koʻrinishida",
-      "javob_3": "ulush koʻrinishida",
-      "javob_4": "pay koʻrinishida"
+      "savol": "Yuqori likvidli aktivlarga nimalar kiradi?",
+      "togri_javob": "Kassa pullari va Markaziy bankdagi mablag‘lar",
+      "javob_2": "Asosiy vositalar",
+      "javob_3": "Nomoddiy aktivlar",
+      "javob_4": "Kreditlar"
     },
     {
       "id": 27,
-      "savol": "Obligatsiyalar emissiyasini amalga oshirish huquqi qanday korxonalarga beriladi?",
-      "togri_javob": "faqat kredit layoqatiga javob beruvchi korxonalarga",
-      "javob_2": "moliyaviy inqiroz yoqasidagi korxonalarga",
-      "javob_3": "davlat ulushi mavjud korxonalarga",
-      "javob_4": "faqat aksiyadorlik jamiyatlariga"
+      "savol": "Jismoniy shaxslarning talab qilib olinguncha depozitlari qayerda hisobga olinadi?",
+      "togri_javob": "Depozit hisobvaraqlarida",
+      "javob_2": "Kassada",
+      "javob_3": "Kredit hisobvaraqlarida",
+      "javob_4": "Aktiv hisobvaraqlarda"
     },
     {
       "id": 28,
-      "savol": "Uni chiqargan shaxs va egasi oʻrtasidagi qarz munosabatni tasdiqlovchi qimmatli qogʻoz turi bu-",
-      "togri_javob": "obligatsiya",
-      "javob_2": "aksiya",
-      "javob_3": "yevrodollar",
-      "javob_4": "yevroaksiya"
+      "savol": "To‘lov hujjati asosida mablag‘ni o‘tkazish sanasi nima deb ataladi?",
+      "togri_javob": "To‘lov sanasi",
+      "javob_2": "Kredit sanasi",
+      "javob_3": "Balans sanasi",
+      "javob_4": "Hisob sanasi"
     },
     {
       "id": 29,
-      "savol": "Kompaniya tugatilganda qimmatli qogʻozlarni soʻndirish tartibi toʻgʻri keltirilgan javobni belgilang.",
-      "togri_javob": "birinchi navbatda obligatsiya, so'ngra imtiyozli aksiya va oddiy aksiya",
-      "javob_2": "avval imtiyozli aksiyalar boʻyicha dividendlar soʻngra esa obligatsiya boʻyicha foiz toʻlovlari toʻlanadi",
-      "javob_3": "kompaniyalar tugatilganda qimmatli qogʻozlar boʻyicha hech qanday toʻlovlar amalga oshirilmaydi",
-      "javob_4": "faqat oddiy va imtiyozli aksiyalar boʻyicha dividendlar toʻlana­di."
+      "savol": "Mahsulot yetkazib beruvchining to‘lovni talab qiluvchi hujjati nima?",
+      "togri_javob": "To‘lov talabnomasi",
+      "javob_2": "Chek",
+      "javob_3": "Kredit shartnomasi",
+      "javob_4": "Valyuta orderi"
     },
     {
       "id": 30,
-      "savol": "Obligatsiyalarning emitent turiga koʻra koʻrinishlari notoʻgʻri keltirilgan javobni belgilang.",
-      "togri_javob": "konvert obligatsiyalar",
-      "javob_2": "munitsipal obligatsiyalar",
-      "javob_3": "korporativ obligatsiyalar",
-      "javob_4": "xorijiy obligatsiyalar"
+      "savol": "Mol yetkazib beruvchiga to‘lov kafolatini beruvchi hisob-kitob shakli qaysi?",
+      "togri_javob": "Akkreditiv",
+      "javob_2": "Chek",
+      "javob_3": "Kredit",
+      "javob_4": "Depozit"
     },
     {
       "id": 31,
-      "savol": "Taʼminlangan obligatsiyalarning emitent va investor uchun afzalliklari nimalardan iborat?",
-      "togri_javob": "emitent uchun obligatsiyani joylashtirish boʻyicha muammoning deyarli yoʻqligi va investor uchun qarz majburiyatni qaytarish kafolati yuqori darajadaligi",
-      "javob_2": "emitent uchun qoplash muddatidan avval qaytarib olinganlik uchun toʻlov va investor uchun obligatsiyaga egalik qilish huquqi cheklanganligi",
-      "javob_3": "emitent uchun qarz majburiyati qiymati pasayishi imkoniyati va investor uchun qoʻyilmalar xavfsizligining yuqori darajasi",
-      "javob_4": "emitent uchun moddiy aktivlarning garov riski mavjudligi va in­vestor uchun boshqa obligatsiyalarga nisbatan foizli daromadning pastligi"
+      "savol": "Qimmatli qog‘ozlarni sotib olish operatsiyasi qanday operatsiya hisoblanadi?",
+      "togri_javob": "Investitsion operatsiya",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Depozit operatsiyasi",
+      "javob_4": "Kassa operatsiyasi"
     },
     {
       "id": 32,
-      "savol": "Obligatsiyalarning emitentiga ko'ra turlari to'gri keltirilgan javobni aniqlang.",
-      "togri_javob": "davlat, munitsipal, korporativ, xorijiy obligatsiyalar",
-      "javob_2": "davlat, munitsipal, korporativ, kuponli obligatsiyalar",
-      "javob_3": "davlat, konvertatsiyalanuvchi, korporativ, xorijiy obligatsiyalar",
-      "javob_4": "qayta chaqirib olinadigan, munitsipal, korporativ, xorijiy obligatsiyalar"
+      "savol": "Aholi omonatlari bilan bog‘liq operatsiyalar qanday operatsiya hisoblanadi?",
+      "togri_javob": "Depozit operatsiyasi",
+      "javob_2": "Investitsiya operatsiyasi",
+      "javob_3": "Kredit operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
     },
     {
       "id": 33,
-      "savol": "Egasiga boshqa turdagi obligatsiyaga yoki aksiyaga almashtirish xuquqini beruvchi obligatsiya qanday nomalanadi?",
-      "togri_javob": "konvertatsiyalanadigan obligatsiya",
-      "javob_2": "prolongatsiyali obligatsiya",
-      "javob_3": "indeksatsiyalanadigan obligatsiya",
-      "javob_4": "kafolatlangan obligatsiya"
+      "savol": "Bankning taqsimlanmagan foydasi hisobidan zahira fondi tashkil qilindi. Bu qanday operatsiya?",
+      "togri_javob": "Kapital ichidagi o‘zgarish",
+      "javob_2": "Aktiv operatsiya",
+      "javob_3": "Kredit operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
     },
     {
       "id": 34,
-      "savol": "Obligasiya bo‘yicha qarzdorligi nima bilan ta'minlanadi?",
-      "togri_javob": "mulk ta'minoti bilan",
-      "javob_2": "penya bilan",
-      "javob_3": "sug‘urta polisi bilan",
-      "javob_4": "f'yuchers bilan."
+      "savol": "Kredit operatsiyalari qanday operatsiya hisoblanadi?",
+      "togri_javob": "Aktiv operatsiya",
+      "javob_2": "Passiv operatsiya",
+      "javob_3": "Balansdan tashqari operatsiya",
+      "javob_4": "Kassa operatsiyasi"
     },
     {
       "id": 35,
-      "savol": "Obligatsiya xususiyatlari tog'ri ko'rsatilgan qatorni belgilang.",
-      "togri_javob": "obligatsiyani sotib olgan investor kompaniya-emitentning kreditoriga aylanadi",
-      "javob_2": "obligatsiyani sotib olgan investor kompaniya-emitentning aksiyadoriga aylanadi",
-      "javob_3": "obligatsiyaning muomalada boʻlish muddati cheklanmagan",
-      "javob_4": "obligatsiya egasiga emitent-kompaniyani boshqaruvida qatnashish huquqini beradi"
+      "savol": "Daromad va xarajatlar qaysi printsip asosida tan olinadi?",
+      "togri_javob": "Hisoblash printsipi",
+      "javob_2": "Kassali printsip",
+      "javob_3": "Balans printsipi",
+      "javob_4": "Analitik printsip"
     },
     {
       "id": 36,
-      "savol": "Aksiya – bu…?",
-      "togri_javob": "o’z egasiga dividend olish va aksiyadorlar umumiy yig'ilishida qatnashish huquqini beruvchi qimmatli qog’ozdir",
-      "javob_2": "emeitentning qarzdorligi va bu qarz uchun foiz to’lash zarurligi haqida guvohlik beruvchi qimmatli qog’oz",
-      "javob_3": "o’z egasiga yutuq keltiruvchi qimmatli qog’ozdir",
-      "javob_4": "o’z egasiga aksiyadorlar umumiy yig’ilishida qatnashish huquqini bermaydigan qimmatli qog'oz"
+      "savol": "Mijoz chek asosida kassadan naqd pul oldi. Bu qanday operatsiya?",
+      "togri_javob": "Kassadan chiqim operatsiyasi",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Investitsiya operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
     },
     {
       "id": 37,
-      "savol": "Aksiyalarga taalluqli bo’lgan xususiyatlarni aniqlang.",
-      "togri_javob": "amal qilish muddati belgilanmagan",
-      "javob_2": "aksiyalarni baholab bo’lmaydi",
-      "javob_3": "belgilangan muddatda naminal qiymati bo’yicha so’ndirilishi lozim bo’lgan qimmatli qog’oz",
-      "javob_4": "aksiyadorlar umumiy yig’ilishida ovoz berish huquqini bermaydi"
+      "savol": "Muddatli omonatga naqd pul kirim qilinganda qanday operatsiya sodir bo‘ladi?",
+      "togri_javob": "Kassa kirim operatsiyasi",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Investitsiya operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
     },
     {
       "id": 38,
-      "savol": "Oddiy aksiya shunday aksiyaki, unga tegadigan dividend…?",
-      "togri_javob": "foydaga qarab har xil bo’ladi",
-      "javob_2": "oldindan belgilangan qat’iy foizlarda beriladi",
-      "javob_3": "majburan to’lanadi",
-      "javob_4": "ma’lum davr mobaynida to’lanmasdan yig’ilib boriladi va oxirida to’lanadi"
+      "savol": "Naqd pul topshirishda mijozga qaysi qism qaytariladi?",
+      "togri_javob": "Kvitansiya",
+      "javob_2": "Order",
+      "javob_3": "Hisobot",
+      "javob_4": "Balans"
     },
     {
       "id": 39,
-      "savol": "Aksiyaning nominal qiymati deganda nima tushuniladi?",
-      "togri_javob": "aksiyada yozilgan pul summasi tushuniladi",
-      "javob_2": "aksiya kupon stavkasi tushuniladi",
-      "javob_3": "uning bozorda sotiladigan narxi tushuniladi",
-      "javob_4": "dizajio tushuniladi"
+      "savol": "Ustav kapitalini shakllantirish operatsiyasi qanday operatsiya?",
+      "togri_javob": "Passiv operatsiya",
+      "javob_2": "Aktiv operatsiya",
+      "javob_3": "Kredit operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
     },
     {
       "id": 40,
-      "savol": "Oʻz egasiga aksiyadorlarning umumiy yigʻilishida oʻz ovozi bilan ishtirok etish huquqi, dividendlar olish va aksiyadorlik jamiyati tugatilganda mulkning bir qismiga ega boʻlish huquqini beruvchi qimmatli qogʻoz turini aniqlang.",
-      "togri_javob": "oddiy aksiyalar",
-      "javob_2": "kuponli obligatsiyalar",
-      "javob_3": "imtiyozli aksiyalar",
-      "javob_4": "oltin aksiya"
+      "savol": "Vakillik hisobvaraqlari nechta turga bo‘linadi?",
+      "togri_javob": "2 turga",
+      "javob_2": "3 turga",
+      "javob_3": "4 turga",
+      "javob_4": "5 turga"
     },
     {
       "id": 41,
-      "savol": "Oʻz egasining aksiyadorlik jamiyati foydasining bir qismini dividendlar tarzida olishga, aksiyadorlik jamiyatini boshqarishda ishtirok etishga va u tugatilganidan keyin qoladigan mol-mulkning bir qismiga boʻlgan huquqini tasdiqlovchi, amal qilish muddati belgilanmagan, egasining nomi yozilgan emissiyaviy qimmatli qogʻoz turi qanday nomlanadi?",
-      "togri_javob": "aksiya",
-      "javob_2": "obligatsiya",
-      "javob_3": "veksel",
-      "javob_4": "depozit sertifikatlari."
+      "savol": "Sintetik hisob registrlariga qaysi biri kirmaydi?",
+      "togri_javob": "Shaxsiy hisobvaraq",
+      "javob_2": "Bosh kitob",
+      "javob_3": "Balans",
+      "javob_4": "Hisobot"
     },
     {
       "id": 42,
-      "savol": "Oddiy aksiyalar qiymati va daromadliligini baholashning murakkabligini qanday izohlash mumkin?",
-      "togri_javob": "oddiy aksiyalar boʻyicha daromadning kafolatlanmaganligi va amal qilish muddatining mavjud emasligi",
-      "javob_2": "qatʼiy summada daromadning belgilanmaganligi va amal qilish muddatining uzoqligi",
-      "javob_3": "oddiy aksiyalarning doimiy ravishda qoʻldan-qoʻlga oʻtib turishi va joriy kursni aniqlashning murakkabligi",
-      "javob_4": "dividendlarning oʻzgarmasligi va qayta investitsiya qilinishi."
+      "savol": "Hisoblangan, lekin olinmagan daromadlar qayerda hisobga olinadi?",
+      "togri_javob": "Hisoblangan daromadlar hisobvaraqlarida",
+      "javob_2": "Kassada",
+      "javob_3": "Kreditlarda",
+      "javob_4": "Aktivlarda"
     },
     {
       "id": 43,
-      "savol": "Imtiyozli aksiyalarning xususiyatlari to'g'ri berilgan qatorni belgilang.",
-      "togri_javob": "ovoz berish huquqi mavjud emas, lekin, dividendlar kafolatlangan",
-      "javob_2": "ko'proq ovoz bersih imkoniyati mavjud, dividendlar kafolatlangan",
-      "javob_3": "foydani katta ulushini dividend shaklida olish imkoniyati va ovoz berish huquqi mavjud",
-      "javob_4": "ovoz berish huquqi mavjud emas, dividendlar ham kafolatlanmagan"
+      "savol": "Akkreditiv depozit hisobvarag‘i qayerda ochiladi?",
+      "togri_javob": "To‘lovchi bankida",
+      "javob_2": "Yetkazib beruvchi bankida",
+      "javob_3": "Markaziy bankda",
+      "javob_4": "Soliq bankida"
     },
     {
       "id": 44,
-      "savol": "Qaysi qimmatli qog'oz yuqori riskli hisoblanadi?",
-      "togri_javob": "aksiya",
-      "javob_2": "obligatsiya",
-      "javob_3": "davlat qimmatli qog'ozlari",
-      "javob_4": "munisipal obligatsiyalar"
+      "savol": "To‘lov topshiriqnomasi nima?",
+      "togri_javob": "To‘lovchi tomonidan bankka berilgan mablag‘ o‘tkazish topshirig‘i",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Valyuta hujjati",
+      "javob_4": "Investitsiya hujjati"
     },
     {
       "id": 45,
-      "savol": "Imtiyozli aksiyalar miqdori jamiyat ustav kapitali hajmining necha foizdan osmasligi lozim?",
-      "togri_javob": "25 % miqdoridan",
-      "javob_2": "20 % miqdoridan",
-      "javob_3": "15 % miqdoridan",
-      "javob_4": "cheklanmagan"
+      "savol": "Yillik moliyaviy hisobot tarkibiga nima kiradi?",
+      "togri_javob": "Balans, foyda-zarar, pul oqimi hisobotlari",
+      "javob_2": "Faqat balans",
+      "javob_3": "Faqat kreditlar",
+      "javob_4": "Faqat depozitlar"
     },
     {
       "id": 46,
-      "savol": "Imtiyozli aksiya qanday huquqni beradi?",
-      "togri_javob": "qa'tiy daromad olish",
-      "javob_2": "jamiyat umumiy yig‘ilishlarida ishtirok etish",
-      "javob_3": "jamiyat moliyaviy holati to‘g‘risida axborot olish",
-      "javob_4": "cheklangan ovoz huquqini berish."
+      "savol": "Bank kunlik balansi nechta qismdan iborat?",
+      "togri_javob": "2 qism",
+      "javob_2": "3 qism",
+      "javob_3": "4 qism",
+      "javob_4": "5 qism"
     },
     {
       "id": 47,
-      "savol": "Oddiy aksiya doimo qanday huquqni beradi?",
-      "togri_javob": "ovoz berish huquqini",
-      "javob_2": "ovoz berish huquqi faqat agar jamiyat balansida bo‘lsa",
-      "javob_3": "aksionerni reestrga kiritish huquqini",
-      "javob_4": "jamiyat umumiy yig‘ilishlarida qisman qatnashish huquqini"
+      "savol": "Qisqa muddatli kreditlar qayerda hisobga olinadi?",
+      "togri_javob": "Aktiv hisobvaraqlarda",
+      "javob_2": "Passiv hisobvaraqlarda",
+      "javob_3": "Kassada",
+      "javob_4": "Depozitda"
     },
     {
       "id": 48,
-      "savol": "Aksiyadorlik jamiyati aksiyalarni turli nominal qiymati bilan joylashtirishi mumkinmi?",
-      "togri_javob": "mumkin emas",
-      "javob_2": "faqat ayrim imtiyozli aksiyalarni",
-      "javob_3": "qo‘shimcha aksiyalarni joylashtirishganda mumkin",
-      "javob_4": "mumkin"
+      "savol": "Memorial order nechta nusxada tuziladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 49,
-      "savol": "Kompaniyaning bozor kapitalizatsiyasi (Market Cap.) bu qanday aniqlanuvchi ko'rsatkich?",
-      "togri_javob": "Kompaniya aksiyalari bozor narxini muomaladagi aksiyalar soniga ko'paytmasi",
-      "javob_2": "Kompaniya aksiyalari nominal narxini muomaladagi aksiyalar soniga ko'paytmasi",
-      "javob_3": "Kompaniya imtiyozli aksiyalar bozor narxini aksiyalar soniga ko'paytmasi",
-      "javob_4": "Kompaniya sof foydasining xususiy kapitalga bo'linmasi"
+      "savol": "Bank balansida qanday tenglik mavjud?",
+      "togri_javob": "Aktiv = Majburiyat + Kapital",
+      "javob_2": "Aktiv = Kapital",
+      "javob_3": "Aktiv = Kredit",
+      "javob_4": "Aktiv = Depozit"
     },
     {
       "id": 50,
-      "savol": "O'zbekiston Respublikasi qonunchiligiga ko'ra aksiyalarning nominal qiymati chegarasi necha so'm deb belgilangan?",
-      "togri_javob": "5000 so'm",
-      "javob_2": "3000 so'm",
-      "javob_3": "nominal qiymati belgilanmagan",
-      "javob_4": "1000 so'm"
+      "savol": "Talab qilib olinguncha depozit nima?",
+      "togri_javob": "Istalgan vaqtda yechib olinadigan depozit",
+      "javob_2": "1 yilga qo‘yiladigan depozit",
+      "javob_3": "Kredit depozit",
+      "javob_4": "Investitsiya depozit"
     },
     {
       "id": 51,
-      "savol": "Savdo qatnashchilari shartnoma shartlarini kelajakada bajarish uchun tuzilgan bitimlar bozori - bu?",
-      "togri_javob": "Muddatli bozor",
-      "javob_2": "Spot bozori",
-      "javob_3": "Pul bozori",
-      "javob_4": "Kapital bozori"
+      "savol": "Bank ekvayer nima?",
+      "togri_javob": "Plastik karta to‘lovlarini qabul qiluvchi bank",
+      "javob_2": "Kredit beruvchi bank",
+      "javob_3": "Depozit banki",
+      "javob_4": "Valyuta banki"
     },
     {
       "id": 52,
-      "savol": "Muddatli shartnomaning asosini tashkil etuvchi aktiv qanday nomlanadi?",
-      "togri_javob": "bazis aktiv",
-      "javob_2": "moliyaviy aktiv",
-      "javob_3": "aksiya",
-      "javob_4": "obligatsiya"
+      "savol": "Naqd pul bankda qayerda hisobga olinadi?",
+      "togri_javob": "Kassa hisobvaraqlarida",
+      "javob_2": "Kredit hisobvaraqlarida",
+      "javob_3": "Depozit hisobvaraqlarida",
+      "javob_4": "Kapital hisobvaraqlarida"
     },
     {
       "id": 53,
-      "savol": "Forvard shartnomasining asosiy xususiyatini ko'rsating.",
-      "togri_javob": "birjadan tashqarida amalga oshiriladi",
-      "javob_2": "birja savdo ob'yekti sifatida namoyon bo'ladi",
-      "javob_3": "bazis aktivni belgilangan muddatda sotib olish yoki sotish huquqini beradi",
-      "javob_4": "ikki tomonning oldindan belgilangan shartlar asosida to'lovlarni yoki bazis aktivni almashtirish bo'yicha bitim"
+      "savol": "Naqd pulsiz hisob-kitoblarda qaysi hujjatlar ishlatiladi?",
+      "togri_javob": "To‘lov topshiriqnomasi va talabnomasi",
+      "javob_2": "Chek",
+      "javob_3": "Kredit orderi",
+      "javob_4": "Kassa orderi"
     },
     {
       "id": 54,
-      "savol": "Birjadan tashqarida amalga oshiriladigan hosilaviy qimmatli qog'oz turi qanday nomlanadi?",
-      "togri_javob": "forvard",
-      "javob_2": "fyuchers",
-      "javob_3": "birja indeksi",
-      "javob_4": "depozitar tilxat"
+      "savol": "Daromad hisobvaraqlari qaysi raqamdan boshlanadi?",
+      "togri_javob": "4",
+      "javob_2": "3",
+      "javob_3": "2",
+      "javob_4": "1"
     },
     {
       "id": 55,
-      "savol": "Uning egasiga belgilangan bazis aktivni qayd etilgan narxda sotib olish yoki sotish huquqini beradigan hosilaviy qimmatli qog'oz turi qaysi?",
-      "togri_javob": "opsion",
-      "javob_2": "forvard",
-      "javob_3": "fyuchers",
-      "javob_4": "svop"
+      "savol": "Naqd pul topshirish e’lonnomasi nechta qismdan iborat?",
+      "togri_javob": "3 qism",
+      "javob_2": "2 qism",
+      "javob_3": "4 qism",
+      "javob_4": "5 qism"
     },
     {
       "id": 56,
-      "savol": "Option call - bu?",
-      "togri_javob": "bazis aktivni sotib olish huquqi",
-      "javob_2": "bazis aktivni sotib olish majburiyati",
-      "javob_3": "bazis aktivni sotish huquqi",
-      "javob_4": "bazis aktivni sotish majburiyati"
+      "savol": "Mijoz bankni qanday tanlaydi?",
+      "togri_javob": "Mustaqil ravishda",
+      "javob_2": "Soliq orqali",
+      "javob_3": "Davlat orqali",
+      "javob_4": "Majburiy"
     },
     {
       "id": 57,
-      "savol": "Muddatli bozorda savdo qilinadigan instrumentlar nomlari to'g'ri keltirilgan qatorni belgilang?",
-      "togri_javob": "forvard, fyuchers, opsion, svop",
-      "javob_2": "forvard, obligatsiya, opsion, svop",
-      "javob_3": "forvard, fyuchers, opsion, aksiya",
-      "javob_4": "forvard, fyuchers, opsion, birja indeksi"
+      "savol": "Jamg‘arma depozit nima?",
+      "togri_javob": "Jamg‘arish uchun mo‘ljallangan depozit",
+      "javob_2": "Kredit depozit",
+      "javob_3": "Valyuta depozit",
+      "javob_4": "Investitsiya depozit"
     },
     {
       "id": 58,
-      "savol": "Kelajakda aktivlar kursining pasayishi kutilayotgan bo’lsa, investor quyidagilardan qaysi birini amalga oshiradi?",
-      "togri_javob": "opsion put xaridori sifatida ishtirok etadi",
-      "javob_2": "opsion kol xaridori sifatida ishtirok etadi",
-      "javob_3": "opsion put sotuvchisi sifatida ishtirok etadi",
-      "javob_4": "opsion kol sotuvchisi sifatida ishtirok etadi"
+      "savol": "Hisobvaraqlar rejasida aktiv hisobvaraqlar qanday joylashtiriladi?",
+      "togri_javob": "Likvidlik darajasiga qarab",
+      "javob_2": "Tasodifiy",
+      "javob_3": "Alifbo tartibida",
+      "javob_4": "Kredit tartibida"
     },
     {
       "id": 59,
-      "savol": "Birja tovarlarining ularni kechiktirmasdan yetkazib berish sharti bilan tuziladigan oldi-sotdi bitimlari nima deb ataladi?",
-      "togri_javob": "Spot",
-      "javob_2": "Forvardlar",
-      "javob_3": "Fyuchersi",
-      "javob_4": "Opsion"
+      "savol": "Korxona nechta bankda hisobvaraq ochishi mumkin?",
+      "togri_javob": "Bir nechta bankda",
+      "javob_2": "Faqat bittada",
+      "javob_3": "Ikki bankda",
+      "javob_4": "Uch bankda"
     },
     {
       "id": 60,
-      "savol": "Valyutalarni bir vaqtda olib-sotishga doir bitimlar bo‘yicha hisob-kitoblarni muayyan muddat o‘tgach, avvaldan belgilangan valyuta kursi bo‘yicha amalga oshirish sharti bilan tuziladigan valutalarni bir vaqtda olish-sotishga doir bitimlar nima deb ataladi?",
-      "togri_javob": "Valuta svoplari",
-      "javob_2": "Repo",
-      "javob_3": "Forvard",
-      "javob_4": "Fyucherslar"
+      "savol": "Imzo va muhr kartochkasi nechta nusxada topshiriladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 61,
-      "savol": "Forvard bitimlari qachon yakunlanadi?",
-      "togri_javob": "Bitim shartlari asosida tovarni yetkazib berish va uning haqini to‘liq to‘lash bilan yakunlanadi",
-      "javob_2": "Treyder va sotib oluvchining kelishuviga asosan yakunlanadi",
-      "javob_3": "Sotuvchi va sotib oluvchi o‘rtasidagi qarz kelishuvga binoan",
-      "javob_4": "Sotuvchi va Treyder o‘rtasidagi nizo tugagach"
+      "savol": "Akkreditiv ochish uchun ariza qayerga topshiriladi?",
+      "togri_javob": "Bank-emitentga",
+      "javob_2": "Soliq organiga",
+      "javob_3": "Markaziy bankga",
+      "javob_4": "Mijozga"
     },
     {
       "id": 62,
-      "savol": "Fyuchers va opsionning o'xshash jihatlarini toping?",
-      "togri_javob": "hosilaviy qimmatli qog’ozlar hisoblanadi",
-      "javob_2": "derivativ bajarilganda bazisdagi aktivlarni yetkazib berish majburiyati",
-      "javob_3": "opsion asosida fyuchers bo’lishi mumkin",
-      "javob_4": "moliyaviy aktivlarni joriy davrda sotib olish imkonini beradi"
+      "savol": "To‘lov talabnomasi nima?",
+      "togri_javob": "Yetkazib beruvchi tomonidan bank orqali to‘lovni talab qiluvchi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Valyuta hujjati",
+      "javob_4": "Kassa orderi"
     },
     {
       "id": 63,
-      "savol": "Forvard narx bu-…?",
-      "togri_javob": "forvard shartnomasi tuzish vaqtida unda belgilab qo'yilgan narx",
-      "javob_2": "forvard shartnomasi tuzish vaqtida spot bozrdagi narx",
-      "javob_3": "forvard shartnomasi bajariladigan muddatdagi spot bozordagi narx",
-      "javob_4": "bazis aktivning birja bahosi"
+      "savol": "Yillik moliyaviy hisobot tarkibiga nima kiradi?",
+      "togri_javob": "Balans, foyda-zarar hisoboti, pul oqimlari hisoboti",
+      "javob_2": "Faqat balans",
+      "javob_3": "Faqat depozitlar hisoboti",
+      "javob_4": "Faqat kreditlar hisoboti"
     },
     {
       "id": 64,
-      "savol": "Qaysi hosilaviy qimmatli qog'ozning amalga oshirilishi birja tomonidan kafolatlanadi?",
-      "togri_javob": "fyuchers",
-      "javob_2": "forvard",
-      "javob_3": "opsion va forvard",
-      "javob_4": "svop va forvard"
+      "savol": "Hisoblangan, lekin to‘lanmagan xarajatlar qayerda hisobga olinadi?",
+      "togri_javob": "Hisoblangan xarajatlar hisobvaraqlarida",
+      "javob_2": "Kassada",
+      "javob_3": "Kredit hisobvaraqlarida",
+      "javob_4": "Aktiv hisobvaraqlarda"
     },
     {
       "id": 65,
-      "savol": "Strayk baho deganda nima tushuniladi?",
-      "togri_javob": "Opsion kol va put bazisidagi aktivlarni xarid qilish va sotish bo’yicha belgilangan baho",
-      "javob_2": "Bazisi bir xil instrumentlardan shakllangan bir turdagi hamma optsion shartnomalari",
-      "javob_3": "Bazisdagi aktivlarni sotish huquqini qo’lga kiritish",
-      "javob_4": "Belgilangan muddat tugayotgan kunda bajarilishi mumkin bo’lgan optsion"
+      "savol": "Plastik kartalar vazifasiga ko‘ra qanday turlarga bo‘linadi?",
+      "togri_javob": "Debet va kredit kartalar",
+      "javob_2": "Milliy kartalar",
+      "javob_3": "Plastik kartalar",
+      "javob_4": "Virtual kartalar"
     },
     {
       "id": 66,
-      "savol": "Nima uchun hosilaviy qimmatli qog'ozlar moliyaviy risklarni kamaytirishda samarali usul hisoblanadi?",
-      "togri_javob": "hosilaviy qimmatli qog'ozlar risklarni xedjirlash imkonini beradi",
-      "javob_2": "hosilaviy qimmatli qog'ozlar bazis aktivni sotib olish imkonini beradi",
-      "javob_3": "hosilaviy qimatli qog'ozlar bazis aktivni sotish majburiyatini yuklaydi",
-      "javob_4": "bunday shartnomalar yangi mijoz topish imkonini beradi"
+      "savol": "Bank kunlik buxgalteriya balansi nechta bo‘limdan iborat?",
+      "togri_javob": "2 bo‘lim",
+      "javob_2": "3 bo‘lim",
+      "javob_3": "4 bo‘lim",
+      "javob_4": "5 bo‘lim"
     },
     {
       "id": 67,
-      "savol": "Ipoteka qimmatli qog’ozlari turlari to’g’ri ko’rsatilgan qatorni belgilang.",
-      "togri_javob": "Garov qog’ozi, uy-joy sertifikati, ipoteka obligatsiyasi, ishtirok etish ipoteka sertifikati",
-      "javob_2": "Aksiya, obligatsiya, veksel",
-      "javob_3": "Forvard, opsion, fyuchers, svop",
-      "javob_4": "Valyuta bozori, g’aznachilik majburiyati"
+      "savol": "Qisqa muddatli kreditlar qayerda hisobga olinadi?",
+      "togri_javob": "Aktiv hisobvaraqlarda",
+      "javob_2": "Passiv hisobvaraqlarda",
+      "javob_3": "Kassada",
+      "javob_4": "Kapital hisobvaraqlarida"
     },
     {
       "id": 68,
-      "savol": "Egasi yozilgan va orderli qimmatli qog’ozlar belgilarini o’zida jamlagan, uzatuv yozuvlari orqali cheksiz muomilada bo’ladigan emissiyalanmaydigan ipoteka qimmatli qog’ozi bu…?",
-      "togri_javob": "Garov qog’ozi",
-      "javob_2": "Uy sertifikat",
-      "javob_3": "Ipoteka obligatsiyasi",
-      "javob_4": "Aksiya"
+      "savol": "Buxgalteriya xatolarini to‘g‘rilashda memorial order nechta nusxada yoziladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 69,
-      "savol": "Ipoteka bozorining nechta modellari mavjud?",
-      "togri_javob": "3 ta",
-      "javob_2": "5 ta",
-      "javob_3": "9 ta",
-      "javob_4": "6 ta"
+      "savol": "Akseptli to‘lov talabnomasi qachon kartoteka 1 ga olinadi?",
+      "togri_javob": "Mablag‘ yetarli bo‘lmaganda",
+      "javob_2": "Mablag‘ ortiq bo‘lganda",
+      "javob_3": "Kredit berilganda",
+      "javob_4": "Depozit ochilganda"
     },
     {
       "id": 70,
-      "savol": "Ipoteka bu…?",
-      "togri_javob": "Real aktiv bilan ta’minlangan uzoq muddatli kreditdir",
-      "javob_2": "Ipoteka amaliyotini moliyalashtirish maqsadida muomilaga chiqariladigan va uzoq muddatli ipoteka bilan ta’minlangan qimmatli qog’oz",
-      "javob_3": "Emissiyalanmaydigan qimmatli qog’ozlar",
-      "javob_4": "Emissiyaviy ipoteka qimmatli qog’ozi, bo'lib bu barcha obligatsiyalarni nazarda tutadi"
+      "savol": "Bank balansida qanday tenglik mavjud?",
+      "togri_javob": "Aktiv = Majburiyat + Kapital",
+      "javob_2": "Aktiv = Kapital",
+      "javob_3": "Aktiv = Kredit",
+      "javob_4": "Aktiv = Depozit"
     },
     {
       "id": 71,
-      "savol": "Ipoteka kreditida garov predmeti sifatida nima amal qiladi?",
-      "togri_javob": "koʻchmas mulk",
-      "javob_2": "naqd pullar",
-      "javob_3": "qimmatli qogʻozlar",
-      "javob_4": "texnika"
+      "savol": "Tijorat banklari hisobvaraqlar rejasining bo‘limlari qanday?",
+      "togri_javob": "Aktivlar, majburiyatlar, kapital, daromadlar, xarajatlar",
+      "javob_2": "Aktivlar va kreditlar",
+      "javob_3": "Kreditlar va depozitlar",
+      "javob_4": "Kapital va kassalar"
     },
     {
       "id": 72,
-      "savol": "Ipoteka bozori modellari keltirilgan qatorni aniqlang.",
-      "togri_javob": "anʼanaviy model, ikki bosqichli model, ssuda-jamgʻarma modeli",
-      "javob_2": "anʼanaviy model, uch bosqichli model, ssuda-jamgʻarma modeli",
-      "javob_3": "anʼanaviy model, ssuda-jamgʻarma modeli",
-      "javob_4": "anʼanaviy model, ikki bosqichli model"
+      "savol": "To‘lov topshiriqnomasi bir bankda xizmat ko‘rsatilganda nechta nusxada taqdim etiladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 73,
-      "savol": "Yevropada ipotekaga asoslangan eng yirik obligatsiya bozorini aniqlang.",
-      "togri_javob": "Germaniya bozori",
-      "javob_2": "Fransiya bozori",
-      "javob_3": "Italiya bozori",
-      "javob_4": "Angliya bozori"
+      "savol": "Talab qilib olinguncha depozit nima?",
+      "togri_javob": "Istalgan vaqtda yechib olinadigan depozit",
+      "javob_2": "Muddatli depozit",
+      "javob_3": "Kredit depozit",
+      "javob_4": "Investitsiya depozit"
     },
     {
       "id": 74,
-      "savol": "Ipoteka agenti vazifalari nimalardan iborat?",
-      "togri_javob": "Ipoteka qimmatli qog'ozlarini chiqaradi va bozorda sotadi, hamda bankni qayta moliyalashtiradi",
-      "javob_2": "Ipoteka kreditlarini beradi",
-      "javob_3": "Ipoteka kreditlarining risklarini sug'urtalaydi",
-      "javob_4": "Ipoteka qimmatli qog'ozlarini chiqaradi va ipoteka kreditlarini taqdim etadi"
+      "savol": "Bank ekvayer nima?",
+      "togri_javob": "Plastik karta orqali to‘lovlarni qabul qiluvchi bank",
+      "javob_2": "Kredit banki",
+      "javob_3": "Depozit banki",
+      "javob_4": "Investitsiya banki"
     },
     {
       "id": 75,
-      "savol": "Ipoteka bozori ikki bosqichli modeli bu-…?",
-      "togri_javob": "Amerika modeli",
-      "javob_2": "Yevropa modeli",
-      "javob_3": "ssuda jamgʻarma modeli",
-      "javob_4": "Osiyo modeli"
+      "savol": "Naqd pullar qayerda hisobga olinadi?",
+      "togri_javob": "Kassa hisobvaraqlarida",
+      "javob_2": "Kredit hisobvaraqlarida",
+      "javob_3": "Kapital hisobvaraqlarida",
+      "javob_4": "Depozit hisobvaraqlarida"
     },
     {
       "id": 76,
-      "savol": "Amerika modelida agarda ipoteka krediti boʻyicha defolt (qaytarmaslik) holati yuzaga keladigan boʻlsa, zarar kimning zimmasiga tushadi?",
-      "togri_javob": "ipoteka agenti",
-      "javob_2": "mulkdor",
-      "javob_3": "investor",
-      "javob_4": "kreditor"
+      "savol": "To‘lov to‘lovchining roziligisiz qaysi hujjat asosida amalga oshiriladi?",
+      "togri_javob": "Inkasso topshiriqnomasi",
+      "javob_2": "Chek",
+      "javob_3": "Kredit orderi",
+      "javob_4": "Valyuta orderi"
     },
     {
       "id": 77,
-      "savol": "Majburiyatlarning bajarilishi uy-joy garov ta’minoti bilan ta’minladigan emissiyaviy qimmatli qog’oz - bu?",
-      "togri_javob": "ipoteka obligatsiyasi",
-      "javob_2": "garov aksiyasi",
-      "javob_3": "davlat obligatsiyasi",
-      "javob_4": "munitsipal obligatsiya"
+      "savol": "Ichki bank nazorati nima?",
+      "togri_javob": "Bank operatsiyalarining qonunchilikka muvofiqligini tekshirish tizimi",
+      "javob_2": "Soliq nazorati",
+      "javob_3": "Audit tashkiloti",
+      "javob_4": "Tashqi nazorat"
     },
     {
       "id": 78,
-      "savol": "Ipoteka bozorida bankning taʼminlangan obligatsiya tipidagi qimmatli qogʻozlarni mustaqil chiqarishi va shu asosda garovga qoʻyilayotgan koʻchmas mulkni kreditga berishi bilan tavsiflanuvchi model nima deb ataladi?",
-      "togri_javob": "yevropa modeli (an'anaviy)",
-      "javob_2": "amerika (ikki bosqichli) modeli",
-      "javob_3": "ssuda jamgʻarma modeli",
-      "javob_4": "aralash yoki gibrid model"
+      "savol": "Naqd pulsiz hisob-kitoblarda qaysi hujjatlar ishlatiladi?",
+      "togri_javob": "To‘lov topshiriqnomasi, talabnoma, inkasso topshiriqnomasi",
+      "javob_2": "Chek",
+      "javob_3": "Kredit shartnomasi",
+      "javob_4": "Kassa orderi"
     },
     {
       "id": 79,
-      "savol": "Ipoteka kreditlari bo'yicha qayta moliyalashtirish sxemasi dastlab qayerda va qachon qo'llanila boshlangan?",
-      "togri_javob": "Amerika qoʻshma shtatlarida 1930-yillardan boshlab",
-      "javob_2": "Buyuk Britaniyada 1940-yillardan boshlab",
-      "javob_3": "Yaponiyada 1950-yillardan boshlab",
-      "javob_4": "Italiyada 1920-yillarda"
+      "savol": "Daromad hisobvaraqlari qaysi raqamdan boshlanadi?",
+      "togri_javob": "4",
+      "javob_2": "3",
+      "javob_3": "2",
+      "javob_4": "1"
     },
     {
       "id": 80,
-      "savol": "Ipoteka kreditlari bozorining likvidligi nimaga bog‘liq?",
-      "togri_javob": "Kreditlarning sug‘urta bilan ta’minlanganligiga va ikkilamchi bozordagi aktiv aylanishiga",
-      "javob_2": "Aholining iste’mol saviyasi pasayishiga",
-      "javob_3": "Qurilish materiallari importiga",
-      "javob_4": "Markaziy bank tomonidan milliy valyutaning mustahkamlanishiga"
+      "savol": "Naqd pul topshirish e’lonnomasi nechta qismdan iborat?",
+      "togri_javob": "3 qism",
+      "javob_2": "2 qism",
+      "javob_3": "4 qism",
+      "javob_4": "5 qism"
     },
     {
       "id": 81,
-      "savol": "Ipoteka qimmatli qog‘ozlarini chiqarishda qanday asosiy risk mavjud?",
-      "togri_javob": "Kredit oluvchilarning to‘lovga qodir emasligi va defoltga uchrashi",
-      "javob_2": "Garovdagi mulkning qiymati keskin oshib ketishi",
-      "javob_3": "Soliq stavkalarining pasayishi",
-      "javob_4": "Banklardagi mijozlar sonining kamayishi"
+      "savol": "Inkasso topshiriqnomasi kimlar tomonidan taqdim etiladi?",
+      "togri_javob": "Undiruvchi tashkilotlar tomonidan",
+      "javob_2": "Mijoz tomonidan",
+      "javob_3": "Bank tomonidan",
+      "javob_4": "Soliq tomonidan"
     },
     {
       "id": 82,
-      "savol": "Sukuk turlari to'gri keltirilgan javobni belgilang.",
-      "togri_javob": "Mudoraba, ijara",
-      "javob_2": "Obligatsiya, istisna",
-      "javob_3": "Oddiy aksiya, salam",
-      "javob_4": "Mushoraka, imtiyozli aksiya"
+      "savol": "Mijoz bankni qanday tanlaydi?",
+      "togri_javob": "Mustaqil ravishda",
+      "javob_2": "Davlat orqali",
+      "javob_3": "Soliq orqali",
+      "javob_4": "Majburiy tartibda"
     },
     {
       "id": 83,
-      "savol": "Islom moliyasida \"rabbul mol\" nima vazifani bajaradi?",
-      "togri_javob": "investor",
-      "javob_2": "anderrayter",
-      "javob_3": "shariat kengashi",
-      "javob_4": "emitent"
+      "savol": "Jamg‘arma depozit nima?",
+      "togri_javob": "Jamg‘arish uchun mo‘ljallangan depozit",
+      "javob_2": "Kredit depozit",
+      "javob_3": "Investitsiya depozit",
+      "javob_4": "Valyuta depozit"
     },
     {
       "id": 84,
-      "savol": "Sukuk turlaridan qaysi birlarini ikkilamchi bozorda sotish mumkin?",
-      "togri_javob": "Mudoraba,mushoraka, ijara",
-      "javob_2": "Mudoraba, murobaha, ijara",
-      "javob_3": "Salam,mushoraka, istisna",
-      "javob_4": "Mudoraba,mushoraka, murobaha"
+      "savol": "Akseptli to‘lov talabnomasi bir bankda xizmat ko‘rsatilganda nechta nusxada beriladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 85,
-      "savol": "Sukuk turlaridan qaysi birlarini ikkilamchi bozorda sotish mumkin emas?",
-      "togri_javob": "Murobaha, salam, istisna",
-      "javob_2": "Mudoraba, murobaha, ijara",
-      "javob_3": "Mudoraba,mushoraka, murobaha",
-      "javob_4": "Salam,mushoraka, istisna"
+      "savol": "Akseptli to‘lov talabnomasi turli banklarda nechta nusxada beriladi?",
+      "togri_javob": "3 nusxada",
+      "javob_2": "2 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 86,
-      "savol": "Islom moliyasida qasi moliyaviy instrumentlar muomilasi amalga oshirilmaydi?",
-      "togri_javob": "derivativlar",
-      "javob_2": "aksiya",
-      "javob_3": "takaful sug'urta",
-      "javob_4": "murobaha"
+      "savol": "Daromad va xarajatlar qanday tartibda hisobga olinadi?",
+      "togri_javob": "Hisoblash usuli bo‘yicha",
+      "javob_2": "Kassali usul bo‘yicha",
+      "javob_3": "Analitik usul",
+      "javob_4": "Balans usuli"
     },
     {
       "id": 87,
-      "savol": "\"Islom darchalari\"ning mohiyati tog'ri berilgan javobni toping.",
-      "togri_javob": "bunda an'anaviy tijorat banki o'z tuzilmasida qo'shimcha bo'linma yoki yangi yuridik shaxs tashkil etadi, uning modeli islom bank ishi tamoyiliga asoslanadi",
-      "javob_2": "bu islom bankining filiali",
-      "javob_3": "bu kichik ustav bilan tuzilgan islom banklari",
-      "javob_4": "bu an'anaviy tijorat banki o'z tuzilmasida qo'shimcha bo'linma yoki yangi yuridik shaxs tashkil etadi, uning modeli faqatgina islom bank ishi tamoyiliga emas balki an'anaviy bank modeliga ham asoslanadi"
+      "savol": "Mijozlarga qanday hisobvaraqlar ochiladi?",
+      "togri_javob": "Talab qilib olinguncha, jamg‘arma va muddatli depozitlar",
+      "javob_2": "Kredit hisobvaraqlari",
+      "javob_3": "Investitsiya hisobvaraqlari",
+      "javob_4": "Valyuta hisobvaraqlari"
     },
     {
       "id": 88,
-      "savol": "Sukukning o'ziga xos xususiyati ko'rsatilgan qatorni belgilang.",
-      "togri_javob": "bu qimmatli qog'ozning so'ndirilish muddati mavjud bo'ladi",
-      "javob_2": "bu qimmatli qog'ozning so'ndirilish muddati mavjud emas",
-      "javob_3": "bu qimmatli qog'oz foiz ko'rinishida daromad olib keladi",
-      "javob_4": "bu qimmatli qog'oz faqat majburiyat yuklaydi"
+      "savol": "Talab qilib olinguncha depozit ochish uchun nima talab qilinadi?",
+      "togri_javob": "Hujjatlar to‘plami va ariza",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Soliq xulosasi",
+      "javob_4": "Audit xulosasi"
     },
     {
       "id": 89,
-      "savol": "Islomiy banklarning faoliyatiga asos bo‘luvchi qoidalardan biri- bu…",
-      "togri_javob": "Pul puldan paydo bo‘lmasligi kerak",
-      "javob_2": "Pul bu tovar",
-      "javob_3": "Bitim ishtirokchilari o‘rtasidagi munosabat foiz asosida qurilishi lozim",
-      "javob_4": "Foyda olish uchun asos pulning vaqt bo'yicha qiymati hisoblanadi"
+      "savol": "Inkasso topshiriqnomasi nima?",
+      "togri_javob": "Mablag‘ni majburiy undirib olish hujjati",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Kassa hujjati",
+      "javob_4": "Chek"
     },
     {
       "id": 90,
-      "savol": "Qaysi tashkilot xalqaro islom moliyasi standartlarini ishlab chiqadi?",
-      "togri_javob": "AAOIFI",
-      "javob_2": "Jahon banki",
-      "javob_3": "IMF",
-      "javob_4": "SEC"
+      "savol": "Bank kreditlari bo‘yicha vositachilik daromadlari qaysi guruhga kiradi?",
+      "togri_javob": "Foizli daromadlar",
+      "javob_2": "Komission daromadlar",
+      "javob_3": "Investitsion daromadlar",
+      "javob_4": "Operatsion daromadlar"
     },
     {
       "id": 91,
-      "savol": "Islomiy qimmatli qog'oz berilgan javobni toping.",
-      "togri_javob": "Sukuk",
-      "javob_2": "Yevrobond",
-      "javob_3": "Imtiyozli aksiya",
-      "javob_4": "Derivativlar"
+      "savol": "Aktiv hisobvaraqlar qanday joylashtiriladi?",
+      "togri_javob": "Likvidlik darajasiga qarab",
+      "javob_2": "Alifbo tartibida",
+      "javob_3": "Tasodifiy",
+      "javob_4": "Kredit tartibida"
     },
     {
       "id": 92,
-      "savol": "Islomiy qimmatli qog'oz hisoblanuvchi sukuk turlari berilgan javobni toping.",
-      "togri_javob": "Mudoraba, Mushoraka, Murobaha, Salam, Istisna, Ijara",
-      "javob_2": "Opsion, Fyuchers, Svop, Forvard",
-      "javob_3": "Yevrobondlar, Yashil obligatsiyalar,",
-      "javob_4": "Kummulyativ va no kummulyativ aksiyalar"
+      "savol": "Akseptsiz to‘lov talabnomasi bir bankda nechta nusxada taqdim etiladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 93,
-      "savol": "Sherikchilika asoslangan sukuk turi qaysi?",
-      "togri_javob": "Mudoraba sukuki",
-      "javob_2": "Salam sukuki",
-      "javob_3": "Istisna sukuki",
-      "javob_4": "Ijara sukuki"
+      "savol": "Korxonalar nechta bankda hisobvaraq ochishi mumkin?",
+      "togri_javob": "Bir nechta bankda",
+      "javob_2": "Faqat bittada",
+      "javob_3": "Ikki bankda",
+      "javob_4": "Uch bankda"
     },
     {
       "id": 94,
-      "savol": "Takoful nima?",
-      "togri_javob": "Islomiy sugʻurta",
-      "javob_2": "Zakot hisobi",
-      "javob_3": "Savdo shartnomasi",
-      "javob_4": "An'naviy sug'urta"
+      "savol": "Imzo va muhr kartochkasi nechta nusxada topshiriladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 95,
-      "savol": "Qaysi javobda Ikkilamchi bozorda sotiladigan sukuk turi berilgan?",
-      "togri_javob": "Mushoraka sukuki",
-      "javob_2": "Murobaha sukuki",
-      "javob_3": "Salam sukuki",
-      "javob_4": "Istisna sukuki"
+      "savol": "Hisobvaraq yopilganda bank soliq organlariga necha kunda xabar beradi?",
+      "togri_javob": "3 ish kunida",
+      "javob_2": "5 ish kunida",
+      "javob_3": "7 ish kunida",
+      "javob_4": "10 ish kunida"
     },
     {
       "id": 96,
-      "savol": "Yevroobligatsiyalardan foydalanish amaliyotidagi oʻziga xos kamchiliklar qaysi javobda keltirilgan?",
-      "togri_javob": "Axborotlarni oshkor etish boʻyicha qarz oluvchiga nisbatan jiddiy talablarning mavjudligi",
-      "javob_2": "Yevroobligatsiya muomalaga chiqarish jarayonining yuqori miqdorda xarajatlar talab qilmasligi",
-      "javob_3": "Qimmatli qogʻozlarni tayyorlash va joylashtirishning koʻp vaqt talab qilmasligi",
-      "javob_4": "Foiz stavkalarining juda pastligi"
+      "savol": "Inkasso topshiriqnomasi turli banklarda nechta nusxada beriladi?",
+      "togri_javob": "3 nusxada",
+      "javob_2": "2 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
     },
     {
       "id": 97,
-      "savol": "Yevroqogʻozlar – bu …?",
-      "togri_javob": "xorijiy investorlar oʻrtasida joylashtirish maqsadida emitent uchun xorijiy valyutada chiqariladigan qimmatli qogʻozlardir",
-      "javob_2": "kompaniyalar, umumiy holda transmilliy kompaniyalar, bank­lar, investitsion fondlarning ham milliy bozorda, ham boshqa mamlakatlar bozorlarida savdoga qoʻyiladigan aksiyalaridir.",
-      "javob_3": "Amerika banklari boʻlinmalari va shoʻba kompaniyalari va boshqa davlat banklari tomonidan xorijiy valyutada (asosan AQSH dollarida ) chiqarilgan qimmatli qogʻozlar.",
-      "javob_4": "maʼlum bir miqdordagi amerika depozitar aksiyalariga egalikni tasdiqlovchi qimmatli qogʻoz"
+      "savol": "Asosiy vositalar qayerda hisobga olinadi?",
+      "togri_javob": "Aktiv hisobvaraqlarda",
+      "javob_2": "Passiv hisobvaraqlarda",
+      "javob_3": "Kassada",
+      "javob_4": "Depozitlarda"
     },
     {
       "id": 98,
-      "savol": "Mamlakatdan tashqarida qattiq valyutada sotiladigan obligatsiya turini aniqlang.",
-      "togri_javob": "yevroobligatsiya",
-      "javob_2": "konvert obligatsiyalar",
-      "javob_3": "munitsipal obligatsiyalar",
-      "javob_4": "korporativ obligatsiyalar"
+      "savol": "Kapital hisobvaraqlari qaysi raqamdan boshlanadi?",
+      "togri_javob": "3",
+      "javob_2": "2",
+      "javob_3": "1",
+      "javob_4": "4"
     },
     {
       "id": 99,
-      "savol": "Yevroaksiyalar – bu …?",
-      "togri_javob": "kompaniyalar, umumiy holda transmilliy kompaniyalar, banklar, investitsion fondlarning ham milliy bozorda, ham boshqa mam­lakatlar bozorlarida savdoga qoʻyiladigan aksiyalaridir",
-      "javob_2": "transmilliy kompaniyalar, banklar, investitsion fondlarning boshqa mamlakatlar bozorlarida savdoga qoʻyadigan aksiyalaridir",
-      "javob_3": "maʼlum bir miqdordagi amerika depozitar aksiyalariga egalikni tasdiqlovchi qimmatli qogʻoz",
-      "javob_4": "amerika banklari boʻlinmalari va boshqa davlat banklari tomonidan xorijiy valyutada (asosan AQSH dollarida ) chiqarilgan qimmatli qogʻozlar."
+      "savol": "Bank operatsiyalari buxgalteriya hisobida qanday aks ettiriladi?",
+      "togri_javob": "Ikki yoqlama yozuv orqali",
+      "javob_2": "Bir yoqlama yozuv orqali",
+      "javob_3": "Faqat debet orqali",
+      "javob_4": "Faqat kredit orqali"
     },
     {
       "id": 100,
-      "savol": "Yevroaksiyalar savdosi amalga oshiriladigan asosiy moli­yaviy markazlar nomi qaysi javobda toʻgʻri keltirilgan?",
-      "togri_javob": "London, Singapur, Lyuksemburg",
-      "javob_2": "Fransiya, Italiya, Angliya",
-      "javob_3": "Shveysariya, Avstriya",
-      "javob_4": "Italiya, Angliya, Shveysariya."
+      "savol": "Bank buxgalteriya ishlari qaysi bo‘limga yuklatilgan?",
+      "togri_javob": "Hisob-operatsion bo‘limiga",
+      "javob_2": "Kredit bo‘limiga",
+      "javob_3": "Marketing bo‘limiga",
+      "javob_4": "Investitsiya bo‘limiga"
     },
     {
       "id": 101,
-      "savol": "Yevroobligatsiyalarning o’ziga xos xususiyatlari to’gri berilgan javobni aniqlang.",
-      "togri_javob": "Ushbu obligatsiyalarni sotish nisbatan oson, past riskli va xavfsiz investitsiya alternativiga ega",
-      "javob_2": "Ushbu obligatsiyalar faqat qisqa muddatli bo’ladi",
-      "javob_3": "Yevroobligatsiyalar qat’iy va o’zgaruvchan foiz stavkalari bilan chiqarilmaydi",
-      "javob_4": "Yevroobligatsiyalar global obligatsiyalar bozorining taxminan 25%ni tashkil qiladi"
+      "savol": "Hisob-operatsion bo‘limini kim boshqaradi?",
+      "togri_javob": "Bosh buxgalter",
+      "javob_2": "Bank direktori",
+      "javob_3": "Kredit bo‘limi boshlig‘i",
+      "javob_4": "Auditor"
     },
     {
       "id": 102,
-      "savol": "Odatda yevroobligatsiyalar kamida nechi yilga chiqariladi?",
-      "togri_javob": "3 yil",
-      "javob_2": "2 yil",
-      "javob_3": "1 yil",
-      "javob_4": "10 yil"
+      "savol": "Front-ofis nima?",
+      "togri_javob": "Mijozlar bilan ishlaydigan bank bo‘limi",
+      "javob_2": "Hisobot bo‘limi",
+      "javob_3": "Audit bo‘limi",
+      "javob_4": "Soliq bo‘limi"
     },
     {
       "id": 103,
-      "savol": "Yevroobligatsiyalarda ta’minot va garov bo’yicha talablar mavjudmi?",
-      "togri_javob": "mavjud emas",
-      "javob_2": "mavjud",
-      "javob_3": "shartnoma asosida mavjud",
-      "javob_4": "ma’lum vaziyatlarda qo’yiladi"
+      "savol": "Bank hisob-operatsion bo‘limining asosiy xodimlari kimlar?",
+      "togri_javob": "Buxgalterlar",
+      "javob_2": "Marketing xodimlari",
+      "javob_3": "Kredit menejerlari",
+      "javob_4": "Auditorlar"
     },
     {
       "id": 104,
-      "savol": "Valyutalar hamda maʼlum bir valyutada shakllantirilgan bank depozitlari savdosi qanday bozorda amalga oshiriladi?",
-      "togri_javob": "xorijiy valyuta bozorida",
-      "javob_2": "dillerlar bozorida",
-      "javob_3": "qimmatli qogʻozlar bozorida",
-      "javob_4": "kapital bozorida"
+      "savol": "Bank majburiyatlari nima?",
+      "togri_javob": "Bankning qarzlari va depozitlari",
+      "javob_2": "Bank aktivlari",
+      "javob_3": "Bank daromadlari",
+      "javob_4": "Bank xarajatlari"
     },
     {
       "id": 105,
-      "savol": "Xalqaro amaliyotda valyutalarning qanday turlari mavjud?",
-      "togri_javob": "Qattiq valyuta, yumshoq valyuta, xalqaro rezerv valyuta",
-      "javob_2": "Xorijiy valyuta, erkin ishlatiladigan valyuta",
-      "javob_3": "Xorijiy valyuta, mahalliy valyuta, qattiq valyuta",
-      "javob_4": "Xalqaro rezerv valyuta, milliy valyuta"
+      "savol": "Bosh kitob nima?",
+      "togri_javob": "Sintetik hisob registri",
+      "javob_2": "Analitik hisob",
+      "javob_3": "Kassa hujjati",
+      "javob_4": "Kredit shartnomasi"
     },
     {
       "id": 106,
-      "savol": "Qattiq valyuta (hard currency) - bu?",
-      "togri_javob": "iqtisodiy va siyosiy jihatdan barqaror hisoblangan mamlakatlarning almashuv kursi barqaror bo'lgan valyutalari",
-      "javob_2": "to'lov balansining joriy operatsiyalar bo'limida valyutaviy cheklashlar bo'lmagan mamlakatlarning milliy valyutalari",
-      "javob_3": "xalqaro miqyosda to'lov vositasini bajara olmaydigan, ya'ni tashqi konvertirlikka ega bo'lmagan valyutalar",
-      "javob_4": "Xalqaro valyuta jamg'armasi ekspertlari tomonidan tavsiya qilingan valyutalar"
+      "savol": "Yordamchi kitoblarda nima aks ettiriladi?",
+      "togri_javob": "Analitik ma’lumotlar",
+      "javob_2": "Balans",
+      "javob_3": "Hisobot",
+      "javob_4": "Kredit shartnomasi"
     },
     {
       "id": 107,
-      "savol": "Yumshoq valyuta (soft currency) - bu?",
-      "togri_javob": "xalqaro miqyosda to'lov vositasini bajara olmaydigan, ya'ni tashqi konvertirlikka ega bo'lmagan valyutalar",
-      "javob_2": "xalqaro valyuta jamg'armasi ekspertlari tomonidan tavsiya qilingan valyutalar",
-      "javob_3": "to'lov balansining joriy operatsiyalar bo'limida valyutaviy cheklashlar bo'lmagan mamlakatlarning milliy valyutalari",
-      "javob_4": "iqtisodiy va siyosiy jihatdan barqaror hisoblangan mamlakatlarning almashuv kursi barqaror bo'lgan valyutalari"
+      "savol": "Birlamchi operatsiyalarni aks ettiruvchi hisoblar qanday ataladi?",
+      "togri_javob": "Analitik hisobvaraqlar",
+      "javob_2": "Passiv hisobvaraqlar",
+      "javob_3": "Kredit hisobvaraqlari",
+      "javob_4": "Depozit hisobvaraqlari"
     },
     {
       "id": 108,
-      "savol": "Ikkita valyuta o‘rtasida nisbat orqali uchinchi valyuta kursini belgilash nima deyiladi?",
-      "togri_javob": "kross kurs",
-      "javob_2": "forvard kurs",
-      "javob_3": "spot kurs",
-      "javob_4": "marja"
+      "savol": "Analitik hisobvaraqlar nechta xonali bo‘ladi?",
+      "togri_javob": "20 xonali",
+      "javob_2": "10 xonali",
+      "javob_3": "15 xonali",
+      "javob_4": "8 xonali"
     },
     {
       "id": 109,
-      "savol": "Talab va taklif ta'sirida valyutaning qanday kursi shakllanadi?",
-      "togri_javob": "real kurs",
-      "javob_2": "nominal kurs",
-      "javob_3": "tijorat kursi",
-      "javob_4": "rasmiy kurs."
+      "savol": "Banklarda ish kuni va hujjatlar aylanishi qaysi hujjat bilan belgilanadi?",
+      "togri_javob": "Bank ichki nizomi",
+      "javob_2": "Soliq kodeksi",
+      "javob_3": "Kredit shartnomasi",
+      "javob_4": "Audit nizomi"
     },
     {
       "id": 110,
-      "savol": "O'zbekiston Respublikasining davlat qimmatli qog'ozlari tarkibiga … lar kiradi.",
-      "togri_javob": "kuponli va diskontli g'aznachilik obligatsiyalari va Markaziy bank obligatsiyalari",
-      "javob_2": "kuponli va diskontli g'aznachilik majburiyatlari, tijorat banklari aksiyalar",
-      "javob_3": "Markaziy banki obligatsiyalari va tijorat banklari obligatsiyalari",
-      "javob_4": "rezident yuridik shaxs obligatsiyalari"
+      "savol": "Aktiv hisobvaraqlarda kamayish qaysi tomonda aks ettiriladi?",
+      "togri_javob": "Kredit tomonida",
+      "javob_2": "Debet tomonida",
+      "javob_3": "Balans tomonida",
+      "javob_4": "Analitik tomonida"
     },
     {
       "id": 111,
-      "savol": "O'zbekistonda davlat obligatsiyalarining emitenti bo’lib qaysi tashkilot ishtirok etadi?",
-      "togri_javob": "Markaziy bank",
-      "javob_2": "Vazirlar mahkamasi",
-      "javob_3": "Adliya Vazirligi",
-      "javob_4": "Banklar assotsiatsiyasi"
+      "savol": "Aktiv hisobvaraqlarda ko‘payish qayerda aks ettiriladi?",
+      "togri_javob": "Debet tomonida",
+      "javob_2": "Kredit tomonida",
+      "javob_3": "Balans tomonida",
+      "javob_4": "Analitik tomonida"
     },
     {
       "id": 112,
-      "savol": "G'azna majburiyatlari deganda nimani tushunasiz?",
-      "togri_javob": "davlatning qarzdorligini tasdiqlovchi maxsus qog’ozni",
-      "javob_2": "jismoniy shaxsning qarzdorligini tasdiqlovchi maxsus qog’ozni",
-      "javob_3": "maxsus nodavlat fondlarining qarzdorligini tasdiqlovchi maxsus qog’ozni",
-      "javob_4": "faqat maxsus fondlar tomonidan chiqariluvchi diskontli qimmatli  qog'ozni"
+      "savol": "Bank foizli daromadlari asosan qaysi operatsiyadan olinadi?",
+      "togri_javob": "Kredit operatsiyalaridan",
+      "javob_2": "Depozitlardan",
+      "javob_3": "Valyuta sotishdan",
+      "javob_4": "Reklama xizmatidan"
     },
     {
       "id": 113,
-      "savol": "G'azna majburiyatlari qanday maqsadlarda chiqariladi?",
-      "togri_javob": "byudjet defitsitini to’ldirish maqsadida",
-      "javob_2": "korxonalarni to’lovlilik qobiliyatini yaxshilash maqsadida",
-      "javob_3": "maxsus nodavlat fondlariga qarz berish maqsadida",
-      "javob_4": "xalqaro tashkilotlarga yordam berish maqsadida"
+      "savol": "Nomoddiy aktivlar qayerda hisobga olinadi?",
+      "togri_javob": "Aktiv hisobvaraqlarda",
+      "javob_2": "Passiv hisobvaraqlarda",
+      "javob_3": "Kassada",
+      "javob_4": "Kredit hisobvaraqlarida"
     },
     {
       "id": 114,
-      "savol": "G'azna majburiyatlari qaysi qimmatli qog’ozlarga o’xshashdir?",
-      "togri_javob": "obligatsiyalarga",
-      "javob_2": "aksiyalarga",
-      "javob_3": "veksellarga",
-      "javob_4": "varrantlarga"
+      "savol": "Mijoz hisobvarag‘i ochilganda nazorat kaliti kim tomonidan belgilanadi?",
+      "togri_javob": "Bank tomonidan",
+      "javob_2": "Mijoz tomonidan",
+      "javob_3": "Soliq organi tomonidan",
+      "javob_4": "Auditor tomonidan"
     },
     {
       "id": 115,
-      "savol": "G'azna majburiyati qaysi emitent tomonidan muomilaga kiritiluvchi qimmatli qog'oz turi hisoblanadi?",
-      "togri_javob": "davlat qimmatli qog’ozlaridir",
-      "javob_2": "korxonalar qimmatli qog’ozlaridir",
-      "javob_3": "aholi qimmatli qog’ozlaridir",
-      "javob_4": "nodavlat tashkilotlar qimmatli qog’ozlaridir"
+      "savol": "Ish haqi plastik kartaga o‘tkazilganda qanday operatsiya bajariladi?",
+      "togri_javob": "Naqd pulsiz o‘tkazma",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Valyuta operatsiyasi",
+      "javob_4": "Investitsiya operatsiyasi"
     },
     {
       "id": 116,
-      "savol": "G'azna majburiyatlari hisobiga  yig’ilgan qarz mablag’lari qayerga yo'naltiriladi?",
-      "togri_javob": "davlat byudjetiga tushadi",
-      "javob_2": "banklar ixtiyoriga o’tkaziladi",
-      "javob_3": "maxsus fondlarga tushadi",
-      "javob_4": "davlatning investitsiya siyosatini moliyalashtirishga sariflanadi"
+      "savol": "Inkassator qopidagi pul qayta sanalgunga qadar qayerda hisobga olinadi?",
+      "togri_javob": "Tranzit hisobvaraqlarda",
+      "javob_2": "Kassada",
+      "javob_3": "Kredit hisobvaraqlarida",
+      "javob_4": "Depozit hisobvaraqlarida"
     },
     {
       "id": 117,
-      "savol": "Uzoq muddatli g'azna majburiyatlari uchun to’lov qanday tartibda to'lanadi?",
-      "togri_javob": "har yili kuponlar bo’yicha to’lanadi",
-      "javob_2": "har yili yutuqlar bo’yicha to’lanadi",
-      "javob_3": "har yili diskontlar bo’yicha to’lanadi",
-      "javob_4": "har yili rendit bo’yicha to’lanadi"
+      "savol": "Inkassatsiya qilingan pul ortiqcha chiqsa qanday operatsiya bajariladi?",
+      "togri_javob": "Ortiqcha mablag‘ sifatida hisobga olinadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozitga o‘tkaziladi",
+      "javob_4": "Investitsiya qilinadi"
     },
     {
       "id": 118,
-      "savol": "Davlat qimmatli qog‘ozlarini joylashtirish va ularning muomalasi qanday amalga oshiriladi?",
-      "togri_javob": "davlat qimmatli qog‘ozlarini joylashtirish va ularning muomalasi qonunchilikda belgilangan tartibda amalga oshiriladi",
-      "javob_2": "davlat qimmatli qog‘ozlarini joylashtirish va ularning muomalasi turli tashkilotlarni ichki xujjatlariga ko'ra amalga oshiriladi",
-      "javob_3": "davlat qimmatli qog‘ozlarini joylashtirish vazirliklar tomonidan belgilangan tartibda amalga oshiriladi",
-      "javob_4": "davlat qimmatli qog‘ozlarini joylashtirish tijorat banklari belgilangan tartibda amalga oshiriladi"
+      "savol": "Akkreditiv bo‘yicha to‘lov qachon amalga oshiriladi?",
+      "togri_javob": "Hujjatlar taqdim etilganda",
+      "javob_2": "Kredit berilganda",
+      "javob_3": "Depozit ochilganda",
+      "javob_4": "Valyuta sotilganda"
     },
     {
       "id": 119,
-      "savol": "Davlat qimmatli qog'ozlarining daromad keltirish shakliga ko'ra qanday turlari mavjud?",
-      "togri_javob": "kuponli va diskontli",
-      "javob_2": "kuponli va dividend to'lanadigan",
-      "javob_3": "faqat diskontli daromad keltiradi",
-      "javob_4": "faqat kuponli daromad keltiradi"
+      "savol": "Rezident banklar vakillik hisobvaraqlarini qayerda ochadi?",
+      "togri_javob": "Markaziy bankda",
+      "javob_2": "Soliq organida",
+      "javob_3": "Audit tashkilotida",
+      "javob_4": "Investitsiya fondida"
     },
     {
       "id": 120,
-      "savol": "Qanday sabab bilan davlat qisqa muddatli qimmatli qogʻozlari (T-Bills) emissiya qilinadi?",
-      "togri_javob": "davlat qarzini qoplash uchun",
-      "javob_2": "davlatdagi inflyatsiya surʼatlarini pasaytirish uchun",
-      "javob_3": "valyuta kursini oshirish uchun",
-      "javob_4": "davlatdagi banklarning likvidliligini saqlab qolish maqsadida"
+      "savol": "Initsiator bank nima?",
+      "togri_javob": "To‘lovni boshlovchi bank",
+      "javob_2": "Kredit beruvchi bank",
+      "javob_3": "Depozit banki",
+      "javob_4": "Investitsiya banki"
     },
     {
       "id": 121,
-      "savol": "Hech qanday markaziy hokimiyat tomonidan berilmaydigan va uni davlat aralashuvi yoki manipulyatsiyasidan holi hisoblanadigan toʻlov tizimlari - bu…?",
-      "togri_javob": "kriptovalyutalar",
-      "javob_2": "xorijiy valyutalar",
-      "javob_3": "elektron pullar",
-      "javob_4": "naqd pullar"
+      "savol": "Inkasso topshiriqnomasini kim berishi mumkin?",
+      "togri_javob": "Undiruvchi tashkilot",
+      "javob_2": "Mijoz",
+      "javob_3": "Auditor",
+      "javob_4": "Investor"
     },
     {
       "id": 122,
-      "savol": "Kriptovalyuta asosini tashkil etuvchi texnologiyalar nima deb ataladi?",
-      "togri_javob": "Blokcheyn texnologiyalar",
-      "javob_2": "Birja kompyuterlari",
-      "javob_3": "Valyuta texnologiyalari",
-      "javob_4": "Terminallar"
+      "savol": "Memorial order qachon ishlatiladi?",
+      "togri_javob": "Buxgalteriya tuzatishlarida",
+      "javob_2": "Kredit berishda",
+      "javob_3": "Depozit ochishda",
+      "javob_4": "Valyuta sotishda"
     },
     {
       "id": 123,
-      "savol": "Bitkoinning narxi baland bo‘lganligi tufayli uni kichik birliklarda ifodalash uchun qanday birlik ishlatiladi?",
-      "togri_javob": "Satoshi",
-      "javob_2": "Bitkoin Cash",
-      "javob_3": "Cash",
-      "javob_4": "One Coin"
+      "savol": "Mijozga hisobvaraq ochilganda qanday shartnoma tuziladi?",
+      "togri_javob": "Bank hisobvarag‘i shartnomasi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Investitsiya shartnomasi",
+      "javob_4": "Audit shartnomasi"
     },
     {
       "id": 124,
-      "savol": "Kriptovalyutalar qanday valyuta hisoblanadi?",
-      "togri_javob": "Raqamli yoki virtual valyuta",
-      "javob_2": "Qog‘oz shaklidagi valuta",
-      "javob_3": "Metal shakildagi valuta",
-      "javob_4": "Tovar shaklidagi valuta"
+      "savol": "Shartli pul majburiyati nima?",
+      "togri_javob": "Bank kafolati",
+      "javob_2": "Kredit",
+      "javob_3": "Depozit",
+      "javob_4": "Investitsiya"
     },
     {
       "id": 125,
-      "savol": "Fond birja – bu…?",
-      "togri_javob": "savdo qatnashchilari uchun yetarli va qulay sharoitlar yaratuvchi yuridik shaxs",
-      "javob_2": "qimmatli qog’ozlarning nominal narxini aniqlovchi savdo maydonchasi",
-      "javob_3": "birja savdolarida faqat brokerlar ishtirok etadigan bozor",
-      "javob_4": "investorlarga vositachilarni jalb etmay turib savdolarda ishtirok etish imkonini  beruvchi savdo tashkilotchisi"
+      "savol": "Mol sotuvchi qanday hujjat to‘ldiradi?",
+      "togri_javob": "To‘lov talabnomasi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Audit hujjati",
+      "javob_4": "Investitsiya hujjati"
     },
     {
       "id": 126,
-      "savol": "Mijoz topshirig’i bo’yicha va mijozning hisobidan faoliyat olib boruvchi, hamda shu vositachiligi uchun komission mukofat oluvchi, fond birjasida birja shartnomalarini tuzuvchi shaxs kim?",
-      "togri_javob": "broker",
-      "javob_2": "kliring",
-      "javob_3": "investor",
-      "javob_4": "emitent"
+      "savol": "Naqd pulsiz hisob-kitob qoidalarini kim belgilaydi?",
+      "togri_javob": "Markaziy bank",
+      "javob_2": "Soliq organi",
+      "javob_3": "Auditor",
+      "javob_4": "Investitsiya fondi"
     },
     {
       "id": 127,
-      "savol": "Mijozlar buyurtmalariga asosan vositachilik firmalari vakillari tomonidan qimmatli qog’ozlar oldi- sotdi shartnomalari amalga oshiriladigan birja qanday birja hisoblanadi?",
-      "togri_javob": "fond birjasi",
-      "javob_2": "tovar birjasi",
-      "javob_3": "fyuchers birjasi",
-      "javob_4": "tovar xom-ashyo birjasi"
+      "savol": "Naqd pulsiz hisob-kitoblarda eng ko‘p qo‘llaniladigan hujjat qaysi?",
+      "togri_javob": "To‘lov topshiriqnomasi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Chek",
+      "javob_4": "Valyuta orderi"
     },
     {
       "id": 128,
-      "savol": "Birja makleri kim?",
-      "togri_javob": "treyderlar tomonidan tuzilgan  bitimlarni ro’yxatga oluvchi",
-      "javob_2": "birja a’zolari o’rtasida yuzaga kelgan nizolarni hal etuvchi",
-      "javob_3": "birjada malaka oshirishni tashkil etuvchi",
-      "javob_4": "birja hisob-kitobni amalga oshiruvchi"
+      "savol": "To‘lanmagan hujjatlar qayerda hisobga olinadi?",
+      "togri_javob": "Kartoteka hisobvaraqlarida",
+      "javob_2": "Kassada",
+      "javob_3": "Kredit hisobvaraqlarida",
+      "javob_4": "Depozit hisobvaraqlarida"
     },
     {
       "id": 129,
-      "savol": "Anderrayter kim?",
-      "togri_javob": "Qimmatli qog’ozlarni birlamchi bozorda joylashtirishni ta’minlovchi yuridik shaxslar",
-      "javob_2": "Vositachilar tomonidan qimmatli qog’ozlar kursini birjada ruxsat etilgan doirada oshirilishi hisobiga spekulyativ o’yinni amalga oshirish",
-      "javob_3": "Belgilangan me’yoriy hujjatlar asosida qimmatli qog’ozlarni qayta oldi-sotdisini tashkil etuvchi bozor",
-      "javob_4": "Emitent tomonidan qimmatli qog’ozlarni muomalaga chiqarish"
+      "savol": "Naqd pulsiz hisob-kitob nizomi kimlarga tatbiq etiladi?",
+      "togri_javob": "Barcha bank va mijozlarga",
+      "javob_2": "Faqat banklarga",
+      "javob_3": "Faqat korxonalarga",
+      "javob_4": "Faqat jismoniy shaxslarga"
     },
     {
       "id": 130,
-      "savol": "Deponent qanday  majburiyatga ega?",
-      "togri_javob": "shaxsiy rekvizitlaridagi barcha o’zgarishlar haqida depozitariyga bildirishi",
-      "javob_2": "qimmatli qog’ozlari tugatilganligi faktlari hisobini yuritishi",
-      "javob_3": "depozitar operatsiyalar bo’yicha hujjatlarni o’z arxivida saqlashi",
-      "javob_4": "o’ziga tegishli qimmatli qog’ozlarning soni va nominal qiymatini hisobga olib borishi"
+      "savol": "Mablag‘larni so‘zsiz hisobdan chiqarish qaysi hujjat asosida amalga oshiriladi?",
+      "togri_javob": "Inkasso topshiriqnomasi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Chek",
+      "javob_4": "Valyuta orderi"
     },
     {
       "id": 131,
-      "savol": "Dillerlik faoliyat qanday faoliyat?",
-      "togri_javob": "muayyan qimmatli qog’ozlarni sotib olish yoki sotish narxlarini oshkora e’lon qilish orqali o’z nomidan va o’z hisobidan qimmatli qog’ozlarga doir oldi-sotdi bitimlarini tuzish faoliyatidir",
-      "javob_2": "depozitariylar deponentlarining yagona bazasini yuritish",
-      "javob_3": "investorlarning pul mablag’larini jalb qilish va ularni investitsiya aktivlariga qo’yish maqsadida aksiyalar chiqaradigan yuridik shaxslar",
-      "javob_4": "qimmatli qog’ozlarga doir bitimlar bo’yicha axborotni to’plash, solishtirish, tuzatish va ularga doir buxgalteriya hujjatlarini tayyorlash faoliyati"
+      "savol": "Vakillik hisobvarag‘i ochilganda qanday hujjat tuziladi?",
+      "togri_javob": "Shartnoma",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Audit xulosasi",
+      "javob_4": "Investitsiya bitimi"
     },
     {
       "id": 132,
-      "savol": "Birjaning kotirovkalash varag‘i nima?",
-      "togri_javob": "Birja savdosiga qo‘yilgan birja tovarlari ro‘yxati",
-      "javob_2": "Birja savdosidan chiqarilgan birja tovarlari ro‘yxati",
-      "javob_3": "Emitentlarni hisobga olish varag‘i",
-      "javob_4": "Birja savdolarini hisobga olish varag‘i"
+      "savol": "To‘lov talabnomasi kim tomonidan beriladi?",
+      "togri_javob": "Mol yetkazib beruvchi tomonidan",
+      "javob_2": "Mijoz tomonidan",
+      "javob_3": "Auditor tomonidan",
+      "javob_4": "Investor tomonidan"
     },
     {
       "id": 133,
-      "savol": "Birjada arbitrajlik faoliyatining mazmuni nimadan iborat?",
-      "togri_javob": "Birjada yuzaga keladigan tomonlar o‘rtasidagi nizolarni tartibga solish",
-      "javob_2": "Birjadagi tovarlar narxlarni kotirovkalash",
-      "javob_3": "Birjada namunaviy shartnomalar ishlab chiqish",
-      "javob_4": "Birjadagi tovar standartlarini belgilash"
+      "savol": "To‘lov talabnomasi qanday turlarga bo‘linadi?",
+      "togri_javob": "Akseptli va akseptsiz",
+      "javob_2": "Aktiv va passiv",
+      "javob_3": "Kredit va depozit",
+      "javob_4": "Milliy va xalqaro"
     },
     {
       "id": 134,
-      "savol": "REPO bitimining mazmun mohiyati nimadan iborat?",
-      "togri_javob": "Oldindan kelishilgan narxda va kelishilgan muddatda qayta sotib olish (sotish) majburiyati ostida qimmatli qog‘ozlarni sotish (sotib olish) bo‘yicha tuzilgan bitim",
-      "javob_2": "Qimmatli qog‘ozlar narxlarining maksimal va minimal chegarasi orasidagi farq",
-      "javob_3": "Qimmatli qog‘zlarni saqlash bo‘yicha tuzilgan bitim",
-      "javob_4": "Qimmatli qog‘ozlarni ishonchli boshqaruvga taqdim etilishi bo‘yicha bitim"
+      "savol": "So‘zsiz pul yechish qaysi hujjat asosida amalga oshiriladi?",
+      "togri_javob": "Inkasso topshiriqnomasi",
+      "javob_2": "Chek",
+      "javob_3": "Kredit shartnomasi",
+      "javob_4": "Valyuta orderi"
     },
     {
       "id": 135,
-      "savol": "Listing komissiyasi - deb nimaga aytiladi?",
-      "togri_javob": "Birjaning qimmatli qog‘ozlari birja listingi va delistingini amalga oshiradigan komissiyasi",
-      "javob_2": "Qimmatli qog‘ozlari birja kotirovka varag‘iga kiritilgan emitentlar",
-      "javob_3": "Emitentning qimmatli qog‘ozlarini birja kotirovka varag‘idan chiqarish protsedurasi",
-      "javob_4": "Birjada nizolarni hal etuvchi komissiya"
+      "savol": "Banklararo hisob-kitoblar qayerda amalga oshiriladi?",
+      "togri_javob": "Vakillik hisobvaraqlar orqali",
+      "javob_2": "Kassada",
+      "javob_3": "Kredit hisobvaraqlarida",
+      "javob_4": "Depozitlarda"
     },
     {
       "id": 136,
-      "savol": "Birja listingi  deb nimaga aytiladi?",
-      "togri_javob": "Qimmatli qog‘ozlarni, ularni birja kotirovka varag‘iga kiritgan holda qimmatli qog‘ozlar birja savdosiga qo‘yish protsedurasi",
-      "javob_2": "Emitentning qimmatli qog‘ozlarini birja kotirovka varag‘idan chiqarish protsedurasi",
-      "javob_3": "Delisting qilingan qimmatli qog‘ozlarni qaytadan kotriovka varag‘iga kiritishi va birjada savdolarga qo‘yish protsedurasi",
-      "javob_4": "Birjada narxni belgilash"
+      "savol": "Vakillik hisobvarag‘i ochish to‘g‘risida farmoyish kimga beriladi?",
+      "togri_javob": "Markaziy bankka",
+      "javob_2": "Soliq organiga",
+      "javob_3": "Auditorlarga",
+      "javob_4": "Investorlar"
     },
     {
       "id": 137,
-      "savol": "Delisting – deb nimaga aytiladi?",
-      "togri_javob": "Emitentning qimmatli qog‘ozlarini birja kotirovka varag‘idan chiqarish protsedurasi",
-      "javob_2": "Qimmatli qog‘ozlarni, ularni birja kotirovka varag‘iga kiritgan holda qimmatli qog‘ozlar birja savdosiga qo‘yish protsedurasi",
-      "javob_3": "Qimmatli qog‘ozlari birja kotirovka varag‘iga kiritilgan emitentlar",
-      "javob_4": "Birjaning qimmatli qog‘ozlar birja listingi va delistingini amalga oshiradigan komissiyasi"
+      "savol": "Farmoyish nusxasi kimga beriladi?",
+      "togri_javob": "Tijorat bankiga",
+      "javob_2": "Soliq organiga",
+      "javob_3": "Auditorlarga",
+      "javob_4": "Investorlarga"
     },
     {
       "id": 138,
-      "savol": "Relisting - deb nimaga aytiladi?",
-      "togri_javob": "Delisting qilingan  qimmatli qog‘ozlarni qaytadan kotriovka varag‘iga kiritishi va birjada savdolarga qo‘yish protsedurasi",
-      "javob_2": "Emitentning  qimmatli qog‘ozlarini birja kotirovka varag‘idan chiqarish protsedurasi",
-      "javob_3": "Qimmatli qog‘ozlarni, ularni birja kotirovka varag‘iga kiritgan holda qimmatli qog‘ozlar birja savdosiga qo‘yish protsedurasi",
-      "javob_4": "Qimmatli qog‘ozlari birja kotirovka varag‘iga kiritilgan emitentlar"
+      "savol": "Vakillik hisobvaraqlari nomeri kim tomonidan belgilanadi?",
+      "togri_javob": "Markaziy bank tomonidan",
+      "javob_2": "Mijoz tomonidan",
+      "javob_3": "Auditor tomonidan",
+      "javob_4": "Investor tomonidan"
     },
     {
       "id": 139,
-      "savol": "Listing kompaniyalari  - deb nimaga aytiladi?",
-      "togri_javob": "Qimmatli qog‘ozlari birja kotirovka varag‘iga kiritilgan emitentlar",
-      "javob_2": "Birjaning qimatli qog‘ozlar birja listingi va delistingini amalga oshiradigan komissiyasi",
-      "javob_3": "Delisting qilingan qimmatli qog‘ozlarni qaytadan kotriovka varag‘iga kiritishi va birjada savdolarga qo‘yish protsedurasi",
-      "javob_4": "Emitentning qimmatli qog‘ozlarini birja kotirovka varag‘idan chiqarish protsedurasi"
+      "savol": "Naqd pulsiz hisob-kitoblarda qaysi hujjatlar ishlatiladi?",
+      "togri_javob": "To‘lov topshiriqnomasi, talabnoma, inkasso topshiriqnomasi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Valyuta orderi",
+      "javob_4": "Kassa orderi"
     },
     {
       "id": 140,
-      "savol": "O'zbekiston Respublika fond birjasi qachon tashkil etilgan?",
-      "togri_javob": "1994-yilda 8-aprelda",
-      "javob_2": "1990-yilda 22-sentabrda",
-      "javob_3": "1992-yil 10-may",
-      "javob_4": "1993-yiil 23-yabvar"
+      "savol": "Yagona vakillik hisobvarag‘i nima?",
+      "togri_javob": "Markaziy bankdagi yagona hisob-kitob tizimi",
+      "javob_2": "Kredit tizimi",
+      "javob_3": "Depozit tizimi",
+      "javob_4": "Investitsiya tizimi"
     },
     {
       "id": 141,
-      "savol": "Birja bitimlarini mijoz nomidan va uning hisobidan tuzuvchi birja azosi bu...?",
-      "togri_javob": "Broker",
-      "javob_2": "Diller",
-      "javob_3": "Marketmeyker",
-      "javob_4": "fond birja"
+      "savol": "Banklar aktseptli to‘lov talabnomasi bo‘yicha bahslarni necha kun ichida ko‘rib chiqadi?",
+      "togri_javob": "3 ish kuni",
+      "javob_2": "5 ish kuni",
+      "javob_3": "7 ish kuni",
+      "javob_4": "10 ish kuni"
     },
     {
       "id": 142,
-      "savol": "Birja so'zining ma'nosi nima?",
-      "togri_javob": "Sumka, hamyon",
-      "javob_2": "mahalliy bozor",
-      "javob_3": "tovar, mahsulot",
-      "javob_4": "yer, mulk"
+      "savol": "Banklararo hisob-kitoblarni hisobga olish uchun banklarga qanday hisobvaraq ochiladi?",
+      "togri_javob": "Vakillik hisobvarag‘i",
+      "javob_2": "Kredit hisobvarag‘i",
+      "javob_3": "Depozit hisobvarag‘i",
+      "javob_4": "Kassa hisobvarag‘i"
     },
     {
       "id": 143,
-      "savol": "Qimmarli qog'ozlar savdosini tashkilotchilari kimlar hisoblanadi?",
-      "togri_javob": "fond birjasi, fond bo'limi tashkil etgan valyuta birjasi, qimmatli qog'ozlarning birjadan tashqari savdo tashkilotchisi",
-      "javob_2": "qimmatli qog'ozlarning birjadan tashqari savdo tashkilotchisi",
-      "javob_3": "underrayter va aksiyadorlik jamiyatlari",
-      "javob_4": "treyder va brokerlar"
+      "savol": "Akkreditiv qanday turlarga bo‘linadi?",
+      "togri_javob": "Qoplangan va qoplanmagan",
+      "javob_2": "Aktiv va passiv",
+      "javob_3": "Kredit va depozit",
+      "javob_4": "Milliy va xalqaro"
     },
     {
       "id": 144,
-      "savol": "Qimmatli qog’ozlar bozori professional ishtirokchisi kim?",
-      "togri_javob": "fond bozorida qimmatli qog’ozlar bilan maxsus xizmat turlarini amalga oshiruvchi mutaxassislar",
-      "javob_2": "qimmatli qog’ozlarga bo’lgan huquqlarni hisobga olish va emissiyaviy qimmatli qog’ozlar harakati yagona tizimini ta’minlovchi davlat tashkiloti",
-      "javob_3": "qog’ozlarni saqlash va ularga bo’lgan huquqlarni hisobga olish bo’yicha bajariladigan operatsiyalar",
-      "javob_4": "aksiyadorlar umumiy yig’ilishini tashkil etish va o’tkazish yuzasidan xizmatlar ko’rsatish faoliyati"
+      "savol": "“Nostro” vakillik hisobvarag‘i nima?",
+      "togri_javob": "Bankning boshqa bankdagi hisobvarag‘i",
+      "javob_2": "Mijoz depoziti",
+      "javob_3": "Kredit hisobvarag‘i",
+      "javob_4": "Kassa hisobvarag‘i"
     },
     {
       "id": 145,
-      "savol": "Qimmatli qog‘ozlar savdosining tashkilotchilari tomonidan ro‘yxatdan o‘tkazilgan qimmatli qog‘ozlarga doir bitimlar bo‘yicha o‘zaro majburiyatlarni aniqlash, aniqlashtirish va hisobga olish nima deb nomlanadi?",
-      "togri_javob": "kliring",
-      "javob_2": "depozitariy",
-      "javob_3": "birja",
-      "javob_4": "bank"
+      "savol": "“Vostro” vakillik hisobvarag‘i nima?",
+      "togri_javob": "Boshqa bankning bizning bankimizdagi hisobvarag‘i",
+      "javob_2": "Kredit hisobvarag‘i",
+      "javob_3": "Depozit hisobvarag‘i",
+      "javob_4": "Kassa hisobvarag‘i"
     },
     {
       "id": 146,
-      "savol": "G'arbiy Yevropada birjalar qachon vujudga kela boshlagan?",
-      "togri_javob": "IX asrning boshlaridan",
-      "javob_2": "XI asrning birinchi choragidan",
-      "javob_3": "XIX asr boshlaridan",
-      "javob_4": "XV asr oxiridan"
+      "savol": "Bosh kitobda nima aks ettiriladi?",
+      "togri_javob": "Sintetik hisob ma’lumotlari",
+      "javob_2": "Analitik hisob",
+      "javob_3": "Kassa operatsiyalari",
+      "javob_4": "Kredit shartnomalari"
     },
     {
       "id": 147,
-      "savol": "Jahon savdosidagi ishtorikiga ko'ra birjalar qanday turlarga bo'linadi",
-      "togri_javob": "Xalqaro, Mintaqaviy, Milliy",
-      "javob_2": "Xalqaro, Milliy",
-      "javob_3": "Milliy, Mintaqaviy",
-      "javob_4": "Xaqaro, Munitsipal"
+      "savol": "Yordamchi kitobda nima aks ettiriladi?",
+      "togri_javob": "Analitik hisob ma’lumotlari",
+      "javob_2": "Balans",
+      "javob_3": "Kreditlar",
+      "javob_4": "Depozitlar"
     },
     {
       "id": 148,
-      "savol": "AQShda birinchi tovar birjasi qayerda tashkil etilgan?",
-      "togri_javob": "Chikagoda",
-      "javob_2": "Nyu Yorkda",
-      "javob_3": "San Fransisko",
-      "javob_4": "Vashington"
+      "savol": "Shaxsiy hisobvaraqdan ko‘chirmaning birinchi nusxasi kimga beriladi?",
+      "togri_javob": "Mijozga",
+      "javob_2": "Bankga",
+      "javob_3": "Soliq organiga",
+      "javob_4": "Auditorlarga"
     },
     {
       "id": 149,
-      "savol": "Birinchi Xalqaro tovar birjasi qayerda va nechanchi yilda tashkil etilgan?",
-      "togri_javob": "1531-yilda Belgiyada",
-      "javob_2": "1532-yilda Angliyada",
-      "javob_3": "1531-yilda Amerika Qo'shma shtatlarida",
-      "javob_4": "1532-yilda Shvetsariyada"
+      "savol": "Kunlik balans nima uchun tuziladi?",
+      "togri_javob": "Bank moliyaviy holatini nazorat qilish uchun",
+      "javob_2": "Kredit berish uchun",
+      "javob_3": "Depozit ochish uchun",
+      "javob_4": "Investitsiya qilish uchun"
     },
     {
       "id": 150,
-      "savol": "London fond birjasida dastlab kimlar savdo qilganlar?",
-      "togri_javob": "Faqat saroy mulozimlari va zodagonlar vakillari",
-      "javob_2": "Saroy mulozimlari va zodagonlar vakillari hamda tuz va porox bilan savdo qiluvchilar",
-      "javob_3": "Asosan tuz va porox bilan savdi qiluvchilar",
-      "javob_4": "Aholining barcha qatlamlari fond birjasida qatnashish huquqiga ega bo‘lganlar"
+      "savol": "Kassa kirim jurnalida nima qayd etiladi?",
+      "togri_javob": "Kassa kirim operatsiyalari",
+      "javob_2": "Kredit operatsiyalari",
+      "javob_3": "Depozit operatsiyalari",
+      "javob_4": "Investitsiya operatsiyalari"
     },
     {
       "id": 151,
-      "savol": "Fond indeksi – bu..?",
-      "togri_javob": "Bu qimmatli qog‘ozlar bozori holatini baholash ko‘rsatkichi bo‘lib, sodir bo‘layotgan makroiqtisodiy jarayonlarni kompleks ifodalaydi.",
-      "javob_2": "Qimmatli qog‘ozlarni, ularni birja kotirovka varag‘iga kiritgan holda qimmatli qog‘ozlar birja savdosiga qo‘yish protsedurasi",
-      "javob_3": "Emitentning  qimmatli qog‘ozlarini birja kotirovka varag‘idan chiqarish protsedurasi",
-      "javob_4": "Birjaning qimatli qog‘ozlar birja listingi va delistingini amalga oshiradigan komissiyasi."
+      "savol": "Kontr-aktiv hisobvaraqlar nima?",
+      "togri_javob": "Aktiv qiymatini kamaytiruvchi hisobvaraqlar",
+      "javob_2": "Kredit hisobvaraqlari",
+      "javob_3": "Depozit hisobvaraqlari",
+      "javob_4": "Valyuta hisobvaraqlari"
     },
     {
       "id": 152,
-      "savol": "DAX indeksi qaysi davlatda foydalaniladi?",
-      "togri_javob": "Germaniya",
-      "javob_2": "AQSH",
-      "javob_3": "Yaponiya",
-      "javob_4": "Buyuk Britaniya"
+      "savol": "Shaxsiy hisobvaraq qoldig‘i nima bilan tekshiriladi?",
+      "togri_javob": "Balans bilan",
+      "javob_2": "Kredit bilan",
+      "javob_3": "Depozit bilan",
+      "javob_4": "Kassa bilan"
     },
     {
       "id": 153,
-      "savol": "Yaponiyada foydalaniladigan indeks turini belgilang?",
-      "togri_javob": "\"Nikkey\"",
-      "javob_2": "FTSE -100",
-      "javob_3": "\"SAS-40\"",
-      "javob_4": "\"Dow-Jones\""
+      "savol": "Banklarda buxgalteriya hisobini yuritishdan maqsad nima?",
+      "togri_javob": "Bank moliyaviy holatini aks ettirish",
+      "javob_2": "Kredit berish",
+      "javob_3": "Depozit yig‘ish",
+      "javob_4": "Investitsiya qilish"
     },
     {
       "id": 154,
-      "savol": "Frantsiyada foydalaniladigan indeks turi belgilang?",
-      "togri_javob": "\"SAS-40\"",
-      "javob_2": "FTSE -100",
-      "javob_3": "\"Nikkey\"",
-      "javob_4": "\"Dow-Jones\""
+      "savol": "Bank buxgalteriya apparati tuzilishi qanday?",
+      "togri_javob": "Front-ofis va bek-ofis",
+      "javob_2": "Kredit va depozit",
+      "javob_3": "Aktiv va passiv",
+      "javob_4": "Kassir va auditor"
     },
     {
       "id": 155,
-      "savol": "Nyu-York fond birjasi yig'ma indeksi qanday nomlanadi?",
-      "togri_javob": "NYSE Composite",
-      "javob_2": "\"SAS-40\"",
-      "javob_3": "\"Nikkey\"",
-      "javob_4": "DAX"
+      "savol": "Front-ofisning asosiy vazifasi nima?",
+      "togri_javob": "Mijozlarga xizmat ko‘rsatish",
+      "javob_2": "Audit qilish",
+      "javob_3": "Soliq hisoblash",
+      "javob_4": "Investitsiya qilish"
     },
     {
       "id": 156,
-      "savol": "Buyuk Britaniya indeksi qaysi qatorda keltirilgan?",
-      "togri_javob": "FTSE -100",
-      "javob_2": "NYSE Composite",
-      "javob_3": "\"Nikkey\"",
-      "javob_4": "\"Dow-Jones\""
+      "savol": "Bek-ofisning asosiy vazifasi nima?",
+      "togri_javob": "Operatsiyalarni nazorat qilish",
+      "javob_2": "Kredit berish",
+      "javob_3": "Depozit qabul qilish",
+      "javob_4": "Marketing"
     },
     {
       "id": 157,
-      "savol": "O’zbekiston fond birasida qo’llaniladigan indeks nomi qaysi javobda keltirilgan?",
-      "togri_javob": "UCI",
-      "javob_2": "\"SAS-40\"",
-      "javob_3": "\"Nikkey\"",
-      "javob_4": "\"Dow-Jones\""
+      "savol": "Bank balans tenglamasi qanday?",
+      "togri_javob": "Aktiv = Majburiyat + Kapital",
+      "javob_2": "Aktiv = Kapital",
+      "javob_3": "Aktiv = Kredit",
+      "javob_4": "Aktiv = Depozit"
     },
     {
       "id": 158,
-      "savol": "Javoblardagi AQSHda qo’llaniladigan indeks turini aniqlang?",
-      "togri_javob": "\"Dow-Jones\"",
-      "javob_2": "\"SAS-40\"",
-      "javob_3": "\"Nikkey\"",
-      "javob_4": "\"DAX\""
+      "savol": "Hisob siyosati kim tomonidan tasdiqlanadi?",
+      "togri_javob": "Bank rahbariyati tomonidan",
+      "javob_2": "Mijoz tomonidan",
+      "javob_3": "Auditor tomonidan",
+      "javob_4": "Soliq organi tomonidan"
     },
     {
       "id": 159,
-      "savol": "Investorlarning pul mablagʻlarini jalb etish va ularni investitsiya aktivlariga qoʻyish maqsadida aksiyalar chiqarishni amalga oshiruvchi yuridik shaxs – aksiyadorlik jamiyati – bu…?",
-      "togri_javob": "investitsiya fondi",
-      "javob_2": "jamgʻarma",
-      "javob_3": "kredit",
-      "javob_4": "valyuta fondi."
+      "savol": "Hisob siyosati nima?",
+      "togri_javob": "Buxgalteriya hisobini yuritish qoidalari",
+      "javob_2": "Kredit qoidalari",
+      "javob_3": "Depozit qoidalari",
+      "javob_4": "Investitsiya qoidalari"
     },
     {
       "id": 160,
-      "savol": "Quyidagilardan investitsiya fondlarining asosiy afzalliklari noto'g'ri keltirilgan javobni belgilang.",
-      "togri_javob": "faqat mayda investorlarning barcha moliyaviy qarorlarini toʻliq boshqarish",
-      "javob_2": "investitsiya portfelini diversifikatsiyalash orqali risklarni kamaytirish",
-      "javob_3": "professional mutaxassislar tomonidan risklarni baholash",
-      "javob_4": "soliq imtiyozlarining mavjudligi va moliya bozorini rivojlantirishda muhim roli"
+      "savol": "Passiv hisobvaraqlarning xususiyati nima?",
+      "togri_javob": "Kredit qoldiq mavjud bo‘ladi",
+      "javob_2": "Debet qoldiq mavjud bo‘ladi",
+      "javob_3": "Balans qoldiq mavjud bo‘ladi",
+      "javob_4": "Analitik qoldiq mavjud bo‘ladi"
     },
     {
       "id": 161,
-      "savol": "ROA - aktivlar rentabelligini ifodolovchi moliyaviy ko'rsatkichni topish formulasi qanday?",
-      "togri_javob": "Sof foyda/Jami aktivlar",
-      "javob_2": "Sof foyda/O'z mablag'lar manbasi",
-      "javob_3": "Joriy aktivlar/Joriy majburiyatlar",
-      "javob_4": "Aktivlar/Majburiyatlar"
+      "savol": "Kam baholi va tez eskiruvchi buyumlarning foydalanish muddati qancha?",
+      "togri_javob": "1 yilgacha",
+      "javob_2": "2 yil",
+      "javob_3": "3 yil",
+      "javob_4": "5 yil"
     },
     {
       "id": 162,
-      "savol": "ROE -  kapital rentabelligini ifodolovchi moliyaviy ko'rsatkichni topish formulasi qanday?",
-      "togri_javob": "Sof foyda/O'z mablag'lar manbasi",
-      "javob_2": "Sof foyda/Aktivlar",
-      "javob_3": "Aktivlar/Majburiyatlar",
-      "javob_4": "Joriy aktivlar/Joriy majburiyatlar"
+      "savol": "Nomoddiy aktiv qanday baholanadi?",
+      "togri_javob": "Sotib olish qiymati bo‘yicha",
+      "javob_2": "Kredit qiymati bo‘yicha",
+      "javob_3": "Balans qiymati bo‘yicha",
+      "javob_4": "Bozor qiymati bo‘yicha"
     },
     {
       "id": 163,
-      "savol": "EPS qanday ko'rsatkich?",
-      "togri_javob": "bitta aksiyaga to'g'ri keladigan daromad",
-      "javob_2": "bitta aksiyaga to'g'ri keladigan dividend",
-      "javob_3": "aksiya bahosining foydaga nisbati",
-      "javob_4": "baho-tushum koeffisenti"
+      "savol": "Asosiy vositalarning teng qismda eskirish usuli qanday ataladi?",
+      "togri_javob": "To‘g‘ri chiziqli usul",
+      "javob_2": "Tezlashtirilgan usul",
+      "javob_3": "Qoldiq usul",
+      "javob_4": "Balans usuli"
     },
     {
       "id": 164,
-      "savol": "P/E ko'rsatkichi nimani anglatadi?",
-      "togri_javob": "bozor aniq bir korxonaning bir birlik foydasiga qancha to'lashga tayyorligini",
-      "javob_2": "bitta aksiyaga to'g'ri keladigan daromad",
-      "javob_3": "bitta aksiyaga to'g'ri keladigan dividend",
-      "javob_4": "baho-tushum koeffisenti"
+      "savol": "Banklar buxgalteriya hisobotini kimga taqdim etadi?",
+      "togri_javob": "Markaziy bankga",
+      "javob_2": "Auditorlarga",
+      "javob_3": "Investorlar",
+      "javob_4": "Soliq organiga"
     },
     {
       "id": 165,
-      "savol": "DPS qanday ko'rsatkich?",
-      "togri_javob": "bitta aksiyaga to'g'ri keladigan dividend",
-      "javob_2": "bitta aksiyaga to'g'ri keladigan daromad",
-      "javob_3": "aksiya bahosining foydaga nisbati",
-      "javob_4": "baho-tushum koeffisenti"
+      "savol": "Asosiy vositalar nima?",
+      "togri_javob": "Uzoq muddat foydalaniladigan moddiy aktivlar",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Valyuta"
     },
     {
       "id": 166,
-      "savol": "Investitsiya maslahatchisi- bu qanday faoliyat?",
-      "togri_javob": "qimmatli qog’ozlar bozori va uning ishtirokchilari holatini tahlil etish hamda istiqbolini belgilash bo’yicha professional xizmatlarni ko’rsatish faoliyati hisoblanadi",
-      "javob_2": "qimmatli qog’ozlarni, shu jumladan investitsiya aktivlarini boshqarish jarayonida tushuniladi",
-      "javob_3": "qimmatli qog’ozlarga bo’lgan huquqlarni hisobga olish va emissiyaviy qimmatli qog’ozlar harakati yagona tizimini ta’minlovchi davlat tashkiloti",
-      "javob_4": "qog’ozlarni saqlash va ularga bo’lgan huquqlarni hisobga olish bo’yicha bajariladigan operatsiyalar"
+      "savol": "Tekinga olingan asosiy vositalar qanday baholanadi?",
+      "togri_javob": "Bozor qiymati bo‘yicha",
+      "javob_2": "Kredit qiymati bo‘yicha",
+      "javob_3": "Balans qiymati bo‘yicha",
+      "javob_4": "Depozit qiymati bo‘yicha"
     },
     {
       "id": 167,
-      "savol": "Investitsiya  aktivlarni ishonchli  boshqaruvchilik faoliyati deganda nima tushiniladi?",
-      "togri_javob": "qimmatli qog’ozlarni,shu jumladan investitsiya aktivlarini boshqarish jarayoni tushuniladi",
-      "javob_2": "investorlarga vositachilarni jalb etmay turib, qimmatli qog’ozlar savdosini maxsus kompyuter savdo tizimlaridan foydalangan holda tashkil etilgan faoliyat turi",
-      "javob_3": "muayyan qimmatli qog’ozlarni sotib olish yoki sotish narxlarini oshkora e’lon qilish orqali o’z nomidan va o’z hisobidan qimmatli qog’ozlarga doir oldi-sotdi bitimlarini tuzish faoliyatidir",
-      "javob_4": "aksiyadorlar umumiy yig’ilishini tashkil etish va o’tkazish yuzasidan xizmatlar ko’rsatish faoliyati"
+      "savol": "Asosiy vositalarga nima kiradi?",
+      "togri_javob": "Binolar va uskunalar",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Valyuta"
     },
     {
       "id": 168,
-      "savol": "AQSH amaliyotida investitsiya fondlari faoliyatini qoʻllab-quvvatlashda qaysi xizmatlardan foydalaniladi?",
-      "togri_javob": "Boshqaruvchi kompaniyalar, investitsiya maslahatchilari, anderrayterlar, administratorlar, transfer-agentlar, kastodian va mustaqil auditorlar",
-      "javob_2": "Faqat boshqaruvchi kompaniyalar va aksiyadorlik jamiyatlari",
-      "javob_3": "Markaziy bank va davlat nazorati organlari",
-      "javob_4": "Faqat kichik investorlar uchun maxsus xizmatlar"
+      "savol": "Asosiy vositalarni qayta baholash qanday usulda amalga oshiriladi?",
+      "togri_javob": "Indeksatsiya usuli",
+      "javob_2": "Kredit usuli",
+      "javob_3": "Depozit usuli",
+      "javob_4": "Valyuta usuli"
     },
     {
       "id": 169,
-      "savol": "Investitsiya fondlari paydo boʻlishining dastlabki davrlari qachon va qayerda boshlangan?",
-      "togri_javob": "1800-yillar oʻrtalarida Angliya va Shotlandiya",
-      "javob_2": "1929-1933 yillardagi jahon iqtisodiy inqirozi davrida AQSH",
-      "javob_3": "1940 yilda AQSHda “Investitsiya kompaniyalari toʻgʻrisida”gi qonun qabul qilingan paytda",
-      "javob_4": "1824 yilda Bostonda birinchi investitsiya fondi tashkil etilganda"
+      "savol": "Inventarizatsiya nima?",
+      "togri_javob": "Aktiv va majburiyatlarni tekshirish jarayoni",
+      "javob_2": "Kredit berish jarayoni",
+      "javob_3": "Depozit qabul qilish jarayoni",
+      "javob_4": "Investitsiya qilish jarayoni"
     },
     {
       "id": 170,
-      "savol": "Fond bozori holatini oʻrganishga qaratilgan tahlil boʻlib, oʻtgan savdo narxlarini oʻrganish maqsadida, ularning kelajakdagi ehtimoliy rivojlanish yoʻnalishlarini aniqlashdan iborat tahlil – bu...?",
-      "togri_javob": "texnik tahlil",
-      "javob_2": "qimmatli qogʻozlar tahlili (security analysis)",
-      "javob_3": "fundamental tahlil",
-      "javob_4": "statistik tahlili (statistical analysis)"
+      "savol": "Tranzit hisobvaraqlarda qoldiq qanday aniqlanadi?",
+      "togri_javob": "Kun oxirida nolga tenglashtiriladi",
+      "javob_2": "Kredit qoldiq bo‘ladi",
+      "javob_3": "Debet qoldiq bo‘ladi",
+      "javob_4": "Balans qoldiq bo‘ladi"
     },
     {
       "id": 171,
-      "savol": "Qimmatli qogʻozlarning alohida turlarini (yoki guruhlarini) va ularning bozorlarini oʻrganib, investitsion jarayonda vaqtning tanlab olingan joriy momentida notoʻgʻri baholangan qimmatli qogʻozlarni aniqlashga asoslanagan tahlil –bu …?",
-      "togri_javob": "fundamental tahlil (fundamental analysis)",
-      "javob_2": "qimmatli qogʻozlar tahlili (security analysis)",
-      "javob_3": "texnik tahlil (technical analysis)",
-      "javob_4": "statistik tahlili (statistical analysis)"
+      "savol": "Balansda nechta o‘zgarish turi mavjud?",
+      "togri_javob": "4 ta",
+      "javob_2": "2 ta",
+      "javob_3": "3 ta",
+      "javob_4": "5 ta"
     },
     {
       "id": 172,
-      "savol": "Trend – bu…?",
-      "togri_javob": "fond bozoridagi qimmatli qog’ozlarning oldi-sotdisida belgilanadigan baholarning muayyan yo’nalaishlar bo’yicha o’zgarishidir",
-      "javob_2": "qimmatli qog’ozlarning birlamchi bozoridagi emission bahosi",
-      "javob_3": "qimmatli qog’ozlar bozor bahosining nominalga nisbatan o’sishi",
-      "javob_4": "aksiyalar kursini nominalga nisbatan pasayishi"
+      "savol": "Buxgalteriya hisobvaraqlari qanday tuziladi?",
+      "togri_javob": "Debet va kredit tomonlardan",
+      "javob_2": "Aktiv va passiv tomonlardan",
+      "javob_3": "Kredit va depozit tomonlardan",
+      "javob_4": "Kassa va balans tomonlardan"
     },
     {
       "id": 173,
-      "savol": "Texnik tahlilning qanday usullari mavjud?",
-      "togri_javob": "yapon shamlari",
-      "javob_2": "alfa va beta tahlil usuli",
-      "javob_3": "xitoy shamlari",
-      "javob_4": "geometrik tahlil usuli"
+      "savol": "Ikki yoqlama yozuv nima?",
+      "togri_javob": "Har bir operatsiyani debet va kreditda aks ettirish",
+      "javob_2": "Faqat debetda yozish",
+      "javob_3": "Faqat kreditda yozish",
+      "javob_4": "Balansda yozish"
     },
     {
       "id": 174,
-      "savol": "Texnik taxlilning nechta tamoyili bor?",
-      "togri_javob": "3 ta",
-      "javob_2": "7 ta",
-      "javob_3": "5 ta",
-      "javob_4": "6 ta"
+      "savol": "Xususiy kapitalga nima kiradi?",
+      "togri_javob": "Ustav kapitali",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Valyuta"
     },
     {
       "id": 175,
-      "savol": "Bozorda “Buqa” lar trendi yuzaga kelgandagi holat qanday harakterlarni anglatadi?",
-      "togri_javob": "aksiyalar bozoridagi tebranishlarning past narxlari ko’tarila boshlaydi",
-      "javob_2": "aksiyalar bozorida narxlarning o’zgarmasligi",
-      "javob_3": "aksiyalar bozorida maksimal tebranuvchi narxlar pasaya boshlaydi",
-      "javob_4": "Davlat obligatsiyalari bozori"
+      "savol": "Ish haqi qanday turlarga bo‘linadi?",
+      "togri_javob": "Asosiy va qo‘shimcha",
+      "javob_2": "Kredit va depozit",
+      "javob_3": "Aktiv va passiv",
+      "javob_4": "Valyuta"
     },
     {
       "id": 176,
-      "savol": "Qachon o’suvchi yoki “buqalar” trendi paydo bo’ladi?",
-      "togri_javob": "bozordagi tebranishlarning past narxlari ko’tarila boshlaganda",
-      "javob_2": "bozorda maksimal tebranuvchi narxlar pasaya boshlaganida",
-      "javob_3": "bozorda narxlar gorizontal diapazonda tebranganda",
-      "javob_4": "fond bozoridagi qimmatli qog’ozlarning oldi-sotdisida belgilanadigan baholarning muayyan yo’nalaishlar bo’yicha o’zgarganida"
+      "savol": "O‘z mablag‘lari manbalariga nima kiradi?",
+      "togri_javob": "Kapital va foyda",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Valyuta"
     },
     {
       "id": 177,
-      "savol": "Doji (dodzi)  qanday holatda kuzatiladi?",
-      "togri_javob": "savdo sessiyasida qimmatli qog’ozlarni ochilish va yopilish narxlarining bir xil bo’lishida kuzatiladi",
-      "javob_2": "bozorda maksimal tebranuvchi narxlar pasaya boshlaganida kuzatiladi",
-      "javob_3": "bozordagi tebranishlarning past narxlari ko’tarila boshlaganda kuzatiladi",
-      "javob_4": "fond bozoridagi qimmatli qog’ozlarning oldi-sotdisida belgilanadigan baholarning muayyan yo’nalaishlar bo’yicha o’zgarganida kuzatiladi"
+      "savol": "Buxgalteriya hisobining asosiy printsipi nima?",
+      "togri_javob": "Haqqoniylik printsipi",
+      "javob_2": "Kredit printsipi",
+      "javob_3": "Depozit printsipi",
+      "javob_4": "Valyuta printsipi"
     },
     {
       "id": 178,
-      "savol": "Gorizontal trend qachon  paydo bo’ladi?",
-      "togri_javob": "bozorda narxlar gorizontal diapazonda tebranganda",
-      "javob_2": "bozorda maksimal tebranuvchi narxlar pasaya boshlaganida",
-      "javob_3": "bozordagi tebranishlarning past narxlari ko’tarila boshlaganda",
-      "javob_4": "bozorda narxlar avvalgi holatiga qaytganda"
+      "savol": "Muammoli kreditlar uchun nima yaratiladi?",
+      "togri_javob": "Zaxira",
+      "javob_2": "Kredit",
+      "javob_3": "Depozit",
+      "javob_4": "Investitsiya"
     },
     {
       "id": 179,
-      "savol": "Yapon shamlarining asosiy modellarini ko‘rsating?",
-      "togri_javob": "Yutish (qoʻshib olish) modeli.\nTongi va tungi yulduz modellari.\nUch qora qargʻa modeli.\nUchta oq askar modellari",
-      "javob_2": "Uch qora qargʻa modeli.\nUchta oq askar modellari",
-      "javob_3": "Yutish (qoʻshib olish) modeli.\nTongi va tungi yulduz modellari",
-      "javob_4": "Uzun tanli sham\nDoji"
+      "savol": "Lizing oluvchi amortizatsiya hisoblaydimi?",
+      "togri_javob": "Ha",
+      "javob_2": "Yo‘q",
+      "javob_3": "Ba’zan",
+      "javob_4": "Hech qachon"
     },
     {
       "id": 180,
-      "savol": "Fundamental tahlilga taʼsir eʼtuvchi omillarni koʻrsating.",
-      "togri_javob": "iqtisodiy omillar, siyosiy omillar, turli mish-mishlar va kutilishlar, fors-major holatlari",
-      "javob_2": "Ijtimoiy omillar, moliyaviy omillar, turli mish-mishlar va kutilishlar, fors-major holati",
-      "javob_3": "iqtisodiy, siyosiy, ijtimoiy omillar va fors-major holatlari;",
-      "javob_4": "aholining milliy daromadi, bilim-ko'nikmalari va ijtimoiy turmush darajasi."
+      "savol": "Faktoring nima?",
+      "togri_javob": "Debitor qarzlarni sotib olish operatsiyasi",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Depozit operatsiyasi",
+      "javob_4": "Investitsiya operatsiyasi"
     },
     {
       "id": 181,
-      "savol": "Aksiya kursi qiymatining nominal qiymatidan oshib ketishi nima deyiladi?",
-      "togri_javob": "ajio deb yuritiladi",
-      "javob_2": "preferentsial deb yuritiladi",
-      "javob_3": "dizajio deb yuritiladi",
-      "javob_4": "lot deb yuritiladi"
+      "savol": "Buxgalteriya hisobining asosiy printsiplari qaysilar?",
+      "togri_javob": "Haqqoniylik, uzluksizlik, hisoblash printsipi",
+      "javob_2": "Kredit printsipi",
+      "javob_3": "Depozit printsipi",
+      "javob_4": "Investitsiya printsipi"
     },
     {
       "id": 182,
-      "savol": "Aksiya kursi qiymatining nominal qiymatidan kamayib ketishi nima deyiladi?",
-      "togri_javob": "dizajio deb yuritiladi",
-      "javob_2": "laj deb yuritiladi",
-      "javob_3": "ajio deb yuritiladi",
-      "javob_4": "lot deb yuritiladi"
+      "savol": "Muammoli kreditlar bo‘yicha bank nima tashkil qiladi?",
+      "togri_javob": "Zaxira",
+      "javob_2": "Depozit",
+      "javob_3": "Kredit",
+      "javob_4": "Investitsiya"
     },
     {
       "id": 183,
-      "savol": "Bozor riski deganda nima tushuniladi?",
-      "togri_javob": "Bozor omillari o‘zgarishi oqibatida aktiv qiymatining pasayishi xavfi",
-      "javob_2": "Qimmatli qog‘ozlar orqali faqat daromad olish ehtimoli",
-      "javob_3": "Investorlar tomonidan mustaqil ravishda nazorat qilinadigan xatar",
-      "javob_4": "Bozordagi barcha risklarni to‘liq bartaraf etish imkoniyati"
+      "savol": "Lizing ob’ekti bo‘yicha amortizatsiyani kim hisoblaydi?",
+      "togri_javob": "Lizing oluvchi",
+      "javob_2": "Bank",
+      "javob_3": "Auditor",
+      "javob_4": "Soliq organi"
     },
     {
       "id": 184,
-      "savol": "Quyidagilardan qaysi biri bozor riskining standart shakllaridan biri hisoblanadi?",
-      "togri_javob": "Foiz stavkasi o‘zgarishi riski",
-      "javob_2": "Kompaniyaning ichki boshqaruv xatolari",
-      "javob_3": "Sug‘urta mukofotining kamayishi",
-      "javob_4": "Loyiha kechikishi tufayli yuzaga kelgan xarajatlar"
+      "savol": "Faktoring operatsiyasi nimani anglatadi?",
+      "togri_javob": "Debitor qarzlarni sotib olish",
+      "javob_2": "Kredit berish",
+      "javob_3": "Depozit qabul qilish",
+      "javob_4": "Valyuta sotish"
     },
     {
       "id": 185,
-      "savol": "Stress-test usulining asosiy vazifasi nimadan iborat?",
-      "togri_javob": "Moliyaviy tizim makroiqtisodiy shoklarga qanchalik bardosh berishini baholash",
-      "javob_2": "Investorning foyda olish ehtimolini aniqlash",
-      "javob_3": "Bozor riskini butunlay yo‘q qilishni ta’minlash",
-      "javob_4": "Faqat yirik moliyaviy institutlar uchun xavfsizlik zaxiralarini hisoblash"
+      "savol": "Faktoring operatsiyasi bo‘yicha mablag‘ni o‘tkazish qaysi hujjat bilan amalga oshiriladi?",
+      "togri_javob": "Memorial order",
+      "javob_2": "Chek",
+      "javob_3": "Kredit shartnomasi",
+      "javob_4": "Valyuta orderi"
     },
     {
       "id": 186,
-      "savol": "“Pastdan tepaga” stress-test usuli qanday ishlaydi?",
-      "togri_javob": "Har bir moliyaviy institut o‘z ssenariy bo‘yicha riskni baholaydi va yuqoriga (regulyatorga) taqdim etadi",
-      "javob_2": "Markaziy Bank butun tizimni bir xil metodologiya asosida test qiladi",
-      "javob_3": "Barcha tahlillar xalqaro reyting agentliklari tomonidan tashqi baholanadi",
-      "javob_4": "Moliyaviy risklar faqat tashqi auditorlar tomonidan tasdiqlangandan so‘ng hisobga olinadi"
+      "savol": "Chiqim kassa orderi kim tomonidan imzolanadi?",
+      "togri_javob": "Bosh buxgalter va kassir",
+      "javob_2": "Mijoz",
+      "javob_3": "Auditor",
+      "javob_4": "Soliq xodimi"
     },
     {
       "id": 187,
-      "savol": "2008-yildagi jahon moliyaviy inqirozining moliya bozori uchun ahamiyati nimada bo'ldi?",
-      "togri_javob": "Bozor risklarini aniqlash va baholash uslublarini qayta ko‘rib chiqishga sabab bo‘ldi",
-      "javob_2": "Barcha investorlar daromad oldi",
-      "javob_3": "Faqat xomashyo narxlari oshdi",
-      "javob_4": "Qimmatli qogʻozlar xavfsiz investitsiyaga aylandi"
+      "savol": "Nomoddiy aktivlarga amortizatsiya qachondan hisoblanadi?",
+      "togri_javob": "Foydalanishga topshirilgan kundan",
+      "javob_2": "Sotib olingan kundan",
+      "javob_3": "Balansga kiritilgan kundan",
+      "javob_4": "Audit o‘tkazilgandan"
     },
     {
       "id": 188,
-      "savol": "Quyidigilardan qaysi biri bozor riskini standart shakli hisoblanmaydi?",
-      "togri_javob": "investitsion risklar",
-      "javob_2": "fond (yoki narx) riski",
-      "javob_3": "foiz riski",
-      "javob_4": "valyuta riski."
+      "savol": "To‘lov to‘lovchining roziligisiz qaysi hujjat asosida amalga oshiriladi?",
+      "togri_javob": "Inkasso topshiriqnomasi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Chek",
+      "javob_4": "Valyuta orderi"
     },
     {
       "id": 189,
-      "savol": "1990-yillar yarmidan to hozirgi kunga qadar yirik xalqaro banklar va regulyatorlar boshchiligida deyarli barcha moliyaviy institutlar risk metrikasi sifatida qaysi risklarni hisoblash uslubiyoti qoʻllaniladi?",
-      "togri_javob": "VaR(Value at Risk)",
-      "javob_2": "stress-test usuli",
-      "javob_3": "tizimli riskni erta aniqlash indikatorlari",
-      "javob_4": "spetsifik (oʻziga xos) risklar."
+      "savol": "Bek-ofis nima?",
+      "togri_javob": "Bank operatsiyalarini nazorat qiluvchi bo‘lim",
+      "javob_2": "Marketing bo‘limi",
+      "javob_3": "Kredit bo‘limi",
+      "javob_4": "Depozit bo‘limi"
     },
     {
       "id": 190,
-      "savol": "Potensial (istiqboldagi mumkin boʻlgan) yoʻqotishlarni ma'lum bir davr oraligʻi uchun hisoblanishni anglatadigan muddat –nima deb ataladi?",
-      "togri_javob": "risk gorizonti",
-      "javob_2": "foiz riski",
-      "javob_3": "riskni baholash",
-      "javob_4": "kredit riski"
+      "savol": "Banklarning hisobvaraqlar rejasi nima?",
+      "togri_javob": "Bank operatsiyalarini hisobga olish tizimi",
+      "javob_2": "Kredit tizimi",
+      "javob_3": "Depozit tizimi",
+      "javob_4": "Investitsiya tizimi"
     },
     {
       "id": 191,
-      "savol": "Markovisning portfel nazariyasi mohiyati nimaga asoslangan?",
-      "togri_javob": "portfel diversfikatsiyasi",
-      "javob_2": "portfel risk qiymatini yuqori chegarasini baholash",
-      "javob_3": "rsiksiz aktivlarni aniqlash",
-      "javob_4": "risksiz foiz stavkasini aniqlash"
+      "savol": "Yordamchi kitob materiallari nima?",
+      "togri_javob": "Analitik hisob ma’lumotlari",
+      "javob_2": "Kredit ma’lumotlari",
+      "javob_3": "Depozit ma’lumotlari",
+      "javob_4": "Investitsiya ma’lumotlari"
     },
     {
       "id": 192,
-      "savol": "Xedjirlash qanday amalga oshiriladi ?",
-      "togri_javob": "Qimmatli qog‘ozlar (valyuta) kursi o‘zgarishidan ko’rilishi mumkin bo‘lgan zararlardan sug‘urtalash",
-      "javob_2": "Qimmatli qog‘ozlar portfelini bir necha turlarga bo'lish",
-      "javob_3": "Qimmatli qog‘ozlarni qaytarib sotib olish sharti bilan sotish",
-      "javob_4": "Emitentning qimmatli qog‘ozlarini birja kotirovka varag‘idan chiqarish"
+      "savol": "Balansning tuzilishi qanday?",
+      "togri_javob": "Aktiv va passiv qismlardan",
+      "javob_2": "Kredit va depozit qismlardan",
+      "javob_3": "Kapital va kassa qismlardan",
+      "javob_4": "Investitsiya qismlardan"
     },
     {
       "id": 193,
-      "savol": "Derivativlar qanday risklarni kamaytirish imkonini beradi?",
-      "togri_javob": "bazis aktiv narx o'zgarishidagi yo'qotishlarni",
-      "javob_2": "bazis aktivdan olinadigan daromadlarni yo'qotishni",
-      "javob_3": "bazis aktiv butunligini saqlash imkonini beradi",
-      "javob_4": "bazis aktivga talab oshib ketmasligini oldini oladi"
+      "savol": "Dastlabki, joriy va yakuniy nazorat nima?",
+      "togri_javob": "Ichki nazorat bosqichlari",
+      "javob_2": "Kredit nazorati",
+      "javob_3": "Depozit nazorati",
+      "javob_4": "Investitsiya nazorati"
     },
     {
       "id": 194,
-      "savol": "Investitsiya loyihalarini baholashda “diskontlash” usuli nima uchun qo‘llaniladi?",
-      "togri_javob": "Kelajakdagi pul oqimlarini bugungi qiymatga keltirish uchun",
-      "javob_2": "Faqat soliq imtiyozlarini aniqlash uchun",
-      "javob_3": "Riskni nolga tenglashtirish uchun",
-      "javob_4": "Investitsiya qiymatini ikki baravar oshirish uchun"
+      "savol": "Daromad va xarajatlar qaysi printsip asosida hisobga olinadi?",
+      "togri_javob": "Hisoblash printsipi",
+      "javob_2": "Kassali printsip",
+      "javob_3": "Kredit printsipi",
+      "javob_4": "Depozit printsipi"
     },
     {
       "id": 195,
-      "savol": "Moliya bozorida investitsiya samaradorligining bahosi ko‘proq qaysi omilga bog‘liq?",
-      "togri_javob": "Pul oqimlarining hajmi va ularning vaqt bo‘yicha taqsimoti",
-      "javob_2": "Kredit liniyalarining mavjudligi",
-      "javob_3": "Valyuta bozoridagi spekulyativ operatsiyalar",
-      "javob_4": "Sug‘urta kompaniyalarining reytingi"
+      "savol": "Mol yetkazib beruvchiga to‘lovni kafolatlovchi hisob-kitob shakli qaysi?",
+      "togri_javob": "Akkreditiv",
+      "javob_2": "Chek",
+      "javob_3": "Kredit",
+      "javob_4": "Depozit"
     },
     {
       "id": 196,
-      "savol": "Foyda/zararni baholashda qanday omil eng ko‘p inobatga olinadi?",
-      "togri_javob": "Pul oqimi",
-      "javob_2": "Soliq stavkasi",
-      "javob_3": "Auditorlik xulosasi",
-      "javob_4": "Marketing strategiyasi"
+      "savol": "Bank majburiyatlari nima?",
+      "togri_javob": "Bank qarzlari va depozitlari",
+      "javob_2": "Bank aktivlari",
+      "javob_3": "Bank daromadlari",
+      "javob_4": "Bank xarajatlari"
     },
     {
       "id": 197,
-      "savol": "Investitsiya qarorlarini qabul qilishda eng birinchi qadam nima bo‘lishi kerak?",
-      "togri_javob": "Investitsiya loyihasining risk va daromadliligini baholash",
-      "javob_2": "Kredit liniyasini ochish",
-      "javob_3": "Moliyaviy hisobotni tuzish",
-      "javob_4": "Foyda solig‘i to‘lash"
+      "savol": "REPO bitimi nima?",
+      "togri_javob": "Qimmatli qog‘ozlarni qayta sotib olish sharti bilan sotish",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Depozit operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
     },
     {
       "id": 198,
-      "savol": "Moliyaviy instrumentlar qisqa muddatli bo‘lib hisoblanadi, agar ularning muddati:",
-      "togri_javob": "bir yilgacha",
-      "javob_2": "olti yilgacha",
-      "javob_3": "besh yilgacha",
-      "javob_4": "uch yilgacha."
+      "savol": "Sintetik hisob registrlariga qaysi hujjat kirmaydi?",
+      "togri_javob": "Shaxsiy hisobvaraq",
+      "javob_2": "Bosh kitob",
+      "javob_3": "Balans",
+      "javob_4": "Hisobot"
     },
     {
       "id": 199,
-      "savol": "Quyidagilardan qaysi biri investitsiya samaradorligiga bevosita ta’sir qiladi?",
-      "togri_javob": "Bozordagi foiz stavkalari o‘zgarishi",
-      "javob_2": "Reklama xarajatlari",
-      "javob_3": "Brend logotipi",
-      "javob_4": "Xodimlar soni"
+      "savol": "Balans passivining umumiy summasi nimani ifodalaydi?",
+      "togri_javob": "Majburiyatlar va kapital yig‘indisi",
+      "javob_2": "Kredit yig‘indisi",
+      "javob_3": "Depozit yig‘indisi",
+      "javob_4": "Valyuta yig‘indisi"
     },
     {
       "id": 200,
-      "savol": "NPV manfiy bo‘lsa, qanday qaror qabul qilinadi?",
-      "togri_javob": "Loyiha moliyaviy jihatdan samarasiz — rad etiladi",
-      "javob_2": "Loyiha daromadli — amalga oshiriladi",
-      "javob_3": "Diskont stavkasi kamaytiriladi",
-      "javob_4": "Soliqlar qayta hisoblanadi"
+      "savol": "Passiv hisobvaraqlar qaysi xususiyatga ega?",
+      "togri_javob": "Kredit qoldiq mavjud",
+      "javob_2": "Debet qoldiq mavjud",
+      "javob_3": "Balans qoldiq mavjud",
+      "javob_4": "Analitik qoldiq mavjud"
+    },
+    {
+      "id": 201,
+      "savol": "Hisobvaraqlar rejasining VI bo‘limi nimani ifodalaydi?",
+      "togri_javob": "Xarajatlar hisobvaraqlari",
+      "javob_2": "Aktiv hisobvaraqlar",
+      "javob_3": "Kapital hisobvaraqlari",
+      "javob_4": "Kredit hisobvaraqlari"
+    },
+    {
+      "id": 202,
+      "savol": "Akkreditiv ochilganda qanday operatsiya amalga oshiriladi?",
+      "togri_javob": "Depozit ajratiladi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Valyuta sotiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 203,
+      "savol": "To‘lov talabnomasi akseptlash muddati qancha?",
+      "togri_javob": "3 ish kuni",
+      "javob_2": "5 ish kuni",
+      "javob_3": "7 ish kuni",
+      "javob_4": "10 ish kuni"
+    },
+    {
+      "id": 204,
+      "savol": "Chiqim kassasi nima?",
+      "togri_javob": "Naqd pul beriladigan kassa",
+      "javob_2": "Kredit beriladigan bo‘lim",
+      "javob_3": "Depozit qabul qilinadigan bo‘lim",
+      "javob_4": "Investitsiya bo‘limi"
+    },
+    {
+      "id": 205,
+      "savol": "Tovar hujjatlarini sotib olish operatsiyasi nima?",
+      "togri_javob": "Faktoring",
+      "javob_2": "Kredit",
+      "javob_3": "Depozit",
+      "javob_4": "Investitsiya"
+    },
+    {
+      "id": 206,
+      "savol": "Daromad va xarajatlarni qaysi printsip asosida tan olish kerak?",
+      "togri_javob": "Hisoblash printsipi",
+      "javob_2": "Kassali printsip",
+      "javob_3": "Kredit printsipi",
+      "javob_4": "Depozit printsipi"
+    },
+    {
+      "id": 207,
+      "savol": "To‘lov talabnomasi nima?",
+      "togri_javob": "Yetkazib beruvchining to‘lovni talab qiluvchi hujjati",
+      "javob_2": "Kredit hujjati",
+      "javob_3": "Depozit hujjati",
+      "javob_4": "Valyuta hujjati"
+    },
+    {
+      "id": 208,
+      "savol": "Naqd pul qabul qiluvchi kassa nima?",
+      "togri_javob": "Kassa kirim operatsiyalarini amalga oshiruvchi bo‘lim",
+      "javob_2": "Kredit bo‘limi",
+      "javob_3": "Depozit bo‘limi",
+      "javob_4": "Investitsiya bo‘limi"
+    },
+    {
+      "id": 209,
+      "savol": "Akkreditiv arizasi nechta nusxada beriladi?",
+      "togri_javob": "2 nusxada",
+      "javob_2": "3 nusxada",
+      "javob_3": "4 nusxada",
+      "javob_4": "5 nusxada"
+    },
+    {
+      "id": 210,
+      "savol": "Aktiv hisobvaraqlarning xususiyati nima?",
+      "togri_javob": "Debet qoldiq mavjud",
+      "javob_2": "Kredit qoldiq mavjud",
+      "javob_3": "Balans qoldiq mavjud",
+      "javob_4": "Analitik qoldiq mavjud"
+    },
+    {
+      "id": 211,
+      "savol": "Vaqtinchalik hisobvaraqlar qaysilar?",
+      "togri_javob": "Daromad va xarajat hisobvaraqlari",
+      "javob_2": "Aktiv hisobvaraqlar",
+      "javob_3": "Kapital hisobvaraqlari",
+      "javob_4": "Kredit hisobvaraqlari"
+    },
+    {
+      "id": 212,
+      "savol": "Aktiv hisobvaraqlarda ko‘payish qayerda aks ettiriladi?",
+      "togri_javob": "Debet tomonida",
+      "javob_2": "Kredit tomonida",
+      "javob_3": "Balans tomonida",
+      "javob_4": "Analitik tomonida"
+    },
+    {
+      "id": 213,
+      "savol": "Bank kassasidagi pul qayerda hisobga olinadi?",
+      "togri_javob": "Aktiv hisobvaraqlarda",
+      "javob_2": "Passiv hisobvaraqlarda",
+      "javob_3": "Kredit hisobvaraqlarida",
+      "javob_4": "Depozit hisobvaraqlarida"
+    },
+    {
+      "id": 214,
+      "savol": "Garov sifatida olingan mulk qayerda hisobga olinadi?",
+      "togri_javob": "Balansdan tashqari hisobvaraqlarda",
+      "javob_2": "Aktiv hisobvaraqlarda",
+      "javob_3": "Kredit hisobvaraqlarida",
+      "javob_4": "Depozit hisobvaraqlarida"
+    },
+    {
+      "id": 215,
+      "savol": "Bank kreditlari maqomi bo‘yicha qanday tasniflanadi?",
+      "togri_javob": "Standart, shubhali va muammoli",
+      "javob_2": "Aktiv va passiv",
+      "javob_3": "Kredit va depozit",
+      "javob_4": "Milliy va xalqaro"
+    },
+    {
+      "id": 216,
+      "savol": "Operatsiyalarni bajarishdan oldin o‘tkaziladigan nazorat nima?",
+      "togri_javob": "Dastlabki nazorat",
+      "javob_2": "Joriy nazorat",
+      "javob_3": "Yakuniy nazorat",
+      "javob_4": "Tashqi nazorat"
+    },
+    {
+      "id": 217,
+      "savol": "Bank xarajatlari qaysi hisobvaraqlarda yuritiladi?",
+      "togri_javob": "Xarajat hisobvaraqlarida",
+      "javob_2": "Aktiv hisobvaraqlarda",
+      "javob_3": "Kapital hisobvaraqlarida",
+      "javob_4": "Kredit hisobvaraqlarida"
+    },
+    {
+      "id": 218,
+      "savol": "Bank foiz daromadlari qayerdan olinadi?",
+      "togri_javob": "Kredit operatsiyalaridan",
+      "javob_2": "Depozit operatsiyalaridan",
+      "javob_3": "Investitsiyalardan",
+      "javob_4": "Valyuta sotishdan"
+    },
+    {
+      "id": 219,
+      "savol": "Bek-ofis nazorati nima?",
+      "togri_javob": "Operatsiyalarni qayta tekshirish",
+      "javob_2": "Kredit berish",
+      "javob_3": "Depozit qabul qilish",
+      "javob_4": "Investitsiya qilish"
+    },
+    {
+      "id": 220,
+      "savol": "Akkreditiv qanday shakllarda bo‘ladi?",
+      "togri_javob": "Qoplangan va qoplanmagan",
+      "javob_2": "Aktiv va passiv",
+      "javob_3": "Kredit va depozit",
+      "javob_4": "Milliy va xalqaro"
+    },
+    {
+      "id": 221,
+      "savol": "Kontr-aktiv hisobvaraqlar qayerda aks ettiriladi?",
+      "togri_javob": "Aktivlar qiymatini kamaytirish uchun",
+      "javob_2": "Kredit berish uchun",
+      "javob_3": "Depozit qabul qilish uchun",
+      "javob_4": "Investitsiya qilish uchun"
+    },
+    {
+      "id": 222,
+      "savol": "Yordamchi kitoblarda nima aks ettiriladi?",
+      "togri_javob": "Analitik hisob ma’lumotlari",
+      "javob_2": "Kredit operatsiyalari",
+      "javob_3": "Depozit operatsiyalari",
+      "javob_4": "Investitsiya operatsiyalari"
+    },
+    {
+      "id": 223,
+      "savol": "Dastlabki nazorat qachon amalga oshiriladi?",
+      "togri_javob": "Operatsiyani bajarishdan oldin",
+      "javob_2": "Operatsiyadan keyin",
+      "javob_3": "Hisobot vaqtida",
+      "javob_4": "Audit vaqtida"
+    },
+    {
+      "id": 224,
+      "savol": "Jamg‘arma depozit hisobvaraq nima?",
+      "togri_javob": "Mablag‘larni jamg‘arish uchun mo‘ljallangan depozit",
+      "javob_2": "Kredit hisobvarag‘i",
+      "javob_3": "Valyuta hisobvarag‘i",
+      "javob_4": "Investitsiya hisobvarag‘i"
+    },
+    {
+      "id": 225,
+      "savol": "Inkasso topshiriqnomasi kim tomonidan taqdim etiladi?",
+      "togri_javob": "Undiruvchi tashkilot tomonidan",
+      "javob_2": "Mijoz tomonidan",
+      "javob_3": "Auditor tomonidan",
+      "javob_4": "Investor tomonidan"
+    },
+    {
+      "id": 226,
+      "savol": "Jismoniy shaxs muddatli depozitga naqd pul qo‘yganda qanday operatsiya bo‘ladi?",
+      "togri_javob": "Kassa kirim operatsiyasi",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Investitsiya operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
+    },
+    {
+      "id": 227,
+      "savol": "Kirim kassa operatsiyalarida qanday hujjat ishlatiladi?",
+      "togri_javob": "Kirim kassa orderi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Depozit shartnomasi",
+      "javob_4": "Investitsiya shartnomasi"
+    },
+    {
+      "id": 228,
+      "savol": "To‘lov topshiriqnomasi qachon qabul qilinadi?",
+      "togri_javob": "Mijoz topshirig‘i asosida",
+      "javob_2": "Auditor qarori bilan",
+      "javob_3": "Soliq qarori bilan",
+      "javob_4": "Investor qarori bilan"
+    },
+    {
+      "id": 229,
+      "savol": "Mijoz hisobvarag‘i qachon bloklanadi?",
+      "togri_javob": "Sud yoki soliq qarori bilan",
+      "javob_2": "Auditor qarori bilan",
+      "javob_3": "Investor qarori bilan",
+      "javob_4": "Marketing qarori bilan"
+    },
+    {
+      "id": 230,
+      "savol": "Muddatli depozit nima?",
+      "togri_javob": "Belgilangan muddatga qo‘yilgan depozit",
+      "javob_2": "Kredit depozit",
+      "javob_3": "Valyuta depozit",
+      "javob_4": "Investitsiya depozit"
+    },
+    {
+      "id": 231,
+      "savol": "Qimmatli qog‘oz blankalari qanday qiymatda hisobga olinadi?",
+      "togri_javob": "Shartli qiymatda",
+      "javob_2": "Kredit qiymatida",
+      "javob_3": "Depozit qiymatida",
+      "javob_4": "Bozor qiymatida"
+    },
+    {
+      "id": 232,
+      "savol": "Qiyin sotiluvchi aktivlar nima?",
+      "togri_javob": "Past likvidli aktivlar",
+      "javob_2": "Kredit aktivlari",
+      "javob_3": "Depozit aktivlari",
+      "javob_4": "Valyuta aktivlari"
+    },
+    {
+      "id": 233,
+      "savol": "Balans passiviga nima kirmaydi?",
+      "togri_javob": "Asosiy vositalar",
+      "javob_2": "Kapital",
+      "javob_3": "Depozitlar",
+      "javob_4": "Majburiyatlar"
+    },
+    {
+      "id": 234,
+      "savol": "Talab qilib olinguncha depozit hisobvarag‘i nima?",
+      "togri_javob": "Istalgan vaqtda yechib olinadigan depozit",
+      "javob_2": "Muddatli depozit",
+      "javob_3": "Kredit depozit",
+      "javob_4": "Investitsiya depozit"
+    },
+    {
+      "id": 235,
+      "savol": "Jismoniy shaxs jamg‘arma omonatini kassadan olganda qanday operatsiya bo‘ladi?",
+      "togri_javob": "Kassa chiqim operatsiyasi",
+      "javob_2": "Kredit operatsiyasi",
+      "javob_3": "Investitsiya operatsiyasi",
+      "javob_4": "Valyuta operatsiyasi"
+    },
+    {
+      "id": 236,
+      "savol": "“Buxgalteriya hisobi to‘g‘risida”gi qonun qachon qabul qilingan?",
+      "togri_javob": "1996 yil",
+      "javob_2": "2000 yil",
+      "javob_3": "2005 yil",
+      "javob_4": "2010 yil"
+    },
+    {
+      "id": 237,
+      "savol": "“Banklar va bank faoliyati to‘g‘risida”gi qonun qachon qabul qilingan?",
+      "togri_javob": "1996 yil",
+      "javob_2": "2001 yil",
+      "javob_3": "2005 yil",
+      "javob_4": "2010 yil"
+    },
+    {
+      "id": 238,
+      "savol": "Bankda operatsiyalarni nazorat qiluvchi buxgalterlar guruhi nima deb ataladi?",
+      "togri_javob": "Bek-ofis",
+      "javob_2": "Front-ofis",
+      "javob_3": "Marketing bo‘limi",
+      "javob_4": "Kredit bo‘limi"
+    },
+    {
+      "id": 239,
+      "savol": "Mijozlar bilan ishlovchi xodimlar guruhi nima deb ataladi?",
+      "togri_javob": "Front-ofis",
+      "javob_2": "Bek-ofis",
+      "javob_3": "Audit bo‘limi",
+      "javob_4": "Kredit bo‘limi"
+    },
+    {
+      "id": 240,
+      "savol": "Asosiy vositalar nima?",
+      "togri_javob": "Uzoq muddat foydalaniladigan moddiy aktivlar",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Valyuta"
+    },
+    {
+      "id": 241,
+      "savol": "Kam baholi tez eskiruvchi buyumlar nima?",
+      "togri_javob": "Qisqa muddat foydalaniladigan aktivlar",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Investitsiyalar"
+    },
+    {
+      "id": 242,
+      "savol": "Asosiy vositaning boshlang‘ich qiymati nima?",
+      "togri_javob": "Sotib olish qiymati",
+      "javob_2": "Kredit qiymati",
+      "javob_3": "Depozit qiymati",
+      "javob_4": "Investitsiya qiymati"
+    },
+    {
+      "id": 243,
+      "savol": "Aktivning haqqoniy qiymati nima?",
+      "togri_javob": "Bozor qiymati",
+      "javob_2": "Kredit qiymati",
+      "javob_3": "Depozit qiymati",
+      "javob_4": "Balans qiymati"
+    },
+    {
+      "id": 244,
+      "savol": "Vositachilik xizmatlaridan olingan daromad nima?",
+      "togri_javob": "Komission daromad",
+      "javob_2": "Kredit daromadi",
+      "javob_3": "Depozit daromadi",
+      "javob_4": "Investitsiya daromadi"
+    },
+    {
+      "id": 245,
+      "savol": "Bank foydasi nima?",
+      "togri_javob": "Daromad va xarajatlar farqi",
+      "javob_2": "Kredit miqdori",
+      "javob_3": "Depozit miqdori",
+      "javob_4": "Investitsiya miqdori"
+    },
+    {
+      "id": 246,
+      "savol": "Lizing ob’ekti uchun to‘lov amalga oshirilganda nima sodir bo‘ladi?",
+      "togri_javob": "Mablag‘ o‘tkaziladi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 247,
+      "savol": "Asosiy vositalarning eskirish summasi qayerda aks ettiriladi?",
+      "togri_javob": "Kontr-aktiv hisobvaraqlarda",
+      "javob_2": "Kredit hisobvaraqlarida",
+      "javob_3": "Depozit hisobvaraqlarida",
+      "javob_4": "Valyuta hisobvaraqlarida"
+    },
+    {
+      "id": 248,
+      "savol": "KBTEB qanday aktiv hisoblanadi?",
+      "togri_javob": "Qisqa muddatli aktiv",
+      "javob_2": "Kredit aktiv",
+      "javob_3": "Depozit aktiv",
+      "javob_4": "Investitsiya aktiv"
+    },
+    {
+      "id": 249,
+      "savol": "Foiz daromadlari qayerdan shakllanadi?",
+      "togri_javob": "Kredit operatsiyalaridan",
+      "javob_2": "Depozit operatsiyalaridan",
+      "javob_3": "Investitsiyalardan",
+      "javob_4": "Valyuta operatsiyalaridan"
+    },
+    {
+      "id": 250,
+      "savol": "Valyuta kurslari farqi nima deb ataladi?",
+      "togri_javob": "Kurs farqi daromadi",
+      "javob_2": "Kredit daromadi",
+      "javob_3": "Depozit daromadi",
+      "javob_4": "Investitsiya daromadi"
+    },
+    {
+      "id": 251,
+      "savol": "Foiz daromadi hisoblanganda qanday operatsiya bo‘ladi?",
+      "togri_javob": "Daromad hisoblanadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 252,
+      "savol": "Foiz daromadi undirilganda nima sodir bo‘ladi?",
+      "togri_javob": "Mablag‘ kelib tushadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 253,
+      "savol": "Lizing uchun to‘lov amalga oshirilganda nima sodir bo‘ladi?",
+      "togri_javob": "Mablag‘ o‘tkaziladi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 254,
+      "savol": "Mijoz depozit qo‘yganda nima sodir bo‘ladi?",
+      "togri_javob": "Bank majburiyati ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Investitsiya qilinadi",
+      "javob_4": "Valyuta sotiladi"
+    },
+    {
+      "id": 255,
+      "savol": "Ustav kapitali shakllanganda nima sodir bo‘ladi?",
+      "togri_javob": "Kapital ortadi",
+      "javob_2": "Kredit ortadi",
+      "javob_3": "Depozit ortadi",
+      "javob_4": "Valyuta ortadi"
+    },
+    {
+      "id": 256,
+      "savol": "Mijoz hisobvarag‘iga pul tushganda nima sodir bo‘ladi?",
+      "togri_javob": "Hisobvaraq qoldig‘i ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit yopiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 257,
+      "savol": "Mijoz hisobvarag‘idan pul o‘tkazilganda nima sodir bo‘ladi?",
+      "togri_javob": "Hisobvaraq qoldig‘i kamayadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 258,
+      "savol": "Depozit bo‘yicha foiz to‘langanda nima sodir bo‘ladi?",
+      "togri_javob": "Xarajat yuzaga keladi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 259,
+      "savol": "KBTEB foydalanishga berilganda nima sodir bo‘ladi?",
+      "togri_javob": "Xarajatga yoziladi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 260,
+      "savol": "Valyuta sotib olinganda nima sodir bo‘ladi?",
+      "togri_javob": "Valyuta aktivlari ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 261,
+      "savol": "Operatsion xarajatlar hisoblanganda nima sodir bo‘ladi?",
+      "togri_javob": "Xarajat ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 262,
+      "savol": "Komission xarajatlar hisoblanganda nima sodir bo‘ladi?",
+      "togri_javob": "Xarajat ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 263,
+      "savol": "Foiz daromadi tan olinganda nima sodir bo‘ladi?",
+      "togri_javob": "Daromad ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 264,
+      "savol": "Dividend daromadi olinganda nima sodir bo‘ladi?",
+      "togri_javob": "Daromad ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 265,
+      "savol": "Xizmat ko‘rsatishdan daromad olinganda nima sodir bo‘ladi?",
+      "togri_javob": "Daromad ortadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 266,
+      "savol": "Kassadan pul berilganda nima sodir bo‘ladi?",
+      "togri_javob": "Naqd pul kamayadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 267,
+      "savol": "Ustav kapitali oshirilganda nima sodir bo‘ladi?",
+      "togri_javob": "Kapital ortadi",
+      "javob_2": "Kredit ortadi",
+      "javob_3": "Depozit ortadi",
+      "javob_4": "Investitsiya ortadi"
+    },
+    {
+      "id": 268,
+      "savol": "Hisobot davri oxirida foyda aniqlanganda nima sodir bo‘ladi?",
+      "togri_javob": "Foyda hisoblanadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 269,
+      "savol": "Bank kredit berganda nima sodir bo‘ladi?",
+      "togri_javob": "Aktiv ortadi",
+      "javob_2": "Depozit ortadi",
+      "javob_3": "Kapital ortadi",
+      "javob_4": "Valyuta ortadi"
+    },
+    {
+      "id": 270,
+      "savol": "Kredit bo‘yicha foiz hisoblanganda nima sodir bo‘ladi?",
+      "togri_javob": "Foiz daromadi yuzaga keladi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 271,
+      "savol": "Kredit foizi undirilganda nima sodir bo‘ladi?",
+      "togri_javob": "Pul kelib tushadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 272,
+      "savol": "Kredit asosiy qarzi qaytarilganda nima sodir bo‘ladi?",
+      "togri_javob": "Kredit qoldig‘i kamayadi",
+      "javob_2": "Depozit ortadi",
+      "javob_3": "Kapital ortadi",
+      "javob_4": "Investitsiya ortadi"
+    },
+    {
+      "id": 273,
+      "savol": "Kredit zaxirasi yaratilganda nima sodir bo‘ladi?",
+      "togri_javob": "Zaxira shakllanadi",
+      "javob_2": "Kredit beriladi",
+      "javob_3": "Depozit ochiladi",
+      "javob_4": "Investitsiya qilinadi"
+    },
+    {
+      "id": 274,
+      "savol": "Bank kredit berishda nimani baholaydi?",
+      "togri_javob": "Qarzdorning to‘lov qobiliyatini",
+      "javob_2": "Depozit miqdorini",
+      "javob_3": "Investitsiya miqdorini",
+      "javob_4": "Valyuta kursini"
+    },
+    {
+      "id": 275,
+      "savol": "Qisqa muddatli ijara nima?",
+      "togri_javob": "Operatsion lizing",
+      "javob_2": "Kredit",
+      "javob_3": "Depozit",
+      "javob_4": "Investitsiya"
+    },
+    {
+      "id": 276,
+      "savol": "Asosiy vositalarning eskirish qiymati nima?",
+      "togri_javob": "Amortizatsiya",
+      "javob_2": "Kredit",
+      "javob_3": "Depozit",
+      "javob_4": "Investitsiya"
+    },
+    {
+      "id": 277,
+      "savol": "Hujjatdagi barcha ko‘rsatkichlar nima deb ataladi?",
+      "togri_javob": "Rekvizitlar",
+      "javob_2": "Kreditlar",
+      "javob_3": "Depozitlar",
+      "javob_4": "Investitsiyalar"
+    },
+    {
+      "id": 278,
+      "savol": "Pul hisob-kitob hujjatlarida tuzatish mumkinmi?",
+      "togri_javob": "Yo‘q",
+      "javob_2": "Ha",
+      "javob_3": "Ba’zan",
+      "javob_4": "Istalgan vaqtda"
+    },
+    {
+      "id": 279,
+      "savol": "Elektron raqamli imzo bilan tasdiqlangan hujjat nima?",
+      "togri_javob": "Elektron hujjat",
+      "javob_2": "Kredit hujjati",
+      "javob_3": "Depozit hujjati",
+      "javob_4": "Investitsiya hujjati"
+    },
+    {
+      "id": 280,
+      "savol": "Foiz hisoblash formulasi qanday?",
+      "togri_javob": "Asosiy summa × foiz stavkasi / 365",
+      "javob_2": "Kredit × depozit",
+      "javob_3": "Aktiv × passiv",
+      "javob_4": "Kapital × balans"
+    },
+    {
+      "id": 281,
+      "savol": "Kunlik foiz nima?",
+      "togri_javob": "Bir kun uchun hisoblangan foiz",
+      "javob_2": "Kredit foizi",
+      "javob_3": "Depozit foizi",
+      "javob_4": "Investitsiya foizi"
+    },
+    {
+      "id": 282,
+      "savol": "Oylik foiz nima?",
+      "togri_javob": "Bir oy uchun hisoblangan foiz",
+      "javob_2": "Kredit foizi",
+      "javob_3": "Depozit foizi",
+      "javob_4": "Investitsiya foizi"
+    },
+    {
+      "id": 283,
+      "savol": "Foiz hisoblashning asosiy elementi nima?",
+      "togri_javob": "Foiz stavkasi",
+      "javob_2": "Kredit miqdori",
+      "javob_3": "Depozit miqdori",
+      "javob_4": "Investitsiya miqdori"
+    },
+    {
+      "id": 284,
+      "savol": "Jismoniy shaxs depozit qo‘yganda balansda nima o‘zgaradi?",
+      "togri_javob": "Majburiyat ortadi",
+      "javob_2": "Aktiv kamayadi",
+      "javob_3": "Kapital kamayadi",
+      "javob_4": "Kredit kamayadi"
+    },
+    {
+      "id": 285,
+      "savol": "Jismoniy shaxs depozitdan pul olsa nima o‘zgaradi?",
+      "togri_javob": "Majburiyat kamayadi",
+      "javob_2": "Aktiv ortadi",
+      "javob_3": "Kapital ortadi",
+      "javob_4": "Kredit ortadi"
+    },
+    {
+      "id": 286,
+      "savol": "Depozit bir turdan boshqasiga o‘tkazilganda nima sodir bo‘ladi?",
+      "togri_javob": "Majburiyat ichida o‘zgarish bo‘ladi",
+      "javob_2": "Aktiv ortadi",
+      "javob_3": "Kapital ortadi",
+      "javob_4": "Kredit ortadi"
+    },
+    {
+      "id": 287,
+      "savol": "Mikroqarz berilganda nima sodir bo‘ladi?",
+      "togri_javob": "Aktiv ortadi",
+      "javob_2": "Majburiyat ortadi",
+      "javob_3": "Kapital ortadi",
+      "javob_4": "Depozit ortadi"
+    },
+    {
+      "id": 288,
+      "savol": "Yangi korxona ochgan depozit hisobvaraq qanday hisoblanadi?",
+      "togri_javob": "Talab qilib olinguncha depozit hisobvaraq",
+      "javob_2": "Kredit hisobvaraq",
+      "javob_3": "Investitsiya hisobvaraq",
+      "javob_4": "Valyuta hisobvaraq"
+    },
+    {
+      "id": 289,
+      "savol": "Banklararo vakillik munosabatlari nima?",
+      "togri_javob": "Banklar o‘rtasidagi hisob-kitob aloqalari",
+      "javob_2": "Kredit aloqalari",
+      "javob_3": "Depozit aloqalari",
+      "javob_4": "Investitsiya aloqalari"
+    },
+    {
+      "id": 290,
+      "savol": "“Nostro” hisobvaraq nima?",
+      "togri_javob": "Bizning bankning boshqa bankdagi hisobvarag‘i",
+      "javob_2": "Kredit hisobvaraq",
+      "javob_3": "Depozit hisobvaraq",
+      "javob_4": "Investitsiya hisobvaraq"
+    },
+    {
+      "id": 291,
+      "savol": "Qoplangan akkreditiv nima?",
+      "togri_javob": "Oldindan depozit bilan ta’minlangan akkreditiv",
+      "javob_2": "Kredit akkreditiv",
+      "javob_3": "Depozit akkreditiv",
+      "javob_4": "Investitsiya akkreditiv"
+    },
+    {
+      "id": 292,
+      "savol": "Qoplanmagan akkreditiv qachon ochiladi?",
+      "togri_javob": "Bank kafolati asosida",
+      "javob_2": "Depozit asosida",
+      "javob_3": "Kredit asosida",
+      "javob_4": "Investitsiya asosida"
+    },
+    {
+      "id": 293,
+      "savol": "Banklararo munosabatlar geografik jihatdan qanday bo‘linadi?",
+      "togri_javob": "Ichki va xalqaro",
+      "javob_2": "Kredit va depozit",
+      "javob_3": "Aktiv va passiv",
+      "javob_4": "Investitsiya va valyuta"
+    },
+    {
+      "id": 294,
+      "savol": "Bank hisobvarag‘i shartnomasi qanday tuziladi?",
+      "togri_javob": "Yozma shaklda",
+      "javob_2": "Og‘zaki shaklda",
+      "javob_3": "Elektron shaklda",
+      "javob_4": "Tasodifiy shaklda"
+    },
+    {
+      "id": 295,
+      "savol": "Eskrou hisobvarag‘i nima?",
+      "togri_javob": "Shartli mablag‘ saqlanadigan hisobvaraq",
+      "javob_2": "Kredit hisobvaraq",
+      "javob_3": "Depozit hisobvaraq",
+      "javob_4": "Investitsiya hisobvaraq"
+    },
+    {
+      "id": 296,
+      "savol": "Bank hisobvaraq raqamidagi valyuta kodi nimani bildiradi?",
+      "togri_javob": "Hisobvaraq valyutasini",
+      "javob_2": "Kredit turini",
+      "javob_3": "Depozit turini",
+      "javob_4": "Investitsiya turini"
+    },
+    {
+      "id": 297,
+      "savol": "Ikkilamchi hisobvaraq ochish uchun nima talab qilinadi?",
+      "togri_javob": "Bank arizasi",
+      "javob_2": "Kredit shartnomasi",
+      "javob_3": "Depozit shartnomasi",
+      "javob_4": "Investitsiya shartnomasi"
+    },
+    {
+      "id": 298,
+      "savol": "Vaqtinchalik jamg‘arma hisobvarag‘i nima uchun ochiladi?",
+      "togri_javob": "Ustav kapitalini shakllantirish uchun",
+      "javob_2": "Kredit olish uchun",
+      "javob_3": "Depozit qo‘yish uchun",
+      "javob_4": "Investitsiya qilish uchun"
+    },
+    {
+      "id": 299,
+      "savol": "Metall hisobvaraq nima?",
+      "togri_javob": "Qimmatbaho metall hisobini yuritish uchun",
+      "javob_2": "Kredit hisobvaraq",
+      "javob_3": "Depozit hisobvaraq",
+      "javob_4": "Investitsiya hisobvaraq"
+    },
+    {
+      "id": 300,
+      "savol": "Banklararo vakillik munosabatlarining vertikal modeli nima?",
+      "togri_javob": "Markaziy bank orqali hisob-kitob tizimi",
+      "javob_2": "Kredit tizimi",
+      "javob_3": "Depozit tizimi",
+      "javob_4": "Investitsiya tizimi"
     }
   ]
 };
