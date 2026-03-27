@@ -1,6 +1,6 @@
 // app.js
 
-const BATCH_SIZE = 30;
+const BATCH_SIZE = 50;
 let batches = [];
 let currentBatch = [];
 let currentQuestionIndex = 0;
